@@ -1,8 +1,9 @@
 <div id="tarka-chat">
-  <div id="chat-container">
+  <div id="container">
+    <div id="scroll-fade"></div>
     <div id="header">
       <span id="title"></span>
-      <span id="logo">+</span>
+      <span id="logo"></span>
     </div>
     <div id="body">
       <div id="message-container"></div>
@@ -12,7 +13,7 @@
         type="text"
         name="message"
         placeholder="Write a message..."
-        id="tarka-chat-input"
+        id="chat-input"
       />
       <button id="send-btn" onclick="">
         <svg
@@ -30,5 +31,20 @@
       </button>
     </div>
   </div>
-  <button id="launcher">Lottie</div>
+  <button id="launcher">
+    <div id="launcher-closed"></div>
+    <svg
+      id="launcher-opened"
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+    >
+      <path
+        d="M9.68834 13.3416C8.9027 14.5787 7.09737 14.5787 6.31174 13.3416L0.424876 4.07222C-0.420758 2.74069 0.535813 1.00001 2.11317 1.00001L13.8869 1.00001C15.4643 1.00001 16.4208 2.74069 15.5752 4.07222L9.68834 13.3416Z"
+        fill="#43214A"
+      />
+    </svg>
+  </button>
 </div>

@@ -9,18 +9,22 @@
     <div id="tarkachatbot"></div>
 
     <script src="./local-runner.js" type="module"></script>
+    <!-- Uncomment the following to test built library. -->
+    <!--  -->
     <!-- <script src="./dist/tarka-chat.umd.js"></script> -->
     <!-- <script> -->
     <!--   TarkaChat.init({ -->
-    <!--     title: "Vidura", -->
-    <!--     greeting: "How can I assit you?", -->
+    <!--     title: "Upstock share market", -->
+    <!--     botName: "Vidura", -->
+    <!--     greeting: -->
+    <!--       "All right! How can I assist you in regards to the upstock share market?", -->
     <!--     themeColor: 290, -->
     <!--     selectorId: "tarkachatbot", -->
-    <!--     submitHandler: function (message = "") { -->
+    <!--     submitHandler: async function (message) { -->
     <!--       //Do API calls -->
+    <!---->
     <!--       // after getting response -->
-    <!--       const incoming = true; -->
-    <!--       // insertMessage("abc", incoming); -->
+    <!--       return Promise.resolve("Recieved: " + message); -->
     <!--     }, -->
     <!--   }); -->
     <!-- </script> -->

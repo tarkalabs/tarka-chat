@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+#tarka-chat {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  #container {
+    font-family: Inter;
+    width: 400px;
+    height: 700px;
+    border: 1.5px solid var(--primary-primary-alt-subtle);
+    border-radius: 32px 32px 8px 32px;
+    box-shadow: -28px 48px 42px 0px rgba(0, 0, 0, 0.03);
+    flex-direction: column;
+    overflow: hidden;
+    display: none;
+    position: relative;
+
+    #scroll-fade {
+      position: absolute;
+      width: 100%;
+      height: 140px;
+      background: var(--gradient-gradient-fade);
+    }
+
+    #header {
+      display: flex;
+      padding: 24px;
+      justify-content: space-between;
+      align-items: center;
+
+      #title {
+        overflow: hidden;
+        color: var(--primary-primary-alt);
+        text-overflow: ellipsis;
+        opacity: 0.6;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.18px;
+      }
+
+      #logo {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    #body {
+      background: var(--gradient-background);
+      padding: 0px 24px;
+      height: 576px;
+      overflow-y: auto;
+
+      #message-container {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .message:first-of-type {
+          margin-top: 32px;
+        }
+
+        .message {
+          max-width: 90%;
+
+          .wrapper {
+            padding-bottom: 24px;
+          }
+
+          .message-content {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: -0.18px;
+            overflow-wrap: break-word;
+          }
+
+          .message-meta {
+            color: var(--primary-primary-alt);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0.12px;
+          }
+        }
+
+        .incoming {
+          color: var(--primary-primary-alt);
+        }
+
+        .outgoing {
+          margin-left: auto;
+          color: var(--primary-primary);
+        }
+      }
+    }
+
+    #footer {
+      display: flex;
+      padding: 8px 8px 8px 24px;
+      align-items: center;
+
+      #chat-input {
+        color: var(--primary-primary-alt);
+        opacity: 0.7;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        flex: 1;
+        border: none;
+      }
+
+      #chat-input:focus {
+        outline: none;
+      }
+
+      #send-btn {
+        width: 48px;
+        height: 48px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  #launcher {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px 10px 20px 20px;
+    background: var(--primary-primary-subtle, #f0dafb);
+    margin-top: 8px;
+
+    #launcher-opened {
+      display: none;
+    }
+  }
+}

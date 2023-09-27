@@ -1,5 +1,25 @@
-import "./style.css";
+import "./style.scss";
 import layout from "./layout.html?raw";
+import lottie from "lottie-web";
+import animationData from "./lottie.json";
+
+function loadLottie(element) {
+  const animation = lottie.loadAnimation({
+    container: element,
+    renderer: "svg",
+    loop: true,
+    autoplay: false,
+    animationData: animationData,
+  });
+  element.addEventListener("mouseenter", () => {
+    animation.play();
+  });
+  element.addEventListener("mouseleave", () => {
+    animation.stop();
+  });
+
+  return animation;
+}
 
 export default {
   selectorId: "",
@@ -16,6 +36,58 @@ export default {
     this.greeting = config.greeting;
     this.setCssVars(config.themeColor);
     this.render(config.submitHandler);
+  },
+
+  render: function (submitHandler) {
+    const targetElement = document.getElementById(this.selectorId);
+
+    if (targetElement) {
+      targetElement.innerHTML = layout;
+      this.setupLaucher();
+      loadLottie(document.getElementById("logo"));
+      document.getElementById("title").textContent = this.title;
+      this.insertMessage(this.greeting, true);
+      const sendBtn = document.getElementById("send-btn");
+      sendBtn.addEventListener("click", async () => {
+        const msgInput = document.getElementById("chat-input");
+        this.insertMessage(msgInput.value, false);
+        const response = await submitHandler(msgInput.value);
+        msgInput.value = "";
+        this.insertMessage(response, true);
+      });
+    } else {
+      console.error(`Element with ID "${this.selectorId}" not found.`);
+    }
+  },
+
+  setupLaucher: function () {
+    const launcher = document.getElementById("launcher");
+    const launcherClosed = document.getElementById("launcher-closed");
+    const launcherOpened = document.getElementById("launcher-opened");
+    loadLottie(launcherClosed);
+    launcher.addEventListener("click", () => {
+      const chatContainer = document.getElementById("container");
+      if (chatContainer.style.display !== "flex") {
+        chatContainer.style.display = "flex";
+        launcherOpened.style.display = "block";
+        launcherClosed.style.display = "none";
+      } else {
+        chatContainer.style.display = "none";
+        launcherOpened.style.display = "none";
+        launcherClosed.style.display = "block";
+      }
+    });
+  },
+
+  insertMessage(content = "", incoming = false) {
+    const messageContainer = document.getElementById("message-container");
+    const msg = document.createElement("div");
+    msg.className = "message " + (incoming ? "incoming" : "outgoing");
+    msg.innerHTML = `<div class="wrapper"><div class="message-content">${content}</div> 
+      <div class="message-meta">${incoming ? this.botName : "You"}</div></div>
+    `;
+    document.querySelector("#message-container").appendChild(msg);
+    messageContainer.lastElementChild.scrollIntoView();
   },
 
   setCssVars: function (themeColor) {
@@ -52,59 +124,7 @@ export default {
     );
     root.style.setProperty(
       "--gradient-gradient-fade",
-      "linear-gradient(-0deg, rgba(var(--primary-background), 1) 50%)",
+      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`,
     );
-  },
-
-  render: function (submitHandler) {
-    const targetElement = document.getElementById(this.selectorId);
-
-    if (targetElement) {
-      targetElement.innerHTML = layout;
-      document.getElementById("launcher").addEventListener("click", () => {
-        const chatContainer = document.getElementById("chat-container");
-        if (chatContainer.style.display === "flex") {
-          chatContainer.style.display = "none";
-        } else {
-          chatContainer.style.display = "flex";
-        }
-      });
-      document.querySelector("#title").textContent = this.title;
-      this.insertMessage(this.greeting, true);
-      const sendBtn = document.getElementById("send-btn");
-      sendBtn.addEventListener("click", async () => {
-        const msgInput = document.getElementById("tarka-chat-input");
-        this.insertMessage(msgInput.value, false);
-        const response = await submitHandler(msgInput.value);
-        msgInput.value = "";
-        this.insertMessage(response, true);
-      });
-    } else {
-      console.error(`Element with ID "${this.selectorId}" not found.`);
-    }
-  },
-
-  insertMessage(content = "", incoming = false) {
-    const messageContainer = document.getElementById("message-container");
-    const msg = document.createElement("div");
-    msg.className = incoming ? "incoming" : "outgoing";
-    msg.innerHTML = `<div class="message-wrapper"><div class="message">${content}</div> 
-      <div class="message-meta">${incoming ? this.botName : "You"}</div></div>
-    `;
-    document.querySelector("#message-container").appendChild(msg);
-    messageContainer.lastElementChild.scrollIntoView();
-  },
-
-  createLauncher: function (chatbox) {
-    const icon = document.createElement("h1");
-    icon.className = "chat-launcher";
-    icon.innerText = this.opened ? "-" : "+";
-    chatbox.style.display = "none";
-    icon.addEventListener("click", function () {
-      this.opened = !this.opened;
-      icon.innerText = this.opened ? "-" : "+";
-      chatbox.style.display = this.opened ? "block" : "none";
-    });
-    return icon;
   },
 };

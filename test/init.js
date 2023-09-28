@@ -1,11 +1,10 @@
-import TarkaChat from "./src/main.js";
+import TarkaChat from "../src/main.js";
 
 TarkaChat.init({
-  title: "Upstock share market",
-  botName: "Vidura",
-  greeting:
-    "All right! How can I assist you in regards to the upstock share market?",
-  themeColor: 290,
+  title: "Stocks Advisor",
+  botName: "Stad",
+  greeting: "Hello. How can I assist you today?",
+  themeColorHue: 160,
   selectorId: "tarkachatbot",
   submitHandler: async function (message) {
     //Do API calls

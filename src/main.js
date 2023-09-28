@@ -34,7 +34,7 @@ export default {
     this.title = config.title;
     this.botName = config.botName;
     this.greeting = config.greeting;
-    this.setCssVars(config.themeColor);
+    this.setCssVars(config.themeColorHue);
     this.render(config.submitHandler);
   },
 
@@ -44,12 +44,12 @@ export default {
     if (targetElement) {
       targetElement.innerHTML = layout;
       this.setupLaucher();
-      loadLottie(document.getElementById("logo"));
-      document.getElementById("title").textContent = this.title;
+      loadLottie(document.querySelector("#tarka-chat .logo"));
+      document.querySelector("#tarka-chat .title").textContent = this.title;
       this.insertMessage(this.greeting, true);
-      const sendBtn = document.getElementById("send-btn");
+      const sendBtn = document.querySelector("#tarka-chat .send-btn");
       sendBtn.addEventListener("click", async () => {
-        const msgInput = document.getElementById("chat-input");
+        const msgInput = document.querySelector("#tarka-chat .chat-input");
         this.insertMessage(msgInput.value, false);
         const response = await submitHandler(msgInput.value);
         msgInput.value = "";
@@ -61,12 +61,12 @@ export default {
   },
 
   setupLaucher: function () {
-    const launcher = document.getElementById("launcher");
-    const launcherClosed = document.getElementById("launcher-closed");
-    const launcherOpened = document.getElementById("launcher-opened");
+    const launcher = document.querySelector("#tarka-chat .launcher");
+    const launcherClosed = document.querySelector("#tarka-chat .closed");
+    const launcherOpened = document.querySelector("#tarka-chat .opened");
     loadLottie(launcherClosed);
     launcher.addEventListener("click", () => {
-      const chatContainer = document.getElementById("container");
+      const chatContainer = document.querySelector("#tarka-chat .container");
       if (chatContainer.style.display !== "flex") {
         chatContainer.style.display = "flex";
         launcherOpened.style.display = "block";
@@ -80,21 +80,23 @@ export default {
   },
 
   insertMessage(content = "", incoming = false) {
-    const messageContainer = document.getElementById("message-container");
+    const messageContainer = document.querySelector(
+      "#tarka-chat .message-container"
+    );
     const msg = document.createElement("div");
     msg.className = "message " + (incoming ? "incoming" : "outgoing");
     msg.innerHTML = `<div class="wrapper"><div class="message-content">${content}</div> 
       <div class="message-meta">${incoming ? this.botName : "You"}</div></div>
     `;
-    document.querySelector("#message-container").appendChild(msg);
+    messageContainer.appendChild(msg);
     messageContainer.lastElementChild.scrollIntoView();
   },
 
-  setCssVars: function (themeColor) {
+  setCssVars: function (themeColorHue) {
     const hue = {
-      primary: themeColor,
-      primaryOffset: themeColor - 10,
-      primaryOffsetHover: themeColor + 10,
+      primary: themeColorHue,
+      primaryOffset: themeColorHue - 10,
+      primaryOffsetHover: themeColorHue + 10,
     };
     const primaryColor = `hsla(${hue.primary}, 100%, 35%, 1)`;
     const background = `hsla(${hue.primaryOffset}, 80%, 99%, 1)`;
@@ -104,27 +106,27 @@ export default {
     root.style.setProperty("--primary-primary", primaryColor);
     root.style.setProperty(
       "--primary-primary-subtle",
-      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`,
+      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-subtle-hover",
-      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`,
+      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-alt",
-      `hsla(${hue.primary}, 38%, 21%, 1)`,
+      `hsla(${hue.primary}, 38%, 21%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-alt-subtle",
-      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`,
+      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`
     );
     root.style.setProperty(
       "--gradient-background",
-      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`,
+      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`
     );
     root.style.setProperty(
       "--gradient-gradient-fade",
-      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`,
+      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`
     );
   },
 };

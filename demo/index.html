@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarka chat ui demo</title>
+
+    <!-- Include this javscript -->
+    <script src="../dist/tarka-chat.umd.js"></script>
+  </head>
+  <body>
+    <div id="chatbot"></div>
+
+    <!-- Initialise the tarka chat component -->
+    <script>
+      TarkaChat.init({
+        title: "Personal Assistant",
+        botName: "superbot",
+        greeting: "Welcome. How can I assist you today?",
+        themeColorHue: 250,
+        selectorId: "chatbot",
+        submitHandler: async function (message) {
+          //Do API calls
+          console.log("got message!");
+          // after getting response
+          return Promise.resolve("Recieved: " + message);
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -6,7 +6,7 @@ Tarka Chat UI is a plug and play javascript library to integrate a chat assistan
 
 Incude the following script in your html
 
-`<script src="https://github.com/tarkalabs/tarka-chat/dist/tarka-chat.umd.js"></script>`
+`<script src="https://tarkalabs.github.io/tarka-chat/dist/tarka-chat.umd.js"></script>`
 
 Initialise the global `TarkaChat` component with options in any script tag
 
@@ -33,3 +33,5 @@ where,
 - **themeColorHue** will set the color temperature of the chat window
 - **selectorId** the DOM element selector (id) inside which the bot will be rendered
 - **submitHandler** this function will be called whenever a user types a message in the bot and submits
+
+Demo : https://tarkalabs.github.io/tarka-chat/demo/

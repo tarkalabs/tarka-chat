@@ -1,25 +1,27 @@
 import "./style.scss";
 import layout from "./layout.html?raw";
 import lottie from "lottie-web";
-import animationData from "./lottie.json";
+import animationData from "./logo.json";
 
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
     renderer: "svg",
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: animationData,
   });
   element.addEventListener("mouseenter", () => {
-    animation.play();
+    // animation.play();
   });
   element.addEventListener("mouseleave", () => {
-    animation.stop();
+    // animation.stop();
   });
 
   return animation;
 }
+
+let isProcessing = false;
 
 export default {
   selectorId: "",
@@ -41,12 +43,24 @@ export default {
   render: function (submitHandler) {
     const targetElement = document.getElementById(this.selectorId);
 
+    const setProcessing = (processing) => {
+      const sendBtn = document.querySelector("#tarka-chat .send-btn");
+      this.isProcessing = processing;
+      sendBtn.style.visibility = processing ? "hidden" : "visible";
+    };
+
     const msgHandler = async () => {
       const msgInput = document.querySelector("#tarka-chat .chat-input");
-      this.insertMessage(msgInput.value, false);
-      const response = await submitHandler(msgInput.value);
-      msgInput.value = "";
-      this.insertMessage(response, true);
+      const text = msgInput.value;
+
+      if (!isProcessing && text.length > 0) {
+        setProcessing(true);
+        msgInput.value = "";
+        this.insertMessage(text, false);
+        const response = await submitHandler(text);
+        this.insertMessage(response, true);
+        setProcessing(false);
+      }
     };
 
     if (targetElement) {

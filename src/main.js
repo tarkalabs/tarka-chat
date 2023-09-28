@@ -41,19 +41,29 @@ export default {
   render: function (submitHandler) {
     const targetElement = document.getElementById(this.selectorId);
 
+    const msgHandler = async () => {
+      const msgInput = document.querySelector("#tarka-chat .chat-input");
+      this.insertMessage(msgInput.value, false);
+      const response = await submitHandler(msgInput.value);
+      msgInput.value = "";
+      this.insertMessage(response, true);
+    };
+
     if (targetElement) {
       targetElement.innerHTML = layout;
       this.setupLaucher();
       loadLottie(document.querySelector("#tarka-chat .logo"));
       document.querySelector("#tarka-chat .title").textContent = this.title;
       this.insertMessage(this.greeting, true);
+
       const sendBtn = document.querySelector("#tarka-chat .send-btn");
-      sendBtn.addEventListener("click", async () => {
-        const msgInput = document.querySelector("#tarka-chat .chat-input");
-        this.insertMessage(msgInput.value, false);
-        const response = await submitHandler(msgInput.value);
-        msgInput.value = "";
-        this.insertMessage(response, true);
+      const msgInput = document.querySelector("#tarka-chat .chat-input");
+      sendBtn.addEventListener("click", msgHandler);
+
+      msgInput.addEventListener("keyup", async function (event) {
+        if (event.keyCode === 13) {
+          await msgHandler();
+        }
       });
     } else {
       console.error(`Element with ID "${this.selectorId}" not found.`);

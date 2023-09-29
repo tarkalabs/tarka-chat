@@ -21,8 +21,6 @@ function loadLottie(element) {
   return animation;
 }
 
-let isProcessing = false;
-
 export default {
   selectorId: "",
   title: "",
@@ -53,7 +51,7 @@ export default {
       const msgInput = document.querySelector("#tarka-chat .chat-input");
       const text = msgInput.value;
 
-      if (!isProcessing && text.length > 0) {
+      if (!this.isProcessing && text.length > 0) {
         setProcessing(true);
         msgInput.value = "";
         this.insertMessage(text, false);

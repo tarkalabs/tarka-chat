@@ -54,7 +54,7 @@
     .body {
       background: var(--gradient-background);
       padding: 0px 24px;
-      height: 576px;
+      min-height: 200px;
       overflow-y: auto;
 
       .message-container {

@@ -1,4 +1,4 @@
-(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";#tarka-chat{position:fixed;bottom:2rem;right:3rem;display:flex;flex-direction:column;align-items:flex-end;max-height:700px}#tarka-chat .container{font-family:Inter;width:400px;border:1.5px solid var(--primary-primary-alt-subtle);border-radius:32px 32px 8px;box-shadow:-28px 48px 42px #00000008;flex-direction:column;overflow:hidden;display:none;position:relative}#tarka-chat .container .scroll-fade{position:absolute;width:100%;height:140px;background:var(--gradient-gradient-fade)}#tarka-chat .container .header{display:flex;padding:24px;justify-content:space-between;align-items:center}#tarka-chat .container .header .title{overflow:hidden;color:var(--primary-primary-alt);text-overflow:ellipsis;opacity:.6;font-size:18px;font-style:normal;font-weight:600;line-height:24px;letter-spacing:-.18px}#tarka-chat .container .header .logo{width:32px;height:32px}#tarka-chat .container .body{background:var(--gradient-background);padding:0 24px;height:576px;overflow-y:auto}#tarka-chat .container .body .message-container{min-height:100%;display:flex;flex-direction:column;justify-content:flex-end}#tarka-chat .container .body .message-container .message:first-of-type{margin-top:32px}#tarka-chat .container .body .message-container .message{max-width:90%}#tarka-chat .container .body .message-container .message .wrapper{padding-bottom:24px}#tarka-chat .container .body .message-container .message .message-content{font-size:16px;font-weight:500;line-height:24px;letter-spacing:-.18px;overflow-wrap:break-word}#tarka-chat .container .body .message-container .message .message-meta{color:var(--primary-primary-alt);font-size:12px;font-weight:400;line-height:14px;letter-spacing:.12px}#tarka-chat .container .body .message-container .incoming{color:var(--primary-primary-alt)}#tarka-chat .container .body .message-container .outgoing{margin-left:auto;color:var(--primary-primary)}#tarka-chat .container .footer{display:flex;padding:8px 8px 8px 24px;align-items:center}#tarka-chat .container .footer .chat-input{color:var(--primary-primary-alt);opacity:.7;font-size:16px;font-weight:500;line-height:20px;flex:1;border:none}#tarka-chat .container .footer .chat-input:focus{outline:none}#tarka-chat .container .footer .send-btn{width:48px;height:48px;border:none;background:transparent;display:flex;align-items:center;justify-content:center}#tarka-chat .launcher{display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:none;border-radius:20px 10px 20px 20px;background:var(--primary-primary-subtle, #f0dafb);margin-top:8px}#tarka-chat .launcher .opened{display:none}@media only screen and (max-width: 700px){#tarka-chat{bottom:10px;right:10px}#tarka-chat .container{width:calc(100vw - 20px)}}')),document.head.appendChild(a)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
+(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";#tarka-chat{position:fixed;bottom:2rem;right:3rem;display:flex;flex-direction:column;align-items:flex-end;max-height:700px}#tarka-chat .container{font-family:Inter;width:400px;border:1.5px solid var(--primary-primary-alt-subtle);border-radius:32px 32px 8px;box-shadow:-28px 48px 42px #00000008;flex-direction:column;overflow:hidden;display:none;position:relative}#tarka-chat .container .scroll-fade{position:absolute;width:100%;height:140px;background:var(--gradient-gradient-fade)}#tarka-chat .container .header{display:flex;padding:24px;justify-content:space-between;align-items:center}#tarka-chat .container .header .title{overflow:hidden;color:var(--primary-primary-alt);text-overflow:ellipsis;opacity:.6;font-size:18px;font-style:normal;font-weight:600;line-height:24px;letter-spacing:-.18px}#tarka-chat .container .header .logo{width:32px;height:32px}#tarka-chat .container .body{background:var(--gradient-background);padding:0 24px;min-height:200px;overflow-y:auto}#tarka-chat .container .body .message-container{min-height:100%;display:flex;flex-direction:column;justify-content:flex-end}#tarka-chat .container .body .message-container .message:first-of-type{margin-top:32px}#tarka-chat .container .body .message-container .message{max-width:90%}#tarka-chat .container .body .message-container .message .wrapper{padding-bottom:24px}#tarka-chat .container .body .message-container .message .message-content{font-size:16px;font-weight:500;line-height:24px;letter-spacing:-.18px;overflow-wrap:break-word}#tarka-chat .container .body .message-container .message .message-meta{color:var(--primary-primary-alt);font-size:12px;font-weight:400;line-height:14px;letter-spacing:.12px}#tarka-chat .container .body .message-container .incoming{color:var(--primary-primary-alt)}#tarka-chat .container .body .message-container .outgoing{margin-left:auto;color:var(--primary-primary)}#tarka-chat .container .footer{display:flex;padding:8px 8px 8px 24px;align-items:center}#tarka-chat .container .footer .chat-input{color:var(--primary-primary-alt);opacity:.7;font-size:16px;font-weight:500;line-height:20px;flex:1;border:none}#tarka-chat .container .footer .chat-input:focus{outline:none}#tarka-chat .container .footer .send-btn{width:48px;height:48px;border:none;background:transparent;display:flex;align-items:center;justify-content:center}#tarka-chat .launcher{display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:none;border-radius:20px 10px 20px 20px;background:var(--primary-primary-subtle, #f0dafb);margin-top:8px}#tarka-chat .launcher .opened{display:none}@media only screen and (max-width: 700px){#tarka-chat{bottom:10px;right:10px}#tarka-chat .container{width:calc(100vw - 20px)}}')),document.head.appendChild(a)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
 const style = "", layout = `<div id="tarka-chat">
   <div class="container">
     <div class="scroll-fade"></div>
@@ -14035,57 +14035,6 @@ const lottie = /* @__PURE__ */ getDefaultExportFromCjs(lottieExports), nm = "Fra
   }
 ], layers = [
   {
-    ty: 3,
-    ddd: 0,
-    ind: 22,
-    hd: !1,
-    nm: "Frame 983 - Null",
-    ks: {
-      a: {
-        a: 0,
-        k: [
-          0,
-          0
-        ]
-      },
-      o: {
-        a: 0,
-        k: 100
-      },
-      p: {
-        a: 0,
-        k: [
-          0,
-          0
-        ]
-      },
-      r: {
-        a: 0,
-        k: 0
-      },
-      s: {
-        a: 0,
-        k: [
-          100,
-          100
-        ]
-      },
-      sk: {
-        a: 0,
-        k: 0
-      },
-      sa: {
-        a: 0,
-        k: 0
-      }
-    },
-    st: 0,
-    ip: 0,
-    op: 504,
-    bm: 0,
-    sr: 1
-  },
-  {
     ddd: 0,
     ind: 2,
     ty: 0,
@@ -14187,7 +14136,7 @@ const main = {
       this.isProcessing = s, a.style.visibility = s ? "hidden" : "visible";
     }, i = async () => {
       const s = document.querySelector("#tarka-chat .chat-input"), a = s.value;
-      if (a.length > 0) {
+      if (!this.isProcessing && a.length > 0) {
         r(!0), s.value = "", this.insertMessage(a, !1);
         const n = await t(a);
         this.insertMessage(n, !0), r(!1);

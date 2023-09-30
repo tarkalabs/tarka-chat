@@ -9,7 +9,7 @@
   align-items: flex-end;
   max-height: 700px;
 
-  .container {
+  .t-container {
     font-family: Inter;
     width: 400px;
     border: 1.5px solid var(--primary-primary-alt-subtle);
@@ -19,6 +19,7 @@
     overflow: hidden;
     display: none;
     position: relative;
+    background: #ffffff;
 
     .scroll-fade {
       position: absolute;

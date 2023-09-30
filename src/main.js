@@ -88,7 +88,7 @@ export default {
     const launcherOpened = document.querySelector("#tarka-chat .opened");
     loadLottie(launcherClosed);
     launcher.addEventListener("click", () => {
-      const chatContainer = document.querySelector("#tarka-chat .container");
+      const chatContainer = document.querySelector("#tarka-chat .t-container");
       if (chatContainer.style.display !== "flex") {
         chatContainer.style.display = "flex";
         launcherOpened.style.display = "block";

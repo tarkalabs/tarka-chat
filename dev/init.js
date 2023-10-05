@@ -4,7 +4,7 @@ TarkaChat.init({
   title: "Stocks Advisor",
   botName: "Stad",
   greeting: "Hello. How can I assist you today?",
-  themeColor: 160,
+  themeColor: "#0FA",
   selectorId: "tarkachatbot",
   submitHandler: async function (message) {
     //Do API calls

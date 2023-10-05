@@ -21,6 +21,44 @@ function loadLottie(element) {
   return animation;
 }
 
+function getHueFromHex(hex) {
+  // Expand shorthand hex form
+  hex = hex.replace(
+    /^#?([a-f\d])([a-f\d])([a-f\d])$/i, 
+    (_m, r, g, b) => r + r + g + g + b + b
+  );
+
+  // Convert Hex to numerical Red, Green and Blue values
+  const [_m, r, g, b] = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  const red = parseInt(r, 16);
+  const green = parseInt(g, 16);
+  const blue = parseInt(b, 16);
+  
+  const max = Math.max(red, green, blue);
+  const min = Math.min(red, green, blue);
+
+  if (max === min) {
+    return 0;
+  }
+
+  const diff = max - min;
+
+  let hue;
+  switch(max){
+    case red: 
+      hue = (green - blue) / diff + (green < blue ? 6 : 0); 
+      break;
+    case green: 
+      hue = (blue - red) / diff + 2; 
+      break;
+    case blue: 
+      hue = (red - green) / diff + 4; 
+      break;
+  }
+
+  return hue * 60;
+}
+
 export default {
   selectorId: "",
   title: "",
@@ -114,7 +152,8 @@ export default {
     messageContainer.lastElementChild.scrollIntoView();
   },
 
-  setCssVars: function (themeColor) {
+  setCssVars: function (themeColorHex = "#0FA") {
+    const themeColorHue = getHueFromHex(themeColorHex)
     const hue = {
       primary: themeColorHue,
       primaryOffset: themeColorHue - 10,

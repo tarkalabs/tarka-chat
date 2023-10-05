@@ -34,7 +34,7 @@ export default {
     this.title = config.title;
     this.botName = config.botName;
     this.greeting = config.greeting;
-    this.setCssVars(config.themeColorHue);
+    this.setCssVars(config.themeColor);
     this.render(config.submitHandler);
   },
 
@@ -114,7 +114,7 @@ export default {
     messageContainer.lastElementChild.scrollIntoView();
   },
 
-  setCssVars: function (themeColorHue) {
+  setCssVars: function (themeColor) {
     const hue = {
       primary: themeColorHue,
       primaryOffset: themeColorHue - 10,

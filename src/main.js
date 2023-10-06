@@ -2,6 +2,7 @@ import "./style.scss";
 import layout from "./layout.html?raw";
 import lottie from "lottie-web";
 import animationData from "./logo.json";
+import { TinyColor } from "@ctrl/tinycolor";
 
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
@@ -19,44 +20,6 @@ function loadLottie(element) {
   });
 
   return animation;
-}
-
-function getHueFromHex(hex) {
-  // Expand shorthand hex form
-  hex = hex.replace(
-    /^#?([a-f\d])([a-f\d])([a-f\d])$/i, 
-    (_m, r, g, b) => r + r + g + g + b + b
-  );
-
-  // Convert Hex to numerical Red, Green and Blue values
-  const [_m, r, g, b] = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  const red = parseInt(r, 16);
-  const green = parseInt(g, 16);
-  const blue = parseInt(b, 16);
-  
-  const max = Math.max(red, green, blue);
-  const min = Math.min(red, green, blue);
-
-  if (max === min) {
-    return 0;
-  }
-
-  const diff = max - min;
-
-  let hue;
-  switch(max){
-    case red: 
-      hue = (green - blue) / diff + (green < blue ? 6 : 0); 
-      break;
-    case green: 
-      hue = (blue - red) / diff + 2; 
-      break;
-    case blue: 
-      hue = (red - green) / diff + 4; 
-      break;
-  }
-
-  return hue * 60;
 }
 
 export default {
@@ -152,19 +115,23 @@ export default {
     messageContainer.lastElementChild.scrollIntoView();
   },
 
-  setCssVars: function (themeColorHex = "#0FA") {
-    const themeColorHue = getHueFromHex(themeColorHex)
+  setCssVars: function (themeColor = "#0FA") {
+    const hsl = new TinyColor(themeColor).toHsl();
     const hue = {
-      primary: themeColorHue,
-      primaryOffset: themeColorHue - 10,
-      primaryOffsetHover: themeColorHue + 10,
+      primary: hsl.h,
+      primaryOffset: hsl.h - 10,
+      primaryOffsetHover: hsl.h + 10,
     };
-    const primaryColor = `hsla(${hue.primary}, 100%, 35%, 1)`;
-    const background = `hsla(${hue.primaryOffset}, 80%, 99%, 1)`;
 
     const root = document.querySelector(":root");
-    root.style.setProperty("--primary-background", background);
-    root.style.setProperty("--primary-primary", primaryColor);
+    root.style.setProperty(
+      "--primary-background",
+      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`
+    );
+    root.style.setProperty(
+      "--primary-primary",
+      `hsla(${hue.primary}, 100%, 35%, 1)`
+    );
     root.style.setProperty(
       "--primary-primary-subtle",
       `hsla(${hue.primaryOffset}, 80%, 92%, 1)`

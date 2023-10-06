@@ -12,4 +12,7 @@ export default defineConfig({
       fileName: (format) => `tarka-chat.${format}.js`,
     },
   },
+  server: {
+    open: "./dev/index.html",
+  },
 });

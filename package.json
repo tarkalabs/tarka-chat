@@ -10,11 +10,11 @@
   },
   "devDependencies": {
     "vite": "^4.4.5",
-    "vite-plugin-css-injected-by-js": "^3.3.0"
+    "vite-plugin-css-injected-by-js": "^3.3.0",
+    "sass": "^1.68.0"
   },
   "dependencies": {
     "@ctrl/tinycolor": "^4.0.2",
-    "lottie-web": "^5.12.2",
-    "sass": "^1.68.0"
+    "lottie-web": "^5.12.2"
   }
 }

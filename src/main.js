@@ -2,6 +2,7 @@ import "./style.scss";
 import layout from "./layout.html?raw";
 import lottie from "lottie-web";
 import animationData from "./logo.json";
+import { TinyColor } from "@ctrl/tinycolor";
 
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
@@ -34,7 +35,7 @@ export default {
     this.title = config.title;
     this.botName = config.botName;
     this.greeting = config.greeting;
-    this.setCssVars(config.themeColorHue);
+    this.setCssVars(config.themeColor);
     this.render(config.submitHandler);
   },
 
@@ -114,18 +115,23 @@ export default {
     messageContainer.lastElementChild.scrollIntoView();
   },
 
-  setCssVars: function (themeColorHue) {
+  setCssVars: function (themeColor = "#0FA") {
+    const hsl = new TinyColor(themeColor).toHsl();
     const hue = {
-      primary: themeColorHue,
-      primaryOffset: themeColorHue - 10,
-      primaryOffsetHover: themeColorHue + 10,
+      primary: hsl.h,
+      primaryOffset: hsl.h - 10,
+      primaryOffsetHover: hsl.h + 10,
     };
-    const primaryColor = `hsla(${hue.primary}, 100%, 35%, 1)`;
-    const background = `hsla(${hue.primaryOffset}, 80%, 99%, 1)`;
 
     const root = document.querySelector(":root");
-    root.style.setProperty("--primary-background", background);
-    root.style.setProperty("--primary-primary", primaryColor);
+    root.style.setProperty(
+      "--primary-background",
+      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`
+    );
+    root.style.setProperty(
+      "--primary-primary",
+      `hsla(${hue.primary}, 100%, 35%, 1)`
+    );
     root.style.setProperty(
       "--primary-primary-subtle",
       `hsla(${hue.primaryOffset}, 80%, 92%, 1)`

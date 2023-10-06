@@ -104,7 +104,7 @@ export default {
 
   insertMessage(content = "", incoming = false) {
     const messageContainer = document.querySelector(
-      "#tarka-chat .message-container"
+      "#tarka-chat .message-container",
     );
     const msg = document.createElement("div");
     msg.className = "message " + (incoming ? "incoming" : "outgoing");
@@ -115,7 +115,7 @@ export default {
     messageContainer.lastElementChild.scrollIntoView();
   },
 
-  setCssVars: function (themeColor = "#0FA") {
+  setCssVars: function (themeColor = "#F0DAFB") {
     const hsl = new TinyColor(themeColor).toHsl();
     const hue = {
       primary: hsl.h,
@@ -126,35 +126,35 @@ export default {
     const root = document.querySelector(":root");
     root.style.setProperty(
       "--primary-background",
-      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`
+      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`,
     );
     root.style.setProperty(
       "--primary-primary",
-      `hsla(${hue.primary}, 100%, 35%, 1)`
+      `hsla(${hue.primary}, 100%, 35%, 1)`,
     );
     root.style.setProperty(
       "--primary-primary-subtle",
-      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`
+      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`,
     );
     root.style.setProperty(
       "--primary-primary-subtle-hover",
-      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`
+      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`,
     );
     root.style.setProperty(
       "--primary-primary-alt",
-      `hsla(${hue.primary}, 38%, 21%, 1)`
+      `hsla(${hue.primary}, 38%, 21%, 1)`,
     );
     root.style.setProperty(
       "--primary-primary-alt-subtle",
-      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`
+      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`,
     );
     root.style.setProperty(
       "--gradient-background",
-      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`
+      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`,
     );
     root.style.setProperty(
       "--gradient-gradient-fade",
-      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`
+      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`,
     );
   },
 };

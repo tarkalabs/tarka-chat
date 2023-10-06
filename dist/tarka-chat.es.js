@@ -14892,7 +14892,7 @@ const main = {
       <div class="message-meta">${e ? this.botName : "You"}</div></div>
     `, r.appendChild(i), r.lastElementChild.scrollIntoView();
   },
-  setCssVars: function(t = "#0FA") {
+  setCssVars: function(t = "#F0DAFB") {
     const e = new TinyColor(t).toHsl(), r = {
       primary: e.h,
       primaryOffset: e.h - 10,

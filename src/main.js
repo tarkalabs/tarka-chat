@@ -37,6 +37,10 @@ export default {
     this.greeting = config.greeting;
     this.setCssVars(config.themeColor);
     this.render(config.submitHandler);
+
+    if (config.preChatRenderer) {
+      this.renderPreChat(config.preChatRenderer)
+    }
   },
 
   render: function (submitHandler) {
@@ -157,4 +161,23 @@ export default {
       `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`,
     );
   },
+
+  renderPreChat: function(nodeGenerator) {
+    const body = document.querySelector("#tarka-chat > .t-container > .body");
+    const messageContainer = document.querySelector("#tarka-chat > .t-container > .body > .message-container");
+    const footer = document.querySelector("#tarka-chat > .t-container > .footer");
+
+    messageContainer.style.display = "none";
+    footer.style.display = "none";
+
+    const closePreChat = () => {
+      body.querySelector(".tc-injected-prechat")?.remove()
+      messageContainer.style.display = "flex";
+      footer.style.display = "flex";
+    }
+
+    const preChatScreen = nodeGenerator(closePreChat);
+    preChatScreen.className += " tc-injected-prechat"
+    body.appendChild(preChatScreen);
+  }
 };

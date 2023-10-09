@@ -4,6 +4,26 @@ import lottie from "lottie-web";
 import animationData from "./logo.json";
 import { TinyColor } from "@ctrl/tinycolor";
 
+function getProcessedAnimationData(faceColor, featureColor) {
+  const face = animationData.layers.find(layer => layer.nm === "face");
+  const faceFill = face.shapes[0].it.find(item => item.nm === "Fill");
+  faceFill.c.k = faceColor;
+
+  const leftEye = animationData.layers.find(layer => layer.nm === "left-eye");
+  const leftEyeFill = leftEye.shapes[0].it.find(item => item.nm === "Fill");
+  leftEyeFill.c.k = featureColor;
+
+  const rightEye = animationData.layers.find(layer => layer.nm === "right-eye");
+  const rightEyeFill = rightEye.shapes[0].it.find(item => item.nm === "Fill");
+  rightEyeFill.c.k = featureColor;
+
+  const mouth = animationData.layers.find(layer => layer.nm === "mouth");
+  const mouthFill = mouth.shapes[0].it.find(item => item.nm === "Fill");
+  mouthFill.c.k = featureColor;
+
+  return animationData;
+}
+
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
@@ -11,12 +31,6 @@ function loadLottie(element) {
     loop: true,
     autoplay: true,
     animationData: animationData,
-  });
-  element.addEventListener("mouseenter", () => {
-    // animation.play();
-  });
-  element.addEventListener("mouseleave", () => {
-    // animation.stop();
   });
 
   return animation;

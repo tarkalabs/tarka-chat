@@ -250,6 +250,7 @@
       "ind": 3,
       "ty": 4,
       "nm": "left-eye",
+      "cl": "tc-logo-left-eye",
       "parent": 2,
       "sr": 1,
       "ks": {
@@ -771,6 +772,7 @@
       "ind": 5,
       "ty": 4,
       "nm": "right-eye",
+      "cl": "tc-logo-right-eye",
       "parent": 4,
       "sr": 1,
       "ks": {
@@ -1300,6 +1302,7 @@
       "ind": 7,
       "ty": 4,
       "nm": "mouth",
+      "cl": "tc-logo-mouth",
       "parent": 6,
       "sr": 1,
       "ks": {
@@ -1704,6 +1707,7 @@
       "ind": 8,
       "ty": 4,
       "nm": "face",
+      "cl": "tc-logo-face",
       "sr": 1,
       "ks": {
         "o": { "a": 0, "k": 100, "ix": 11 },

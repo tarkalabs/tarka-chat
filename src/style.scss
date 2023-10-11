@@ -131,6 +131,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        path {
+          fill: var(--primary-primary, #9500B3);
+        }
       }
     }
   }

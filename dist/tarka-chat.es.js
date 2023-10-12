@@ -1,4 +1,4 @@
-(function(){"use strict";try{if(typeof document<"u"){var t=document.createElement("style");t.appendChild(document.createTextNode('@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";#tarka-chat{position:fixed;bottom:2rem;right:3rem;display:flex;flex-direction:column;align-items:flex-end;max-height:700px;z-index:1000}#tarka-chat .t-container{font-family:Inter;width:400px;border:1.5px solid var(--primary-primary-alt-subtle);border-radius:32px 32px 8px;box-shadow:-28px 48px 42px #00000008;flex-direction:column;overflow:hidden;display:none;position:relative;background:#ffffff}#tarka-chat .t-container .scroll-fade{position:absolute;width:100%;height:140px;background:var(--gradient-gradient-fade)}#tarka-chat .t-container .header{display:flex;padding:24px;justify-content:space-between;align-items:center}#tarka-chat .t-container .header .title{overflow:hidden;color:var(--primary-primary-alt);text-overflow:ellipsis;opacity:.6;font-size:18px;font-style:normal;font-weight:600;line-height:24px;letter-spacing:-.18px}#tarka-chat .t-container .header .logo{width:32px;height:32px}#tarka-chat .t-container .body{background:var(--gradient-background);padding:0 24px;min-height:200px;overflow-y:auto}#tarka-chat .t-container .body .message-container{min-height:100%;display:flex;flex-direction:column;justify-content:flex-end}#tarka-chat .t-container .body .message-container .message:first-of-type{margin-top:32px}#tarka-chat .t-container .body .message-container .message{max-width:90%}#tarka-chat .t-container .body .message-container .message .wrapper{padding-bottom:24px}#tarka-chat .t-container .body .message-container .message .message-content{font-size:16px;font-weight:500;line-height:24px;letter-spacing:-.18px;overflow-wrap:break-word}#tarka-chat .t-container .body .message-container .message .message-meta{color:var(--primary-primary-alt);font-size:12px;font-weight:400;line-height:14px;letter-spacing:.12px}#tarka-chat .t-container .body .message-container .incoming{color:var(--primary-primary-alt)}#tarka-chat .t-container .body .message-container .outgoing{margin-left:auto;color:var(--primary-primary)}#tarka-chat .t-container .footer{display:flex;padding:8px 8px 8px 24px;align-items:center}#tarka-chat .t-container .footer .chat-input{color:var(--primary-primary-alt);opacity:.7;font-size:16px;font-weight:500;line-height:20px;flex:1;border:none}#tarka-chat .t-container .footer .chat-input:focus{outline:none}#tarka-chat .t-container .footer .send-btn{width:48px;height:48px;border:none;background:transparent;display:flex;align-items:center;justify-content:center}#tarka-chat .launcher{display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:none;border-radius:20px 10px 20px 20px;background:var(--primary-primary-subtle, #f0dafb);margin-top:8px}#tarka-chat .launcher .opened{display:none}@media only screen and (max-width: 700px){#tarka-chat{bottom:10px;right:10px}#tarka-chat .container{width:calc(100vw - 20px)}}')),document.head.appendChild(t)}}catch(a){console.error("vite-plugin-css-injected-by-js",a)}})();
+(function(){"use strict";try{if(typeof document<"u"){var t=document.createElement("style");t.appendChild(document.createTextNode('@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";#tarka-chat{position:fixed;bottom:2rem;right:3rem;display:flex;flex-direction:column;align-items:flex-end;max-height:700px;z-index:1000}#tarka-chat .t-container{font-family:Inter;width:400px;border:1.5px solid var(--primary-primary-alt-subtle);border-radius:32px 32px 8px;box-shadow:-28px 48px 42px #00000008;flex-direction:column;overflow:hidden;display:none;position:relative;background:#ffffff}#tarka-chat .t-container .scroll-fade{position:absolute;width:100%;height:140px;background:var(--gradient-gradient-fade)}#tarka-chat .t-container .header{display:flex;padding:24px;justify-content:space-between;align-items:center}#tarka-chat .t-container .header .title{overflow:hidden;color:var(--primary-primary-alt);text-overflow:ellipsis;opacity:.6;font-size:18px;font-style:normal;font-weight:600;line-height:24px;letter-spacing:-.18px}#tarka-chat .t-container .header .logo{width:32px;height:32px}#tarka-chat .t-container .body{background:var(--gradient-background);padding:0 24px;min-height:200px;overflow-y:auto}#tarka-chat .t-container .body .message-container{min-height:100%;display:flex;flex-direction:column;justify-content:flex-end}#tarka-chat .t-container .body .message-container .message:first-of-type{margin-top:32px}#tarka-chat .t-container .body .message-container .message{max-width:90%}#tarka-chat .t-container .body .message-container .message .wrapper{padding-bottom:24px}#tarka-chat .t-container .body .message-container .message .message-content{font-size:16px;font-weight:500;line-height:24px;letter-spacing:-.18px;overflow-wrap:break-word}#tarka-chat .t-container .body .message-container .message .message-meta{color:var(--primary-primary-alt);font-size:12px;font-weight:400;line-height:14px;letter-spacing:.12px}#tarka-chat .t-container .body .message-container .incoming{color:var(--primary-primary-alt)}#tarka-chat .t-container .body .message-container .outgoing{margin-left:auto;color:var(--primary-primary)}#tarka-chat .t-container .footer{display:flex;padding:8px 8px 8px 24px;align-items:center}#tarka-chat .t-container .footer .chat-input{color:var(--primary-primary-alt);opacity:.7;font-size:16px;font-weight:500;line-height:20px;flex:1;border:none}#tarka-chat .t-container .footer .chat-input:focus{outline:none}#tarka-chat .t-container .footer .send-btn{width:48px;height:48px;border:none;background:transparent;display:flex;align-items:center;justify-content:center}#tarka-chat .t-container .footer .send-btn path{fill:var(--primary-primary, #9500B3)}#tarka-chat .launcher{display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:none;border-radius:20px 10px 20px 20px;background:var(--primary-primary-subtle, #f0dafb);margin-top:8px}#tarka-chat .launcher .opened{display:none}#tarka-chat .tc-logo-face path{fill:var(--primary-primary-subtle, #f0dafb)}@media only screen and (max-width: 700px){#tarka-chat{bottom:10px;right:10px}#tarka-chat .container{width:calc(100vw - 20px)}}')),document.head.appendChild(t)}}catch(a){console.error("vite-plugin-css-injected-by-js",a)}})();
 const style = "", layout = `<div id="tarka-chat">
   <div class="t-container">
     <div class="scroll-fade"></div>
@@ -351,65 +351,65 @@ var lottie$1 = { exports: {} };
       function l() {
         i || (i = n(function(S) {
           function x() {
-            function _(R, k) {
-              var T, b, P = R.length, V, I, G, $;
+            function A(R, _) {
+              var T, b, P = R.length, V, I, G, q;
               for (b = 0; b < P; b += 1)
                 if (T = R[b], "ks" in T && !T.completed) {
                   if (T.completed = !0, T.hasMask) {
-                    var q = T.masksProperties;
-                    for (I = q.length, V = 0; V < I; V += 1)
-                      if (q[V].pt.k.i)
-                        C(q[V].pt.k);
+                    var $ = T.masksProperties;
+                    for (I = $.length, V = 0; V < I; V += 1)
+                      if ($[V].pt.k.i)
+                        C($[V].pt.k);
                       else
-                        for ($ = q[V].pt.k.length, G = 0; G < $; G += 1)
-                          q[V].pt.k[G].s && C(q[V].pt.k[G].s[0]), q[V].pt.k[G].e && C(q[V].pt.k[G].e[0]);
+                        for (q = $[V].pt.k.length, G = 0; G < q; G += 1)
+                          $[V].pt.k[G].s && C($[V].pt.k[G].s[0]), $[V].pt.k[G].e && C($[V].pt.k[G].e[0]);
                   }
-                  T.ty === 0 ? (T.layers = f(T.refId, k), _(T.layers, k)) : T.ty === 4 ? y(T.shapes) : T.ty === 5 && O(T);
+                  T.ty === 0 ? (T.layers = f(T.refId, _), A(T.layers, _)) : T.ty === 4 ? y(T.shapes) : T.ty === 5 && O(T);
                 }
             }
-            function u(R, k) {
+            function u(R, _) {
               if (R) {
                 var T = 0, b = R.length;
                 for (T = 0; T < b; T += 1)
-                  R[T].t === 1 && (R[T].data.layers = f(R[T].data.refId, k), _(R[T].data.layers, k));
+                  R[T].t === 1 && (R[T].data.layers = f(R[T].data.refId, _), A(R[T].data.layers, _));
               }
             }
-            function d(R, k) {
-              for (var T = 0, b = k.length; T < b; ) {
-                if (k[T].id === R)
-                  return k[T];
+            function d(R, _) {
+              for (var T = 0, b = _.length; T < b; ) {
+                if (_[T].id === R)
+                  return _[T];
                 T += 1;
               }
               return null;
             }
-            function f(R, k) {
-              var T = d(R, k);
+            function f(R, _) {
+              var T = d(R, _);
               return T ? T.layers.__used ? JSON.parse(JSON.stringify(T.layers)) : (T.layers.__used = !0, T.layers) : null;
             }
             function y(R) {
-              var k, T = R.length, b, P;
-              for (k = T - 1; k >= 0; k -= 1)
-                if (R[k].ty === "sh")
-                  if (R[k].ks.k.i)
-                    C(R[k].ks.k);
+              var _, T = R.length, b, P;
+              for (_ = T - 1; _ >= 0; _ -= 1)
+                if (R[_].ty === "sh")
+                  if (R[_].ks.k.i)
+                    C(R[_].ks.k);
                   else
-                    for (P = R[k].ks.k.length, b = 0; b < P; b += 1)
-                      R[k].ks.k[b].s && C(R[k].ks.k[b].s[0]), R[k].ks.k[b].e && C(R[k].ks.k[b].e[0]);
+                    for (P = R[_].ks.k.length, b = 0; b < P; b += 1)
+                      R[_].ks.k[b].s && C(R[_].ks.k[b].s[0]), R[_].ks.k[b].e && C(R[_].ks.k[b].e[0]);
                 else
-                  R[k].ty === "gr" && y(R[k].it);
+                  R[_].ty === "gr" && y(R[_].it);
             }
             function C(R) {
-              var k, T = R.i.length;
-              for (k = 0; k < T; k += 1)
-                R.i[k][0] += R.v[k][0], R.i[k][1] += R.v[k][1], R.o[k][0] += R.v[k][0], R.o[k][1] += R.v[k][1];
+              var _, T = R.i.length;
+              for (_ = 0; _ < T; _ += 1)
+                R.i[_][0] += R.v[_][0], R.i[_][1] += R.v[_][1], R.o[_][0] += R.v[_][0], R.o[_][1] += R.v[_][1];
             }
-            function A(R, k) {
-              var T = k ? k.split(".") : [100, 100, 100];
+            function k(R, _) {
+              var T = _ ? _.split(".") : [100, 100, 100];
               return R[0] > T[0] ? !0 : T[0] > R[0] ? !1 : R[1] > T[1] ? !0 : T[1] > R[1] ? !1 : R[2] > T[2] ? !0 : T[2] > R[2] ? !1 : null;
             }
             var M = function() {
               var R = [4, 4, 14];
-              function k(b) {
+              function _(b) {
                 var P = b.t.d;
                 b.t.d = {
                   k: [{
@@ -421,10 +421,10 @@ var lottie$1 = { exports: {} };
               function T(b) {
                 var P, V = b.length;
                 for (P = 0; P < V; P += 1)
-                  b[P].ty === 5 && k(b[P]);
+                  b[P].ty === 5 && _(b[P]);
               }
               return function(b) {
-                if (A(R, b.v) && (T(b.layers), b.assets)) {
+                if (k(R, b.v) && (T(b.layers), b.assets)) {
                   var P, V = b.assets.length;
                   for (P = 0; P < V; P += 1)
                     b.assets[P].layers && T(b.assets[P].layers);
@@ -432,11 +432,11 @@ var lottie$1 = { exports: {} };
               };
             }(), F = function() {
               var R = [4, 7, 99];
-              return function(k) {
-                if (k.chars && !A(R, k.v)) {
-                  var T, b = k.chars.length;
+              return function(_) {
+                if (_.chars && !k(R, _.v)) {
+                  var T, b = _.chars.length;
                   for (T = 0; T < b; T += 1) {
-                    var P = k.chars[T];
+                    var P = _.chars[T];
                     P.data && P.data.shapes && (y(P.data.shapes), P.data.ip = 0, P.data.op = 99999, P.data.st = 0, P.data.sr = 1, P.data.ks = {
                       p: {
                         k: [0, 0],
@@ -458,7 +458,7 @@ var lottie$1 = { exports: {} };
                         k: 100,
                         a: 0
                       }
-                    }, k.chars[T].t || (P.data.shapes.push({
+                    }, _.chars[T].t || (P.data.shapes.push({
                       ty: "no"
                     }), P.data.shapes[0].it.push({
                       p: {
@@ -496,7 +496,7 @@ var lottie$1 = { exports: {} };
               };
             }(), L = function() {
               var R = [5, 7, 15];
-              function k(b) {
+              function _(b) {
                 var P = b.t.p;
                 typeof P.a == "number" && (P.a = {
                   a: 0,
@@ -512,10 +512,10 @@ var lottie$1 = { exports: {} };
               function T(b) {
                 var P, V = b.length;
                 for (P = 0; P < V; P += 1)
-                  b[P].ty === 5 && k(b[P]);
+                  b[P].ty === 5 && _(b[P]);
               }
               return function(b) {
-                if (A(R, b.v) && (T(b.layers), b.assets)) {
+                if (k(R, b.v) && (T(b.layers), b.assets)) {
                   var P, V = b.assets.length;
                   for (P = 0; P < V; P += 1)
                     b.assets[P].layers && T(b.assets[P].layers);
@@ -523,11 +523,11 @@ var lottie$1 = { exports: {} };
               };
             }(), N = function() {
               var R = [4, 1, 9];
-              function k(b) {
+              function _(b) {
                 var P, V = b.length, I, G;
                 for (P = 0; P < V; P += 1)
                   if (b[P].ty === "gr")
-                    k(b[P].it);
+                    _(b[P].it);
                   else if (b[P].ty === "fl" || b[P].ty === "st")
                     if (b[P].c.k && b[P].c.k[0].i)
                       for (G = b[P].c.k.length, I = 0; I < G; I += 1)
@@ -538,10 +538,10 @@ var lottie$1 = { exports: {} };
               function T(b) {
                 var P, V = b.length;
                 for (P = 0; P < V; P += 1)
-                  b[P].ty === 4 && k(b[P].shapes);
+                  b[P].ty === 4 && _(b[P].shapes);
               }
               return function(b) {
-                if (A(R, b.v) && (T(b.layers), b.assets)) {
+                if (k(R, b.v) && (T(b.layers), b.assets)) {
                   var P, V = b.assets.length;
                   for (P = 0; P < V; P += 1)
                     b.assets[P].layers && T(b.assets[P].layers);
@@ -549,7 +549,7 @@ var lottie$1 = { exports: {} };
               };
             }(), D = function() {
               var R = [4, 4, 18];
-              function k(b) {
+              function _(b) {
                 var P, V = b.length, I, G;
                 for (P = V - 1; P >= 0; P -= 1)
                   if (b[P].ty === "sh")
@@ -559,25 +559,25 @@ var lottie$1 = { exports: {} };
                       for (G = b[P].ks.k.length, I = 0; I < G; I += 1)
                         b[P].ks.k[I].s && (b[P].ks.k[I].s[0].c = b[P].closed), b[P].ks.k[I].e && (b[P].ks.k[I].e[0].c = b[P].closed);
                   else
-                    b[P].ty === "gr" && k(b[P].it);
+                    b[P].ty === "gr" && _(b[P].it);
               }
               function T(b) {
-                var P, V, I = b.length, G, $, q, W;
+                var P, V, I = b.length, G, q, $, j;
                 for (V = 0; V < I; V += 1) {
                   if (P = b[V], P.hasMask) {
-                    var j = P.masksProperties;
-                    for ($ = j.length, G = 0; G < $; G += 1)
-                      if (j[G].pt.k.i)
-                        j[G].pt.k.c = j[G].cl;
+                    var W = P.masksProperties;
+                    for (q = W.length, G = 0; G < q; G += 1)
+                      if (W[G].pt.k.i)
+                        W[G].pt.k.c = W[G].cl;
                       else
-                        for (W = j[G].pt.k.length, q = 0; q < W; q += 1)
-                          j[G].pt.k[q].s && (j[G].pt.k[q].s[0].c = j[G].cl), j[G].pt.k[q].e && (j[G].pt.k[q].e[0].c = j[G].cl);
+                        for (j = W[G].pt.k.length, $ = 0; $ < j; $ += 1)
+                          W[G].pt.k[$].s && (W[G].pt.k[$].s[0].c = W[G].cl), W[G].pt.k[$].e && (W[G].pt.k[$].e[0].c = W[G].cl);
                   }
-                  P.ty === 4 && k(P.shapes);
+                  P.ty === 4 && _(P.shapes);
                 }
               }
               return function(b) {
-                if (A(R, b.v) && (T(b.layers), b.assets)) {
+                if (k(R, b.v) && (T(b.layers), b.assets)) {
                   var P, V = b.assets.length;
                   for (P = 0; P < V; P += 1)
                     b.assets[P].layers && T(b.assets[P].layers);
@@ -585,21 +585,21 @@ var lottie$1 = { exports: {} };
               };
             }();
             function B(R) {
-              R.__complete || (N(R), M(R), F(R), L(R), D(R), _(R.layers, R.assets), u(R.chars, R.assets), R.__complete = !0);
+              R.__complete || (N(R), M(R), F(R), L(R), D(R), A(R.layers, R.assets), u(R.chars, R.assets), R.__complete = !0);
             }
             function O(R) {
               R.t.a.length === 0 && "m" in R.t.p;
             }
             var z = {};
-            return z.completeData = B, z.checkColors = N, z.checkChars = F, z.checkPathProperties = L, z.checkShapes = D, z.completeLayers = _, z;
+            return z.completeData = B, z.checkColors = N, z.checkChars = F, z.checkPathProperties = L, z.checkShapes = D, z.completeLayers = A, z;
           }
           if (a.dataManager || (a.dataManager = x()), a.assetLoader || (a.assetLoader = function() {
-            function _(d) {
+            function A(d) {
               var f = d.getResponseHeader("content-type");
               return f && d.responseType === "json" && f.indexOf("json") !== -1 || d.response && _typeof$5(d.response) === "object" ? d.response : d.response && typeof d.response == "string" ? JSON.parse(d.response) : d.responseText ? JSON.parse(d.responseText) : null;
             }
             function u(d, f, y, C) {
-              var A, M = new XMLHttpRequest();
+              var k, M = new XMLHttpRequest();
               try {
                 M.responseType = "json";
               } catch {
@@ -607,10 +607,10 @@ var lottie$1 = { exports: {} };
               M.onreadystatechange = function() {
                 if (M.readyState === 4)
                   if (M.status === 200)
-                    A = _(M), y(A);
+                    k = A(M), y(k);
                   else
                     try {
-                      A = _(M), y(A);
+                      k = A(M), y(k);
                     } catch (F) {
                       C && C(F);
                     }
@@ -626,10 +626,10 @@ var lottie$1 = { exports: {} };
               load: u
             };
           }()), S.data.type === "loadAnimation")
-            a.assetLoader.load(S.data.path, S.data.fullPath, function(_) {
-              a.dataManager.completeData(_), a.postMessage({
+            a.assetLoader.load(S.data.path, S.data.fullPath, function(A) {
+              a.dataManager.completeData(A), a.postMessage({
                 id: S.data.id,
-                payload: _,
+                payload: A,
                 status: "success"
               });
             }, function() {
@@ -646,10 +646,10 @@ var lottie$1 = { exports: {} };
               status: "success"
             });
           } else
-            S.data.type === "loadData" && a.assetLoader.load(S.data.path, S.data.fullPath, function(_) {
+            S.data.type === "loadData" && a.assetLoader.load(S.data.path, S.data.fullPath, function(A) {
               a.postMessage({
                 id: S.data.id,
-                payload: _,
+                payload: A,
                 status: "success"
               });
             }, function() {
@@ -799,10 +799,10 @@ var lottie$1 = { exports: {} };
       function m(u, d) {
         u === "svg" ? (this._elementHelper = d, this._createImageData = this.createImageData.bind(this)) : this._createImageData = this.createImgData.bind(this);
       }
-      function _() {
+      function A() {
         this._imageLoaded = e.bind(this), this._footageLoaded = r.bind(this), this.testImageLoaded = s.bind(this), this.createFootageData = l.bind(this), this.assetsPath = "", this.path = "", this.totalImages = 0, this.totalFootages = 0, this.loadedAssets = 0, this.loadedFootagesCount = 0, this.imagesLoadedCb = null, this.images = [];
       }
-      return _.prototype = {
+      return A.prototype = {
         loadAssets: o,
         setAssetsPath: g,
         setPath: p,
@@ -815,7 +815,7 @@ var lottie$1 = { exports: {} };
         imageLoaded: e,
         footageLoaded: r,
         setCacheType: m
-      }, _;
+      }, A;
     }();
     function BaseEvent() {
     }
@@ -1142,25 +1142,25 @@ var lottie$1 = { exports: {} };
     };
     var animationManager = function() {
       var t = {}, e = [], r = 0, i = 0, s = 0, a = !0, n = !1;
-      function l(k) {
-        for (var T = 0, b = k.target; T < i; )
+      function l(_) {
+        for (var T = 0, b = _.target; T < i; )
           e[T].animation === b && (e.splice(T, 1), T -= 1, i -= 1, b.isPaused || E()), T += 1;
       }
-      function o(k, T) {
-        if (!k)
+      function o(_, T) {
+        if (!_)
           return null;
         for (var b = 0; b < i; ) {
-          if (e[b].elem === k && e[b].elem !== null)
+          if (e[b].elem === _ && e[b].elem !== null)
             return e[b].animation;
           b += 1;
         }
         var P = new AnimationItem();
-        return c(P, k), P.setData(k, T), P;
+        return c(P, _), P.setData(_, T), P;
       }
       function p() {
-        var k, T = e.length, b = [];
-        for (k = 0; k < T; k += 1)
-          b.push(e[k].animation);
+        var _, T = e.length, b = [];
+        for (_ = 0; _ < T; _ += 1)
+          b.push(e[_].animation);
         return b;
       }
       function g() {
@@ -1169,81 +1169,81 @@ var lottie$1 = { exports: {} };
       function E() {
         s -= 1;
       }
-      function c(k, T) {
-        k.addEventListener("destroy", l), k.addEventListener("_active", g), k.addEventListener("_idle", E), e.push({
+      function c(_, T) {
+        _.addEventListener("destroy", l), _.addEventListener("_active", g), _.addEventListener("_idle", E), e.push({
           elem: T,
-          animation: k
+          animation: _
         }), i += 1;
       }
-      function S(k) {
+      function S(_) {
         var T = new AnimationItem();
-        return c(T, null), T.setParams(k), T;
+        return c(T, null), T.setParams(_), T;
       }
-      function x(k, T) {
+      function x(_, T) {
         var b;
         for (b = 0; b < i; b += 1)
-          e[b].animation.setSpeed(k, T);
+          e[b].animation.setSpeed(_, T);
       }
-      function m(k, T) {
+      function m(_, T) {
         var b;
         for (b = 0; b < i; b += 1)
-          e[b].animation.setDirection(k, T);
+          e[b].animation.setDirection(_, T);
       }
-      function _(k) {
+      function A(_) {
         var T;
         for (T = 0; T < i; T += 1)
-          e[T].animation.play(k);
+          e[T].animation.play(_);
       }
-      function u(k) {
-        var T = k - r, b;
+      function u(_) {
+        var T = _ - r, b;
         for (b = 0; b < i; b += 1)
           e[b].animation.advanceTime(T);
-        r = k, s && !n ? window.requestAnimationFrame(u) : a = !0;
+        r = _, s && !n ? window.requestAnimationFrame(u) : a = !0;
       }
-      function d(k) {
-        r = k, window.requestAnimationFrame(u);
+      function d(_) {
+        r = _, window.requestAnimationFrame(u);
       }
-      function f(k) {
+      function f(_) {
         var T;
         for (T = 0; T < i; T += 1)
-          e[T].animation.pause(k);
+          e[T].animation.pause(_);
       }
-      function y(k, T, b) {
+      function y(_, T, b) {
         var P;
         for (P = 0; P < i; P += 1)
-          e[P].animation.goToAndStop(k, T, b);
+          e[P].animation.goToAndStop(_, T, b);
       }
-      function C(k) {
+      function C(_) {
         var T;
         for (T = 0; T < i; T += 1)
-          e[T].animation.stop(k);
+          e[T].animation.stop(_);
       }
-      function A(k) {
+      function k(_) {
         var T;
         for (T = 0; T < i; T += 1)
-          e[T].animation.togglePause(k);
+          e[T].animation.togglePause(_);
       }
-      function M(k) {
+      function M(_) {
         var T;
         for (T = i - 1; T >= 0; T -= 1)
-          e[T].animation.destroy(k);
+          e[T].animation.destroy(_);
       }
-      function F(k, T, b) {
+      function F(_, T, b) {
         var P = [].concat([].slice.call(document.getElementsByClassName("lottie")), [].slice.call(document.getElementsByClassName("bodymovin"))), V, I = P.length;
         for (V = 0; V < I; V += 1)
-          b && P[V].setAttribute("data-bm-type", b), o(P[V], k);
+          b && P[V].setAttribute("data-bm-type", b), o(P[V], _);
         if (T && I === 0) {
           b || (b = "svg");
           var G = document.getElementsByTagName("body")[0];
           G.innerText = "";
-          var $ = createTag("div");
-          $.style.width = "100%", $.style.height = "100%", $.setAttribute("data-bm-type", b), G.appendChild($), o($, k);
+          var q = createTag("div");
+          q.style.width = "100%", q.style.height = "100%", q.setAttribute("data-bm-type", b), G.appendChild(q), o(q, _);
         }
       }
       function L() {
-        var k;
-        for (k = 0; k < i; k += 1)
-          e[k].animation.resize();
+        var _;
+        for (_ = 0; _ < i; _ += 1)
+          e[_].animation.resize();
       }
       function N() {
         !n && s && a && (window.requestAnimationFrame(d), a = !1);
@@ -1254,28 +1254,28 @@ var lottie$1 = { exports: {} };
       function B() {
         n = !1, N();
       }
-      function O(k, T) {
+      function O(_, T) {
         var b;
         for (b = 0; b < i; b += 1)
-          e[b].animation.setVolume(k, T);
+          e[b].animation.setVolume(_, T);
       }
-      function z(k) {
+      function z(_) {
         var T;
         for (T = 0; T < i; T += 1)
-          e[T].animation.mute(k);
+          e[T].animation.mute(_);
       }
-      function R(k) {
+      function R(_) {
         var T;
         for (T = 0; T < i; T += 1)
-          e[T].animation.unmute(k);
+          e[T].animation.unmute(_);
       }
-      return t.registerAnimation = o, t.loadAnimation = S, t.setSpeed = x, t.setDirection = m, t.play = _, t.pause = f, t.stop = C, t.togglePause = A, t.searchAnimations = F, t.resize = L, t.goToAndStop = y, t.destroy = M, t.freeze = D, t.unfreeze = B, t.setVolume = O, t.mute = z, t.unmute = R, t.getRegisteredAnimations = p, t;
+      return t.registerAnimation = o, t.loadAnimation = S, t.setSpeed = x, t.setDirection = m, t.play = A, t.pause = f, t.stop = C, t.togglePause = k, t.searchAnimations = F, t.resize = L, t.goToAndStop = y, t.destroy = M, t.freeze = D, t.unfreeze = B, t.setVolume = O, t.mute = z, t.unmute = R, t.getRegisteredAnimations = p, t;
     }(), BezierFactory = function() {
       var t = {};
       t.getBezierEasing = r;
       var e = {};
-      function r(d, f, y, C, A) {
-        var M = A || ("bez_" + d + "_" + f + "_" + y + "_" + C).replace(/\./g, "p");
+      function r(d, f, y, C, k) {
+        var M = k || ("bez_" + d + "_" + f + "_" + y + "_" + C).replace(/\./g, "p");
         if (e[M])
           return e[M];
         var F = new u([d, f, y, C]);
@@ -1297,15 +1297,15 @@ var lottie$1 = { exports: {} };
       function x(d, f, y) {
         return 3 * g(f, y) * d * d + 2 * E(f, y) * d + c(f);
       }
-      function m(d, f, y, C, A) {
+      function m(d, f, y, C, k) {
         var M, F, L = 0;
         do
-          F = f + (y - f) / 2, M = S(F, C, A) - d, M > 0 ? y = F : f = F;
+          F = f + (y - f) / 2, M = S(F, C, k) - d, M > 0 ? y = F : f = F;
         while (Math.abs(M) > a && ++L < n);
         return F;
       }
-      function _(d, f, y, C) {
-        for (var A = 0; A < i; ++A) {
+      function A(d, f, y, C) {
+        for (var k = 0; k < i; ++k) {
           var M = x(f, y, C);
           if (M === 0)
             return f;
@@ -1319,13 +1319,13 @@ var lottie$1 = { exports: {} };
       }
       return u.prototype = {
         get: function(f) {
-          var y = this._p[0], C = this._p[1], A = this._p[2], M = this._p[3];
-          return this._precomputed || this._precompute(), y === C && A === M ? f : f === 0 ? 0 : f === 1 ? 1 : S(this._getTForX(f), C, M);
+          var y = this._p[0], C = this._p[1], k = this._p[2], M = this._p[3];
+          return this._precomputed || this._precompute(), y === C && k === M ? f : f === 0 ? 0 : f === 1 ? 1 : S(this._getTForX(f), C, M);
         },
         // Private part
         _precompute: function() {
-          var f = this._p[0], y = this._p[1], C = this._p[2], A = this._p[3];
-          this._precomputed = !0, (f !== y || C !== A) && this._calcSampleValues();
+          var f = this._p[0], y = this._p[1], C = this._p[2], k = this._p[3];
+          this._precomputed = !0, (f !== y || C !== k) && this._calcSampleValues();
         },
         _calcSampleValues: function() {
           for (var f = this._p[0], y = this._p[2], C = 0; C < l; ++C)
@@ -1335,11 +1335,11 @@ var lottie$1 = { exports: {} };
              * getTForX chose the fastest heuristic to determine the percentage value precisely from a given X projection.
              */
         _getTForX: function(f) {
-          for (var y = this._p[0], C = this._p[2], A = this._mSampleValues, M = 0, F = 1, L = l - 1; F !== L && A[F] <= f; ++F)
+          for (var y = this._p[0], C = this._p[2], k = this._mSampleValues, M = 0, F = 1, L = l - 1; F !== L && k[F] <= f; ++F)
             M += o;
           --F;
-          var N = (f - A[F]) / (A[F + 1] - A[F]), D = M + N * o, B = x(D, y, C);
-          return B >= s ? _(f, D, y, C) : B === 0 ? D : m(f, M, M + o, y, C);
+          var N = (f - k[F]) / (k[F + 1] - k[F]), D = M + N * o, B = x(D, y, C);
+          return B >= s ? A(f, D, y, C) : B === 0 ? D : m(f, M, M + o, y, C);
         }
       }, t;
     }(), pooling = function() {
@@ -1390,32 +1390,32 @@ var lottie$1 = { exports: {} };
     }();
     function bezFunction() {
       var t = Math;
-      function e(c, S, x, m, _, u) {
-        var d = c * m + S * _ + x * u - _ * m - u * c - x * S;
+      function e(c, S, x, m, A, u) {
+        var d = c * m + S * A + x * u - A * m - u * c - x * S;
         return d > -1e-3 && d < 1e-3;
       }
-      function r(c, S, x, m, _, u, d, f, y) {
+      function r(c, S, x, m, A, u, d, f, y) {
         if (x === 0 && u === 0 && y === 0)
-          return e(c, S, m, _, d, f);
-        var C = t.sqrt(t.pow(m - c, 2) + t.pow(_ - S, 2) + t.pow(u - x, 2)), A = t.sqrt(t.pow(d - c, 2) + t.pow(f - S, 2) + t.pow(y - x, 2)), M = t.sqrt(t.pow(d - m, 2) + t.pow(f - _, 2) + t.pow(y - u, 2)), F;
-        return C > A ? C > M ? F = C - A - M : F = M - A - C : M > A ? F = M - A - C : F = A - C - M, F > -1e-4 && F < 1e-4;
+          return e(c, S, m, A, d, f);
+        var C = t.sqrt(t.pow(m - c, 2) + t.pow(A - S, 2) + t.pow(u - x, 2)), k = t.sqrt(t.pow(d - c, 2) + t.pow(f - S, 2) + t.pow(y - x, 2)), M = t.sqrt(t.pow(d - m, 2) + t.pow(f - A, 2) + t.pow(y - u, 2)), F;
+        return C > k ? C > M ? F = C - k - M : F = M - k - C : M > k ? F = M - k - C : F = k - C - M, F > -1e-4 && F < 1e-4;
       }
       var i = function() {
         return function(c, S, x, m) {
-          var _ = getDefaultCurveSegments(), u, d, f, y, C, A = 0, M, F = [], L = [], N = bezierLengthPool.newElement();
-          for (f = x.length, u = 0; u < _; u += 1) {
-            for (C = u / (_ - 1), M = 0, d = 0; d < f; d += 1)
+          var A = getDefaultCurveSegments(), u, d, f, y, C, k = 0, M, F = [], L = [], N = bezierLengthPool.newElement();
+          for (f = x.length, u = 0; u < A; u += 1) {
+            for (C = u / (A - 1), M = 0, d = 0; d < f; d += 1)
               y = bmPow(1 - C, 3) * c[d] + 3 * bmPow(1 - C, 2) * C * x[d] + 3 * (1 - C) * bmPow(C, 2) * m[d] + bmPow(C, 3) * S[d], F[d] = y, L[d] !== null && (M += bmPow(F[d] - L[d], 2)), L[d] = F[d];
-            M && (M = bmSqrt(M), A += M), N.percents[u] = C, N.lengths[u] = A;
+            M && (M = bmSqrt(M), k += M), N.percents[u] = C, N.lengths[u] = k;
           }
-          return N.addedLength = A, N;
+          return N.addedLength = k, N;
         };
       }();
       function s(c) {
-        var S = segmentsLengthPool.newElement(), x = c.c, m = c.v, _ = c.o, u = c.i, d, f = c._length, y = S.lengths, C = 0;
+        var S = segmentsLengthPool.newElement(), x = c.c, m = c.v, A = c.o, u = c.i, d, f = c._length, y = S.lengths, C = 0;
         for (d = 0; d < f - 1; d += 1)
-          y[d] = i(m[d], m[d + 1], _[d], u[d + 1]), C += y[d].addedLength;
-        return x && f && (y[d] = i(m[d], m[0], _[d], u[0]), C += y[d].addedLength), S.totalLength = C, S;
+          y[d] = i(m[d], m[d + 1], A[d], u[d + 1]), C += y[d].addedLength;
+        return x && f && (y[d] = i(m[d], m[0], A[d], u[0]), C += y[d].addedLength), S.totalLength = C, S;
       }
       function a(c) {
         this.segmentLength = 0, this.points = new Array(c);
@@ -1425,15 +1425,15 @@ var lottie$1 = { exports: {} };
       }
       var l = function() {
         var c = {};
-        return function(S, x, m, _) {
-          var u = (S[0] + "_" + S[1] + "_" + x[0] + "_" + x[1] + "_" + m[0] + "_" + m[1] + "_" + _[0] + "_" + _[1]).replace(/\./g, "p");
+        return function(S, x, m, A) {
+          var u = (S[0] + "_" + S[1] + "_" + x[0] + "_" + x[1] + "_" + m[0] + "_" + m[1] + "_" + A[0] + "_" + A[1]).replace(/\./g, "p");
           if (!c[u]) {
-            var d = getDefaultCurveSegments(), f, y, C, A, M, F = 0, L, N, D = null;
-            S.length === 2 && (S[0] !== x[0] || S[1] !== x[1]) && e(S[0], S[1], x[0], x[1], S[0] + m[0], S[1] + m[1]) && e(S[0], S[1], x[0], x[1], x[0] + _[0], x[1] + _[1]) && (d = 2);
+            var d = getDefaultCurveSegments(), f, y, C, k, M, F = 0, L, N, D = null;
+            S.length === 2 && (S[0] !== x[0] || S[1] !== x[1]) && e(S[0], S[1], x[0], x[1], S[0] + m[0], S[1] + m[1]) && e(S[0], S[1], x[0], x[1], x[0] + A[0], x[1] + A[1]) && (d = 2);
             var B = new a(d);
             for (C = m.length, f = 0; f < d; f += 1) {
               for (N = createSizedArray(C), M = f / (d - 1), L = 0, y = 0; y < C; y += 1)
-                A = bmPow(1 - M, 3) * S[y] + 3 * bmPow(1 - M, 2) * M * (S[y] + m[y]) + 3 * (1 - M) * bmPow(M, 2) * (x[y] + _[y]) + bmPow(M, 3) * x[y], N[y] = A, D !== null && (L += bmPow(N[y] - D[y], 2));
+                k = bmPow(1 - M, 3) * S[y] + 3 * bmPow(1 - M, 2) * M * (S[y] + m[y]) + 3 * (1 - M) * bmPow(M, 2) * (x[y] + A[y]) + bmPow(M, 3) * x[y], N[y] = k, D !== null && (L += bmPow(N[y] - D[y], 2));
               L = bmSqrt(L), F += L, B.points[f] = new n(L, N), D = N;
             }
             B.segmentLength = F, c[u] = B;
@@ -1442,29 +1442,29 @@ var lottie$1 = { exports: {} };
         };
       }();
       function o(c, S) {
-        var x = S.percents, m = S.lengths, _ = x.length, u = bmFloor((_ - 1) * c), d = c * S.addedLength, f = 0;
-        if (u === _ - 1 || u === 0 || d === m[u])
+        var x = S.percents, m = S.lengths, A = x.length, u = bmFloor((A - 1) * c), d = c * S.addedLength, f = 0;
+        if (u === A - 1 || u === 0 || d === m[u])
           return x[u];
         for (var y = m[u] > d ? -1 : 1, C = !0; C; )
-          if (m[u] <= d && m[u + 1] > d ? (f = (d - m[u]) / (m[u + 1] - m[u]), C = !1) : u += y, u < 0 || u >= _ - 1) {
-            if (u === _ - 1)
+          if (m[u] <= d && m[u + 1] > d ? (f = (d - m[u]) / (m[u + 1] - m[u]), C = !1) : u += y, u < 0 || u >= A - 1) {
+            if (u === A - 1)
               return x[u];
             C = !1;
           }
         return x[u] + (x[u + 1] - x[u]) * f;
       }
-      function p(c, S, x, m, _, u) {
-        var d = o(_, u), f = 1 - d, y = t.round((f * f * f * c[0] + (d * f * f + f * d * f + f * f * d) * x[0] + (d * d * f + f * d * d + d * f * d) * m[0] + d * d * d * S[0]) * 1e3) / 1e3, C = t.round((f * f * f * c[1] + (d * f * f + f * d * f + f * f * d) * x[1] + (d * d * f + f * d * d + d * f * d) * m[1] + d * d * d * S[1]) * 1e3) / 1e3;
+      function p(c, S, x, m, A, u) {
+        var d = o(A, u), f = 1 - d, y = t.round((f * f * f * c[0] + (d * f * f + f * d * f + f * f * d) * x[0] + (d * d * f + f * d * d + d * f * d) * m[0] + d * d * d * S[0]) * 1e3) / 1e3, C = t.round((f * f * f * c[1] + (d * f * f + f * d * f + f * f * d) * x[1] + (d * d * f + f * d * d + d * f * d) * m[1] + d * d * d * S[1]) * 1e3) / 1e3;
         return [y, C];
       }
       var g = createTypedArray("float32", 8);
-      function E(c, S, x, m, _, u, d) {
-        _ < 0 ? _ = 0 : _ > 1 && (_ = 1);
-        var f = o(_, d);
+      function E(c, S, x, m, A, u, d) {
+        A < 0 ? A = 0 : A > 1 && (A = 1);
+        var f = o(A, d);
         u = u > 1 ? 1 : u;
-        var y = o(u, d), C, A = c.length, M = 1 - f, F = 1 - y, L = M * M * M, N = f * M * M * 3, D = f * f * M * 3, B = f * f * f, O = M * M * F, z = f * M * F + M * f * F + M * M * y, R = f * f * F + M * f * y + f * M * y, k = f * f * y, T = M * F * F, b = f * F * F + M * y * F + M * F * y, P = f * y * F + M * y * y + f * F * y, V = f * y * y, I = F * F * F, G = y * F * F + F * y * F + F * F * y, $ = y * y * F + F * y * y + y * F * y, q = y * y * y;
-        for (C = 0; C < A; C += 1)
-          g[C * 4] = t.round((L * c[C] + N * x[C] + D * m[C] + B * S[C]) * 1e3) / 1e3, g[C * 4 + 1] = t.round((O * c[C] + z * x[C] + R * m[C] + k * S[C]) * 1e3) / 1e3, g[C * 4 + 2] = t.round((T * c[C] + b * x[C] + P * m[C] + V * S[C]) * 1e3) / 1e3, g[C * 4 + 3] = t.round((I * c[C] + G * x[C] + $ * m[C] + q * S[C]) * 1e3) / 1e3;
+        var y = o(u, d), C, k = c.length, M = 1 - f, F = 1 - y, L = M * M * M, N = f * M * M * 3, D = f * f * M * 3, B = f * f * f, O = M * M * F, z = f * M * F + M * f * F + M * M * y, R = f * f * F + M * f * y + f * M * y, _ = f * f * y, T = M * F * F, b = f * F * F + M * y * F + M * F * y, P = f * y * F + M * y * y + f * F * y, V = f * y * y, I = F * F * F, G = y * F * F + F * y * F + F * F * y, q = y * y * F + F * y * y + y * F * y, $ = y * y * y;
+        for (C = 0; C < k; C += 1)
+          g[C * 4] = t.round((L * c[C] + N * x[C] + D * m[C] + B * S[C]) * 1e3) / 1e3, g[C * 4 + 1] = t.round((O * c[C] + z * x[C] + R * m[C] + _ * S[C]) * 1e3) / 1e3, g[C * 4 + 2] = t.round((T * c[C] + b * x[C] + P * m[C] + V * S[C]) * 1e3) / 1e3, g[C * 4 + 3] = t.round((I * c[C] + G * x[C] + q * m[C] + $ * S[C]) * 1e3) / 1e3;
         return g;
       }
       return {
@@ -1492,7 +1492,7 @@ var lottie$1 = { exports: {} };
         a < n - 1 ? a += 1 : (s = 0, l = !1);
       }
       g = this.keyframesMetadata[a] || {};
-      var E, c, S, x, m, _, u = p.t - r, d = o.t - r, f;
+      var E, c, S, x, m, A, u = p.t - r, d = o.t - r, f;
       if (o.to) {
         g.bezierData || (g.bezierData = bez.buildBezierData(o.s, p.s || o.e, o.to, o.ti));
         var y = g.bezierData;
@@ -1501,15 +1501,15 @@ var lottie$1 = { exports: {} };
           for (c = y.points[C].point.length, E = 0; E < c; E += 1)
             i[E] = y.points[C].point[E];
         } else {
-          g.__fnct ? _ = g.__fnct : (_ = BezierFactory.getBezierEasing(o.o.x, o.o.y, o.i.x, o.i.y, o.n).get, g.__fnct = _), S = _((t - d) / (u - d));
-          var A = y.segmentLength * S, M, F = e.lastFrame < t && e._lastKeyframeIndex === a ? e._lastAddedLength : 0;
+          g.__fnct ? A = g.__fnct : (A = BezierFactory.getBezierEasing(o.o.x, o.o.y, o.i.x, o.i.y, o.n).get, g.__fnct = A), S = A((t - d) / (u - d));
+          var k = y.segmentLength * S, M, F = e.lastFrame < t && e._lastKeyframeIndex === a ? e._lastAddedLength : 0;
           for (m = e.lastFrame < t && e._lastKeyframeIndex === a ? e._lastPoint : 0, l = !0, x = y.points.length; l; ) {
-            if (F += y.points[m].partialLength, A === 0 || S === 0 || m === y.points.length - 1) {
+            if (F += y.points[m].partialLength, k === 0 || S === 0 || m === y.points.length - 1) {
               for (c = y.points[m].point.length, E = 0; E < c; E += 1)
                 i[E] = y.points[m].point[E];
               break;
-            } else if (A >= F && A < F + y.points[m + 1].partialLength) {
-              for (M = (A - F) / y.points[m + 1].partialLength, c = y.points[m].point.length, E = 0; E < c; E += 1)
+            } else if (k >= F && k < F + y.points[m + 1].partialLength) {
+              for (M = (k - F) / y.points[m + 1].partialLength, c = y.points[m].point.length, E = 0; E < c; E += 1)
                 i[E] = y.points[m].point[E] + (y.points[m + 1].point[E] - y.points[m].point[E]) * M;
               break;
             }
@@ -1525,18 +1525,18 @@ var lottie$1 = { exports: {} };
           else if (t <= d)
             i[0] = o.s[0], i[1] = o.s[1], i[2] = o.s[2];
           else {
-            var z = createQuaternion(o.s), R = createQuaternion(f), k = (t - d) / (u - d);
-            quaternionToEuler(i, slerp(z, R, k));
+            var z = createQuaternion(o.s), R = createQuaternion(f), _ = (t - d) / (u - d);
+            quaternionToEuler(i, slerp(z, R, _));
           }
         else
           for (a = 0; a < n; a += 1)
-            o.h !== 1 && (t >= u ? S = 1 : t < d ? S = 0 : (o.o.x.constructor === Array ? (g.__fnct || (g.__fnct = []), g.__fnct[a] ? _ = g.__fnct[a] : (L = o.o.x[a] === void 0 ? o.o.x[0] : o.o.x[a], N = o.o.y[a] === void 0 ? o.o.y[0] : o.o.y[a], D = o.i.x[a] === void 0 ? o.i.x[0] : o.i.x[a], B = o.i.y[a] === void 0 ? o.i.y[0] : o.i.y[a], _ = BezierFactory.getBezierEasing(L, N, D, B).get, g.__fnct[a] = _)) : g.__fnct ? _ = g.__fnct : (L = o.o.x, N = o.o.y, D = o.i.x, B = o.i.y, _ = BezierFactory.getBezierEasing(L, N, D, B).get, o.keyframeMetadata = _), S = _((t - d) / (u - d)))), f = p.s || o.e, O = o.h === 1 ? o.s[a] : o.s[a] + (f[a] - o.s[a]) * S, this.propType === "multidimensional" ? i[a] = O : i = O;
+            o.h !== 1 && (t >= u ? S = 1 : t < d ? S = 0 : (o.o.x.constructor === Array ? (g.__fnct || (g.__fnct = []), g.__fnct[a] ? A = g.__fnct[a] : (L = o.o.x[a] === void 0 ? o.o.x[0] : o.o.x[a], N = o.o.y[a] === void 0 ? o.o.y[0] : o.o.y[a], D = o.i.x[a] === void 0 ? o.i.x[0] : o.i.x[a], B = o.i.y[a] === void 0 ? o.i.y[0] : o.i.y[a], A = BezierFactory.getBezierEasing(L, N, D, B).get, g.__fnct[a] = A)) : g.__fnct ? A = g.__fnct : (L = o.o.x, N = o.o.y, D = o.i.x, B = o.i.y, A = BezierFactory.getBezierEasing(L, N, D, B).get, o.keyframeMetadata = A), S = A((t - d) / (u - d)))), f = p.s || o.e, O = o.h === 1 ? o.s[a] : o.s[a] + (f[a] - o.s[a]) * S, this.propType === "multidimensional" ? i[a] = O : i = O;
       }
       return e.lastIndex = s, i;
     }
     function slerp(t, e, r) {
-      var i = [], s = t[0], a = t[1], n = t[2], l = t[3], o = e[0], p = e[1], g = e[2], E = e[3], c, S, x, m, _;
-      return S = s * o + a * p + n * g + l * E, S < 0 && (S = -S, o = -o, p = -p, g = -g, E = -E), 1 - S > 1e-6 ? (c = Math.acos(S), x = Math.sin(c), m = Math.sin((1 - r) * c) / x, _ = Math.sin(r * c) / x) : (m = 1 - r, _ = r), i[0] = m * s + _ * o, i[1] = m * a + _ * p, i[2] = m * n + _ * g, i[3] = m * l + _ * E, i;
+      var i = [], s = t[0], a = t[1], n = t[2], l = t[3], o = e[0], p = e[1], g = e[2], E = e[3], c, S, x, m, A;
+      return S = s * o + a * p + n * g + l * E, S < 0 && (S = -S, o = -o, p = -p, g = -g, E = -E), 1 - S > 1e-6 ? (c = Math.acos(S), x = Math.sin(c), m = Math.sin((1 - r) * c) / x, A = Math.sin(r * c) / x) : (m = 1 - r, A = r), i[0] = m * s + A * o, i[1] = m * a + A * p, i[2] = m * n + A * g, i[3] = m * l + A * E, i;
     }
     function quaternionToEuler(t, e) {
       var r = e[0], i = e[1], s = e[2], a = e[3], n = Math.atan2(2 * i * a - 2 * r * s, 1 - 2 * i * i - 2 * s * s), l = Math.asin(2 * r * i + 2 * s * a), o = Math.atan2(2 * r * a - 2 * i * s, 1 - 2 * r * r - 2 * s * s);
@@ -1751,14 +1751,14 @@ var lottie$1 = { exports: {} };
     }(), ShapePropertyFactory = function() {
       var t = -999999;
       function e(u, d, f) {
-        var y = f.lastIndex, C, A, M, F, L, N, D, B, O, z = this.keyframes;
+        var y = f.lastIndex, C, k, M, F, L, N, D, B, O, z = this.keyframes;
         if (u < z[0].t - this.offsetTime)
           C = z[0].s[0], M = !0, y = 0;
         else if (u >= z[z.length - 1].t - this.offsetTime)
           C = z[z.length - 1].s ? z[z.length - 1].s[0] : z[z.length - 2].e[0], M = !0;
         else {
-          for (var R = y, k = z.length - 1, T = !0, b, P, V; T && (b = z[R], P = z[R + 1], !(P.t - this.offsetTime > u)); )
-            R < k - 1 ? R += 1 : T = !1;
+          for (var R = y, _ = z.length - 1, T = !0, b, P, V; T && (b = z[R], P = z[R + 1], !(P.t - this.offsetTime > u)); )
+            R < _ - 1 ? R += 1 : T = !1;
           if (V = this.keyframesMetadata[R] || {}, M = b.h === 1, y = R, !M) {
             if (u >= P.t - this.offsetTime)
               B = 1;
@@ -1768,13 +1768,13 @@ var lottie$1 = { exports: {} };
               var I;
               V.__fnct ? I = V.__fnct : (I = BezierFactory.getBezierEasing(b.o.x, b.o.y, b.i.x, b.i.y).get, V.__fnct = I), B = I((u - (b.t - this.offsetTime)) / (P.t - this.offsetTime - (b.t - this.offsetTime)));
             }
-            A = P.s ? P.s[0] : b.e[0];
+            k = P.s ? P.s[0] : b.e[0];
           }
           C = b.s[0];
         }
         for (N = d._length, D = C.i[0].length, f.lastIndex = y, F = 0; F < N; F += 1)
           for (L = 0; L < D; L += 1)
-            O = M ? C.i[F][L] : C.i[F][L] + (A.i[F][L] - C.i[F][L]) * B, d.i[F][L] = O, O = M ? C.o[F][L] : C.o[F][L] + (A.o[F][L] - C.o[F][L]) * B, d.o[F][L] = O, O = M ? C.v[F][L] : C.v[F][L] + (A.v[F][L] - C.v[F][L]) * B, d.v[F][L] = O;
+            O = M ? C.i[F][L] : C.i[F][L] + (k.i[F][L] - C.i[F][L]) * B, d.i[F][L] = O, O = M ? C.o[F][L] : C.o[F][L] + (k.o[F][L] - C.o[F][L]) * B, d.o[F][L] = O, O = M ? C.v[F][L] : C.v[F][L] + (k.v[F][L] - C.v[F][L]) * B, d.v[F][L] = O;
       }
       function r() {
         var u = this.comp.renderedFrame - this.offsetTime, d = this.keyframes[0].t - this.offsetTime, f = this.keyframes[this.keyframes.length - 1].t - this.offsetTime, y = this._caching.lastFrame;
@@ -1843,8 +1843,8 @@ var lottie$1 = { exports: {} };
             this.elem.globalData.frameId !== this.frameId && (this.frameId = this.elem.globalData.frameId, this.iterateDynamicProperties(), this._mdf && this.convertEllToPath());
           },
           convertEllToPath: function() {
-            var y = this.p.v[0], C = this.p.v[1], A = this.s.v[0] / 2, M = this.s.v[1] / 2, F = this.d !== 3, L = this.v;
-            L.v[0][0] = y, L.v[0][1] = C - M, L.v[1][0] = F ? y + A : y - A, L.v[1][1] = C, L.v[2][0] = y, L.v[2][1] = C + M, L.v[3][0] = F ? y - A : y + A, L.v[3][1] = C, L.i[0][0] = F ? y - A * u : y + A * u, L.i[0][1] = C - M, L.i[1][0] = F ? y + A : y - A, L.i[1][1] = C - M * u, L.i[2][0] = F ? y + A * u : y - A * u, L.i[2][1] = C + M, L.i[3][0] = F ? y - A : y + A, L.i[3][1] = C + M * u, L.o[0][0] = F ? y + A * u : y - A * u, L.o[0][1] = C - M, L.o[1][0] = F ? y + A : y - A, L.o[1][1] = C + M * u, L.o[2][0] = F ? y - A * u : y + A * u, L.o[2][1] = C + M, L.o[3][0] = F ? y - A : y + A, L.o[3][1] = C - M * u;
+            var y = this.p.v[0], C = this.p.v[1], k = this.s.v[0] / 2, M = this.s.v[1] / 2, F = this.d !== 3, L = this.v;
+            L.v[0][0] = y, L.v[0][1] = C - M, L.v[1][0] = F ? y + k : y - k, L.v[1][1] = C, L.v[2][0] = y, L.v[2][1] = C + M, L.v[3][0] = F ? y - k : y + k, L.v[3][1] = C, L.i[0][0] = F ? y - k * u : y + k * u, L.i[0][1] = C - M, L.i[1][0] = F ? y + k : y - k, L.i[1][1] = C - M * u, L.i[2][0] = F ? y + k * u : y - k * u, L.i[2][1] = C + M, L.i[3][0] = F ? y - k : y + k, L.i[3][1] = C + M * u, L.o[0][0] = F ? y + k * u : y - k * u, L.o[0][1] = C - M, L.o[1][0] = F ? y + k : y - k, L.o[1][1] = C + M * u, L.o[2][0] = F ? y - k * u : y + k * u, L.o[2][1] = C + M, L.o[3][0] = F ? y - k : y + k, L.o[3][1] = C - M * u;
           }
         }, extendPrototype([DynamicPropertyContainer], d), d;
       }(), E = function() {
@@ -1857,20 +1857,20 @@ var lottie$1 = { exports: {} };
             this.elem.globalData.frameId !== this.frameId && (this.frameId = this.elem.globalData.frameId, this.iterateDynamicProperties(), this._mdf && this.convertToPath());
           },
           convertStarToPath: function() {
-            var f = Math.floor(this.pt.v) * 2, y = Math.PI * 2 / f, C = !0, A = this.or.v, M = this.ir.v, F = this.os.v, L = this.is.v, N = 2 * Math.PI * A / (f * 2), D = 2 * Math.PI * M / (f * 2), B, O, z, R, k = -Math.PI / 2;
-            k += this.r.v;
+            var f = Math.floor(this.pt.v) * 2, y = Math.PI * 2 / f, C = !0, k = this.or.v, M = this.ir.v, F = this.os.v, L = this.is.v, N = 2 * Math.PI * k / (f * 2), D = 2 * Math.PI * M / (f * 2), B, O, z, R, _ = -Math.PI / 2;
+            _ += this.r.v;
             var T = this.data.d === 3 ? -1 : 1;
             for (this.v._length = 0, B = 0; B < f; B += 1) {
-              O = C ? A : M, z = C ? F : L, R = C ? N : D;
-              var b = O * Math.cos(k), P = O * Math.sin(k), V = b === 0 && P === 0 ? 0 : P / Math.sqrt(b * b + P * P), I = b === 0 && P === 0 ? 0 : -b / Math.sqrt(b * b + P * P);
-              b += +this.p.v[0], P += +this.p.v[1], this.v.setTripleAt(b, P, b - V * R * z * T, P - I * R * z * T, b + V * R * z * T, P + I * R * z * T, B, !0), C = !C, k += y * T;
+              O = C ? k : M, z = C ? F : L, R = C ? N : D;
+              var b = O * Math.cos(_), P = O * Math.sin(_), V = b === 0 && P === 0 ? 0 : P / Math.sqrt(b * b + P * P), I = b === 0 && P === 0 ? 0 : -b / Math.sqrt(b * b + P * P);
+              b += +this.p.v[0], P += +this.p.v[1], this.v.setTripleAt(b, P, b - V * R * z * T, P - I * R * z * T, b + V * R * z * T, P + I * R * z * T, B, !0), C = !C, _ += y * T;
             }
           },
           convertPolygonToPath: function() {
-            var f = Math.floor(this.pt.v), y = Math.PI * 2 / f, C = this.or.v, A = this.os.v, M = 2 * Math.PI * C / (f * 4), F, L = -Math.PI * 0.5, N = this.data.d === 3 ? -1 : 1;
+            var f = Math.floor(this.pt.v), y = Math.PI * 2 / f, C = this.or.v, k = this.os.v, M = 2 * Math.PI * C / (f * 4), F, L = -Math.PI * 0.5, N = this.data.d === 3 ? -1 : 1;
             for (L += this.r.v, this.v._length = 0, F = 0; F < f; F += 1) {
               var D = C * Math.cos(L), B = C * Math.sin(L), O = D === 0 && B === 0 ? 0 : B / Math.sqrt(D * D + B * B), z = D === 0 && B === 0 ? 0 : -D / Math.sqrt(D * D + B * B);
-              D += +this.p.v[0], B += +this.p.v[1], this.v.setTripleAt(D, B, D - O * M * A * N, B - z * M * A * N, D + O * M * A * N, B + z * M * A * N, F, !0), L += y * N;
+              D += +this.p.v[0], B += +this.p.v[1], this.v.setTripleAt(D, B, D - O * M * k * N, B - z * M * k * N, D + O * M * k * N, B + z * M * k * N, F, !0), L += y * N;
             }
             this.paths.length = 0, this.paths[0] = this.v;
           }
@@ -1881,8 +1881,8 @@ var lottie$1 = { exports: {} };
         }
         return u.prototype = {
           convertRectToPath: function() {
-            var f = this.p.v[0], y = this.p.v[1], C = this.s.v[0] / 2, A = this.s.v[1] / 2, M = bmMin(C, A, this.r.v), F = M * (1 - roundCorner);
-            this.v._length = 0, this.d === 2 || this.d === 1 ? (this.v.setTripleAt(f + C, y - A + M, f + C, y - A + M, f + C, y - A + F, 0, !0), this.v.setTripleAt(f + C, y + A - M, f + C, y + A - F, f + C, y + A - M, 1, !0), M !== 0 ? (this.v.setTripleAt(f + C - M, y + A, f + C - M, y + A, f + C - F, y + A, 2, !0), this.v.setTripleAt(f - C + M, y + A, f - C + F, y + A, f - C + M, y + A, 3, !0), this.v.setTripleAt(f - C, y + A - M, f - C, y + A - M, f - C, y + A - F, 4, !0), this.v.setTripleAt(f - C, y - A + M, f - C, y - A + F, f - C, y - A + M, 5, !0), this.v.setTripleAt(f - C + M, y - A, f - C + M, y - A, f - C + F, y - A, 6, !0), this.v.setTripleAt(f + C - M, y - A, f + C - F, y - A, f + C - M, y - A, 7, !0)) : (this.v.setTripleAt(f - C, y + A, f - C + F, y + A, f - C, y + A, 2), this.v.setTripleAt(f - C, y - A, f - C, y - A + F, f - C, y - A, 3))) : (this.v.setTripleAt(f + C, y - A + M, f + C, y - A + F, f + C, y - A + M, 0, !0), M !== 0 ? (this.v.setTripleAt(f + C - M, y - A, f + C - M, y - A, f + C - F, y - A, 1, !0), this.v.setTripleAt(f - C + M, y - A, f - C + F, y - A, f - C + M, y - A, 2, !0), this.v.setTripleAt(f - C, y - A + M, f - C, y - A + M, f - C, y - A + F, 3, !0), this.v.setTripleAt(f - C, y + A - M, f - C, y + A - F, f - C, y + A - M, 4, !0), this.v.setTripleAt(f - C + M, y + A, f - C + M, y + A, f - C + F, y + A, 5, !0), this.v.setTripleAt(f + C - M, y + A, f + C - F, y + A, f + C - M, y + A, 6, !0), this.v.setTripleAt(f + C, y + A - M, f + C, y + A - M, f + C, y + A - F, 7, !0)) : (this.v.setTripleAt(f - C, y - A, f - C + F, y - A, f - C, y - A, 1, !0), this.v.setTripleAt(f - C, y + A, f - C, y + A - F, f - C, y + A, 2, !0), this.v.setTripleAt(f + C, y + A, f + C - F, y + A, f + C, y + A, 3, !0)));
+            var f = this.p.v[0], y = this.p.v[1], C = this.s.v[0] / 2, k = this.s.v[1] / 2, M = bmMin(C, k, this.r.v), F = M * (1 - roundCorner);
+            this.v._length = 0, this.d === 2 || this.d === 1 ? (this.v.setTripleAt(f + C, y - k + M, f + C, y - k + M, f + C, y - k + F, 0, !0), this.v.setTripleAt(f + C, y + k - M, f + C, y + k - F, f + C, y + k - M, 1, !0), M !== 0 ? (this.v.setTripleAt(f + C - M, y + k, f + C - M, y + k, f + C - F, y + k, 2, !0), this.v.setTripleAt(f - C + M, y + k, f - C + F, y + k, f - C + M, y + k, 3, !0), this.v.setTripleAt(f - C, y + k - M, f - C, y + k - M, f - C, y + k - F, 4, !0), this.v.setTripleAt(f - C, y - k + M, f - C, y - k + F, f - C, y - k + M, 5, !0), this.v.setTripleAt(f - C + M, y - k, f - C + M, y - k, f - C + F, y - k, 6, !0), this.v.setTripleAt(f + C - M, y - k, f + C - F, y - k, f + C - M, y - k, 7, !0)) : (this.v.setTripleAt(f - C, y + k, f - C + F, y + k, f - C, y + k, 2), this.v.setTripleAt(f - C, y - k, f - C, y - k + F, f - C, y - k, 3))) : (this.v.setTripleAt(f + C, y - k + M, f + C, y - k + F, f + C, y - k + M, 0, !0), M !== 0 ? (this.v.setTripleAt(f + C - M, y - k, f + C - M, y - k, f + C - F, y - k, 1, !0), this.v.setTripleAt(f - C + M, y - k, f - C + F, y - k, f - C + M, y - k, 2, !0), this.v.setTripleAt(f - C, y - k + M, f - C, y - k + M, f - C, y - k + F, 3, !0), this.v.setTripleAt(f - C, y + k - M, f - C, y + k - F, f - C, y + k - M, 4, !0), this.v.setTripleAt(f - C + M, y + k, f - C + M, y + k, f - C + F, y + k, 5, !0), this.v.setTripleAt(f + C - M, y + k, f + C - F, y + k, f + C - M, y + k, 6, !0), this.v.setTripleAt(f + C, y + k - M, f + C, y + k - M, f + C, y + k - F, 7, !0)) : (this.v.setTripleAt(f - C, y - k, f - C + F, y - k, f - C, y - k, 1, !0), this.v.setTripleAt(f - C, y + k, f - C, y + k - F, f - C, y + k, 2, !0), this.v.setTripleAt(f + C, y + k, f + C - F, y + k, f + C, y + k, 3, !0)));
           },
           getValue: function() {
             this.elem.globalData.frameId !== this.frameId && (this.frameId = this.elem.globalData.frameId, this.iterateDynamicProperties(), this._mdf && this.convertRectToPath());
@@ -1893,8 +1893,8 @@ var lottie$1 = { exports: {} };
       function S(u, d, f) {
         var y;
         if (f === 3 || f === 4) {
-          var C = f === 3 ? d.pt : d.ks, A = C.k;
-          A.length ? y = new p(u, d, f) : y = new l(u, d, f);
+          var C = f === 3 ? d.pt : d.ks, k = C.k;
+          k.length ? y = new p(u, d, f) : y = new l(u, d, f);
         } else
           f === 5 ? y = new c(u, d) : f === 6 ? y = new g(u, d) : f === 7 && (y = new E(u, d));
         return y.k && u.addDynamicProperty(y), y;
@@ -1905,8 +1905,8 @@ var lottie$1 = { exports: {} };
       function m() {
         return p;
       }
-      var _ = {};
-      return _.getShapeProp = S, _.getConstructorFunction = x, _.getKeyframedConstructorFunction = m, _;
+      var A = {};
+      return A.getShapeProp = S, A.getConstructorFunction = x, A.getKeyframedConstructorFunction = m, A;
     }();
     /*!
      Transformation Matrix v2.0
@@ -1958,20 +1958,20 @@ var lottie$1 = { exports: {} };
       function c(b, P, V) {
         return !V && V !== 0 && (V = 1), b === 1 && P === 1 && V === 1 ? this : this._t(b, 0, 0, 0, 0, P, 0, 0, 0, 0, V, 0, 0, 0, 0, 1);
       }
-      function S(b, P, V, I, G, $, q, W, j, X, U, rt, K, Z, Q, Y) {
-        return this.props[0] = b, this.props[1] = P, this.props[2] = V, this.props[3] = I, this.props[4] = G, this.props[5] = $, this.props[6] = q, this.props[7] = W, this.props[8] = j, this.props[9] = X, this.props[10] = U, this.props[11] = rt, this.props[12] = K, this.props[13] = Z, this.props[14] = Q, this.props[15] = Y, this;
+      function S(b, P, V, I, G, q, $, j, W, X, U, rt, K, Z, Q, Y) {
+        return this.props[0] = b, this.props[1] = P, this.props[2] = V, this.props[3] = I, this.props[4] = G, this.props[5] = q, this.props[6] = $, this.props[7] = j, this.props[8] = W, this.props[9] = X, this.props[10] = U, this.props[11] = rt, this.props[12] = K, this.props[13] = Z, this.props[14] = Q, this.props[15] = Y, this;
       }
       function x(b, P, V) {
         return V = V || 0, b !== 0 || P !== 0 || V !== 0 ? this._t(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, b, P, V, 1) : this;
       }
-      function m(b, P, V, I, G, $, q, W, j, X, U, rt, K, Z, Q, Y) {
+      function m(b, P, V, I, G, q, $, j, W, X, U, rt, K, Z, Q, Y) {
         var H = this.props;
-        if (b === 1 && P === 0 && V === 0 && I === 0 && G === 0 && $ === 1 && q === 0 && W === 0 && j === 0 && X === 0 && U === 1 && rt === 0)
-          return H[12] = H[12] * b + H[15] * K, H[13] = H[13] * $ + H[15] * Z, H[14] = H[14] * U + H[15] * Q, H[15] *= Y, this._identityCalculated = !1, this;
+        if (b === 1 && P === 0 && V === 0 && I === 0 && G === 0 && q === 1 && $ === 0 && j === 0 && W === 0 && X === 0 && U === 1 && rt === 0)
+          return H[12] = H[12] * b + H[15] * K, H[13] = H[13] * q + H[15] * Z, H[14] = H[14] * U + H[15] * Q, H[15] *= Y, this._identityCalculated = !1, this;
         var st = H[0], ht = H[1], at = H[2], it = H[3], nt = H[4], ot = H[5], J = H[6], lt = H[7], ft = H[8], tt = H[9], pt = H[10], et = H[11], ct = H[12], ut = H[13], dt = H[14], mt = H[15];
-        return H[0] = st * b + ht * G + at * j + it * K, H[1] = st * P + ht * $ + at * X + it * Z, H[2] = st * V + ht * q + at * U + it * Q, H[3] = st * I + ht * W + at * rt + it * Y, H[4] = nt * b + ot * G + J * j + lt * K, H[5] = nt * P + ot * $ + J * X + lt * Z, H[6] = nt * V + ot * q + J * U + lt * Q, H[7] = nt * I + ot * W + J * rt + lt * Y, H[8] = ft * b + tt * G + pt * j + et * K, H[9] = ft * P + tt * $ + pt * X + et * Z, H[10] = ft * V + tt * q + pt * U + et * Q, H[11] = ft * I + tt * W + pt * rt + et * Y, H[12] = ct * b + ut * G + dt * j + mt * K, H[13] = ct * P + ut * $ + dt * X + mt * Z, H[14] = ct * V + ut * q + dt * U + mt * Q, H[15] = ct * I + ut * W + dt * rt + mt * Y, this._identityCalculated = !1, this;
+        return H[0] = st * b + ht * G + at * W + it * K, H[1] = st * P + ht * q + at * X + it * Z, H[2] = st * V + ht * $ + at * U + it * Q, H[3] = st * I + ht * j + at * rt + it * Y, H[4] = nt * b + ot * G + J * W + lt * K, H[5] = nt * P + ot * q + J * X + lt * Z, H[6] = nt * V + ot * $ + J * U + lt * Q, H[7] = nt * I + ot * j + J * rt + lt * Y, H[8] = ft * b + tt * G + pt * W + et * K, H[9] = ft * P + tt * q + pt * X + et * Z, H[10] = ft * V + tt * $ + pt * U + et * Q, H[11] = ft * I + tt * j + pt * rt + et * Y, H[12] = ct * b + ut * G + dt * W + mt * K, H[13] = ct * P + ut * q + dt * X + mt * Z, H[14] = ct * V + ut * $ + dt * U + mt * Q, H[15] = ct * I + ut * j + dt * rt + mt * Y, this._identityCalculated = !1, this;
       }
-      function _(b) {
+      function A(b) {
         var P = b.props;
         return this.transform(P[0], P[1], P[2], P[3], P[4], P[5], P[6], P[7], P[8], P[9], P[10], P[11], P[12], P[13], P[14], P[15]);
       }
@@ -2004,7 +2004,7 @@ var lottie$1 = { exports: {} };
           z: b * this.props[2] + P * this.props[6] + V * this.props[10] + this.props[14]
         };
       }
-      function A(b, P, V) {
+      function k(b, P, V) {
         return b * this.props[0] + P * this.props[4] + V * this.props[8] + this.props[12];
       }
       function M(b, P, V) {
@@ -2014,8 +2014,8 @@ var lottie$1 = { exports: {} };
         return b * this.props[2] + P * this.props[6] + V * this.props[10] + this.props[14];
       }
       function L() {
-        var b = this.props[0] * this.props[5] - this.props[1] * this.props[4], P = this.props[5] / b, V = -this.props[1] / b, I = -this.props[4] / b, G = this.props[0] / b, $ = (this.props[4] * this.props[13] - this.props[5] * this.props[12]) / b, q = -(this.props[0] * this.props[13] - this.props[1] * this.props[12]) / b, W = new Matrix();
-        return W.props[0] = P, W.props[1] = V, W.props[4] = I, W.props[5] = G, W.props[12] = $, W.props[13] = q, W;
+        var b = this.props[0] * this.props[5] - this.props[1] * this.props[4], P = this.props[5] / b, V = -this.props[1] / b, I = -this.props[4] / b, G = this.props[0] / b, q = (this.props[4] * this.props[13] - this.props[5] * this.props[12]) / b, $ = -(this.props[0] * this.props[13] - this.props[1] * this.props[12]) / b, j = new Matrix();
+        return j.props[0] = P, j.props[1] = V, j.props[4] = I, j.props[5] = G, j.props[12] = q, j.props[13] = $, j;
       }
       function N(b) {
         var P = this.getInverseMatrix();
@@ -2032,8 +2032,8 @@ var lottie$1 = { exports: {} };
         if (this.isIdentity())
           I[0] = b[0], I[1] = b[1], I[2] = P[0], I[3] = P[1], I[4] = V[0], I[5] = V[1];
         else {
-          var G = this.props[0], $ = this.props[1], q = this.props[4], W = this.props[5], j = this.props[12], X = this.props[13];
-          I[0] = b[0] * G + b[1] * q + j, I[1] = b[0] * $ + b[1] * W + X, I[2] = P[0] * G + P[1] * q + j, I[3] = P[0] * $ + P[1] * W + X, I[4] = V[0] * G + V[1] * q + j, I[5] = V[0] * $ + V[1] * W + X;
+          var G = this.props[0], q = this.props[1], $ = this.props[4], j = this.props[5], W = this.props[12], X = this.props[13];
+          I[0] = b[0] * G + b[1] * $ + W, I[1] = b[0] * q + b[1] * j + X, I[2] = P[0] * G + P[1] * $ + W, I[3] = P[0] * q + P[1] * j + X, I[4] = V[0] * G + V[1] * $ + W, I[5] = V[0] * q + V[1] * j + X;
         }
         return I;
       }
@@ -2052,16 +2052,16 @@ var lottie$1 = { exports: {} };
           V += i(P[b] * I) / I, V += b === 15 ? ")" : ",", b += 1;
         return V;
       }
-      function k(b) {
+      function _(b) {
         var P = 1e4;
         return b < 1e-6 && b > 0 || b > -1e-6 && b < 0 ? i(b * P) / P : b;
       }
       function T() {
-        var b = this.props, P = k(b[0]), V = k(b[1]), I = k(b[4]), G = k(b[5]), $ = k(b[12]), q = k(b[13]);
-        return "matrix(" + P + "," + V + "," + I + "," + G + "," + $ + "," + q + ")";
+        var b = this.props, P = _(b[0]), V = _(b[1]), I = _(b[4]), G = _(b[5]), q = _(b[12]), $ = _(b[13]);
+        return "matrix(" + P + "," + V + "," + I + "," + G + "," + q + "," + $ + ")";
       }
       return function() {
-        this.reset = s, this.rotate = a, this.rotateX = n, this.rotateY = l, this.rotateZ = o, this.skew = g, this.skewFromAxis = E, this.shear = p, this.scale = c, this.setTransform = S, this.translate = x, this.transform = m, this.multiply = _, this.applyToPoint = C, this.applyToX = A, this.applyToY = M, this.applyToZ = F, this.applyToPointArray = O, this.applyToTriplePoints = B, this.applyToPointStringified = z, this.toCSS = R, this.to2dCSS = T, this.clone = f, this.cloneFromProps = y, this.equals = d, this.inversePoints = D, this.inversePoint = N, this.getInverseMatrix = L, this._t = this.transform, this.isIdentity = u, this._identity = !0, this._identityCalculated = !1, this.props = createTypedArray("float32", 16), this.reset();
+        this.reset = s, this.rotate = a, this.rotateX = n, this.rotateY = l, this.rotateZ = o, this.skew = g, this.skewFromAxis = E, this.shear = p, this.scale = c, this.setTransform = S, this.translate = x, this.transform = m, this.multiply = A, this.applyToPoint = C, this.applyToX = k, this.applyToY = M, this.applyToZ = F, this.applyToPointArray = O, this.applyToTriplePoints = B, this.applyToPointStringified = z, this.toCSS = R, this.to2dCSS = T, this.clone = f, this.cloneFromProps = y, this.equals = d, this.inversePoints = D, this.inversePoint = N, this.getInverseMatrix = L, this._t = this.transform, this.isIdentity = u, this._identity = !0, this._identityCalculated = !1, this.props = createTypedArray("float32", 16), this.reset();
       };
     }();
     function _typeof$3(t) {
@@ -2230,7 +2230,7 @@ var lottie$1 = { exports: {} };
           for (n = 0; n < l; n += 1)
             this.shapes[n].pathsData.length = 0, this.shapes[n].shape._mdf = !0;
       } else {
-        var x = [], m, _;
+        var x = [], m, A;
         for (n = 0; n < l; n += 1)
           if (m = this.shapes[n], !m.shape._mdf && !this._mdf && !t && this.m !== 2)
             m.shape.paths = m.localShapeCollection;
@@ -2247,7 +2247,7 @@ var lottie$1 = { exports: {} };
         var u = e, d = r, f = 0, y;
         for (n = l - 1; n >= 0; n -= 1)
           if (m = this.shapes[n], m.shape._mdf) {
-            for (_ = m.localShapeCollection, _.releaseShapes(), this.m === 2 && l > 1 ? (y = this.calculateShapeEdges(e, r, m.totalShapeLength, f, S), f += m.totalShapeLength) : y = [[u, d]], p = y.length, o = 0; o < p; o += 1) {
+            for (A = m.localShapeCollection, A.releaseShapes(), this.m === 2 && l > 1 ? (y = this.calculateShapeEdges(e, r, m.totalShapeLength, f, S), f += m.totalShapeLength) : y = [[u, d]], p = y.length, o = 0; o < p; o += 1) {
               u = y[o][0], d = y[o][1], x.length = 0, d <= 1 ? x.push({
                 s: m.totalShapeLength * u,
                 e: m.totalShapeLength * d
@@ -2264,17 +2264,17 @@ var lottie$1 = { exports: {} };
               var C = this.addShapes(m, x[0]);
               if (x[0].s !== x[0].e) {
                 if (x.length > 1) {
-                  var A = m.shape.paths.shapes[m.shape.paths._length - 1];
-                  if (A.c) {
+                  var k = m.shape.paths.shapes[m.shape.paths._length - 1];
+                  if (k.c) {
                     var M = C.pop();
-                    this.addPaths(C, _), C = this.addShapes(m, x[1], M);
+                    this.addPaths(C, A), C = this.addShapes(m, x[1], M);
                   } else
-                    this.addPaths(C, _), C = this.addShapes(m, x[1]);
+                    this.addPaths(C, A), C = this.addShapes(m, x[1]);
                 }
-                this.addPaths(C, _);
+                this.addPaths(C, A);
               }
             }
-            m.shape.paths = _;
+            m.shape.paths = A;
           }
       }
     }, TrimModifier.prototype.addPaths = function(t, e) {
@@ -2286,7 +2286,7 @@ var lottie$1 = { exports: {} };
     }, TrimModifier.prototype.addSegmentFromArray = function(t, e, r, i) {
       e.setXYAt(t[1], t[5], "o", r), e.setXYAt(t[2], t[6], "i", r + 1), i && e.setXYAt(t[0], t[4], "v", r), e.setXYAt(t[3], t[7], "v", r + 1);
     }, TrimModifier.prototype.addShapes = function(t, e, r) {
-      var i = t.pathsData, s = t.shape.paths.shapes, a, n = t.shape.paths._length, l, o, p = 0, g, E, c, S, x = [], m, _ = !0;
+      var i = t.pathsData, s = t.shape.paths.shapes, a, n = t.shape.paths._length, l, o, p = 0, g, E, c, S, x = [], m, A = !0;
       for (r ? (E = r._length, m = r._length) : (r = shapePool.newElement(), E = 0, m = 0), x.push(r), a = 0; a < n; a += 1) {
         for (c = i[a].lengths, r.c = s[a].c, o = s[a].c ? c.length : c.length + 1, l = 1; l < o; l += 1)
           if (g = c[l - 1], p + g.addedLength < e.s)
@@ -2295,18 +2295,18 @@ var lottie$1 = { exports: {} };
             r.c = !1;
             break;
           } else
-            e.s <= p && e.e >= p + g.addedLength ? (this.addSegment(s[a].v[l - 1], s[a].o[l - 1], s[a].i[l], s[a].v[l], r, E, _), _ = !1) : (S = bez.getNewSegment(s[a].v[l - 1], s[a].v[l], s[a].o[l - 1], s[a].i[l], (e.s - p) / g.addedLength, (e.e - p) / g.addedLength, c[l - 1]), this.addSegmentFromArray(S, r, E, _), _ = !1, r.c = !1), p += g.addedLength, E += 1;
+            e.s <= p && e.e >= p + g.addedLength ? (this.addSegment(s[a].v[l - 1], s[a].o[l - 1], s[a].i[l], s[a].v[l], r, E, A), A = !1) : (S = bez.getNewSegment(s[a].v[l - 1], s[a].v[l], s[a].o[l - 1], s[a].i[l], (e.s - p) / g.addedLength, (e.e - p) / g.addedLength, c[l - 1]), this.addSegmentFromArray(S, r, E, A), A = !1, r.c = !1), p += g.addedLength, E += 1;
         if (s[a].c && c.length) {
           if (g = c[l - 1], p <= e.e) {
             var u = c[l - 1].addedLength;
-            e.s <= p && e.e >= p + u ? (this.addSegment(s[a].v[l - 1], s[a].o[l - 1], s[a].i[0], s[a].v[0], r, E, _), _ = !1) : (S = bez.getNewSegment(s[a].v[l - 1], s[a].v[0], s[a].o[l - 1], s[a].i[0], (e.s - p) / u, (e.e - p) / u, c[l - 1]), this.addSegmentFromArray(S, r, E, _), _ = !1, r.c = !1);
+            e.s <= p && e.e >= p + u ? (this.addSegment(s[a].v[l - 1], s[a].o[l - 1], s[a].i[0], s[a].v[0], r, E, A), A = !1) : (S = bez.getNewSegment(s[a].v[l - 1], s[a].v[0], s[a].o[l - 1], s[a].i[0], (e.s - p) / u, (e.e - p) / u, c[l - 1]), this.addSegmentFromArray(S, r, E, A), A = !1, r.c = !1);
           } else
             r.c = !1;
           p += g.addedLength, E += 1;
         }
         if (r._length && (r.setXYAt(r.v[m][0], r.v[m][1], "i", m), r.setXYAt(r.v[r._length - 1][0], r.v[r._length - 1][1], "o", r._length - 1)), p > e.e)
           break;
-        a < n - 1 && (r = shapePool.newElement(), _ = !0, x.push(r), E = 0);
+        a < n - 1 && (r = shapePool.newElement(), A = !0, x.push(r), E = 0);
       }
       return x;
     };
@@ -2514,7 +2514,7 @@ var lottie$1 = { exports: {} };
           a += 1;
         }
         this._currentCopies = l;
-        var c = this.o.v, S = c % 1, x = c > 0 ? Math.floor(c) : Math.ceil(c), m = this.pMatrix.props, _ = this.rMatrix.props, u = this.sMatrix.props;
+        var c = this.o.v, S = c % 1, x = c > 0 ? Math.floor(c) : Math.ceil(c), m = this.pMatrix.props, A = this.rMatrix.props, u = this.sMatrix.props;
         this.pMatrix.reset(), this.rMatrix.reset(), this.sMatrix.reset(), this.tMatrix.reset(), this.matrix.reset();
         var d = 0;
         if (c > 0) {
@@ -2529,7 +2529,7 @@ var lottie$1 = { exports: {} };
         i = this.data.m === 1 ? 0 : this._currentCopies - 1, s = this.data.m === 1 ? 1 : -1, a = this._currentCopies;
         for (var f, y; a; ) {
           if (e = this.elemsData[i].it, r = e[e.length - 1].transform.mProps.v.props, y = r.length, e[e.length - 1].transform.mProps._mdf = !0, e[e.length - 1].transform.op._mdf = !0, e[e.length - 1].transform.op.v = this._currentCopies === 1 ? this.so.v : this.so.v + (this.eo.v - this.so.v) * (i / (this._currentCopies - 1)), d !== 0) {
-            for ((i !== 0 && s === 1 || i !== this._currentCopies - 1 && s === -1) && this.applyTransforms(this.pMatrix, this.rMatrix, this.sMatrix, this.tr, 1, !1), this.matrix.transform(_[0], _[1], _[2], _[3], _[4], _[5], _[6], _[7], _[8], _[9], _[10], _[11], _[12], _[13], _[14], _[15]), this.matrix.transform(u[0], u[1], u[2], u[3], u[4], u[5], u[6], u[7], u[8], u[9], u[10], u[11], u[12], u[13], u[14], u[15]), this.matrix.transform(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10], m[11], m[12], m[13], m[14], m[15]), f = 0; f < y; f += 1)
+            for ((i !== 0 && s === 1 || i !== this._currentCopies - 1 && s === -1) && this.applyTransforms(this.pMatrix, this.rMatrix, this.sMatrix, this.tr, 1, !1), this.matrix.transform(A[0], A[1], A[2], A[3], A[4], A[5], A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15]), this.matrix.transform(u[0], u[1], u[2], u[3], u[4], u[5], u[6], u[7], u[8], u[9], u[10], u[11], u[12], u[13], u[14], u[15]), this.matrix.transform(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10], m[11], m[12], m[13], m[14], m[15]), f = 0; f < y; f += 1)
               r[f] = this.matrix.props[f];
             this.matrix.reset();
           } else
@@ -2550,9 +2550,9 @@ var lottie$1 = { exports: {} };
     }, RoundCornersModifier.prototype.processPath = function(t, e) {
       var r = shapePool.newElement();
       r.c = t.c;
-      var i, s = t._length, a, n, l, o, p, g, E = 0, c, S, x, m, _, u;
+      var i, s = t._length, a, n, l, o, p, g, E = 0, c, S, x, m, A, u;
       for (i = 0; i < s; i += 1)
-        a = t.v[i], l = t.o[i], n = t.i[i], a[0] === l[0] && a[1] === l[1] && a[0] === n[0] && a[1] === n[1] ? (i === 0 || i === s - 1) && !t.c ? (r.setTripleAt(a[0], a[1], l[0], l[1], n[0], n[1], E), E += 1) : (i === 0 ? o = t.v[s - 1] : o = t.v[i - 1], p = Math.sqrt(Math.pow(a[0] - o[0], 2) + Math.pow(a[1] - o[1], 2)), g = p ? Math.min(p / 2, e) / p : 0, _ = a[0] + (o[0] - a[0]) * g, c = _, u = a[1] - (a[1] - o[1]) * g, S = u, x = c - (c - a[0]) * roundCorner, m = S - (S - a[1]) * roundCorner, r.setTripleAt(c, S, x, m, _, u, E), E += 1, i === s - 1 ? o = t.v[0] : o = t.v[i + 1], p = Math.sqrt(Math.pow(a[0] - o[0], 2) + Math.pow(a[1] - o[1], 2)), g = p ? Math.min(p / 2, e) / p : 0, x = a[0] + (o[0] - a[0]) * g, c = x, m = a[1] + (o[1] - a[1]) * g, S = m, _ = c - (c - a[0]) * roundCorner, u = S - (S - a[1]) * roundCorner, r.setTripleAt(c, S, x, m, _, u, E), E += 1) : (r.setTripleAt(t.v[i][0], t.v[i][1], t.o[i][0], t.o[i][1], t.i[i][0], t.i[i][1], E), E += 1);
+        a = t.v[i], l = t.o[i], n = t.i[i], a[0] === l[0] && a[1] === l[1] && a[0] === n[0] && a[1] === n[1] ? (i === 0 || i === s - 1) && !t.c ? (r.setTripleAt(a[0], a[1], l[0], l[1], n[0], n[1], E), E += 1) : (i === 0 ? o = t.v[s - 1] : o = t.v[i - 1], p = Math.sqrt(Math.pow(a[0] - o[0], 2) + Math.pow(a[1] - o[1], 2)), g = p ? Math.min(p / 2, e) / p : 0, A = a[0] + (o[0] - a[0]) * g, c = A, u = a[1] - (a[1] - o[1]) * g, S = u, x = c - (c - a[0]) * roundCorner, m = S - (S - a[1]) * roundCorner, r.setTripleAt(c, S, x, m, A, u, E), E += 1, i === s - 1 ? o = t.v[0] : o = t.v[i + 1], p = Math.sqrt(Math.pow(a[0] - o[0], 2) + Math.pow(a[1] - o[1], 2)), g = p ? Math.min(p / 2, e) / p : 0, x = a[0] + (o[0] - a[0]) * g, c = x, m = a[1] + (o[1] - a[1]) * g, S = m, A = c - (c - a[0]) * roundCorner, u = S - (S - a[1]) * roundCorner, r.setTripleAt(c, S, x, m, A, u, E), E += 1) : (r.setTripleAt(t.v[i][0], t.v[i][1], t.o[i][0], t.o[i][1], t.i[i][0], t.i[i][1], E), E += 1);
       return r;
     }, RoundCornersModifier.prototype.processShapes = function(t) {
       var e, r, i = this.shapes.length, s, a, n = this.rd.v;
@@ -2894,81 +2894,81 @@ var lottie$1 = { exports: {} };
       }, r = [];
       r = r.concat([2304, 2305, 2306, 2307, 2362, 2363, 2364, 2364, 2366, 2367, 2368, 2369, 2370, 2371, 2372, 2373, 2374, 2375, 2376, 2377, 2378, 2379, 2380, 2381, 2382, 2383, 2387, 2388, 2389, 2390, 2391, 2402, 2403]);
       var i = 127988, s = 917631, a = 917601, n = 917626, l = 65039, o = 8205, p = 127462, g = 127487, E = ["d83cdffb", "d83cdffc", "d83cdffd", "d83cdffe", "d83cdfff"];
-      function c(k) {
-        var T = k.split(","), b, P = T.length, V = [];
+      function c(_) {
+        var T = _.split(","), b, P = T.length, V = [];
         for (b = 0; b < P; b += 1)
           T[b] !== "sans-serif" && T[b] !== "monospace" && V.push(T[b]);
         return V.join(",");
       }
-      function S(k, T) {
+      function S(_, T) {
         var b = createTag("span");
         b.setAttribute("aria-hidden", !0), b.style.fontFamily = T;
         var P = createTag("span");
         P.innerText = "giItT1WQy@!-/#", b.style.position = "absolute", b.style.left = "-10000px", b.style.top = "-10000px", b.style.fontSize = "300px", b.style.fontVariant = "normal", b.style.fontStyle = "normal", b.style.fontWeight = "normal", b.style.letterSpacing = "0", b.appendChild(P), document.body.appendChild(b);
         var V = P.offsetWidth;
-        return P.style.fontFamily = c(k) + ", " + T, {
+        return P.style.fontFamily = c(_) + ", " + T, {
           node: P,
           w: V,
           parent: b
         };
       }
       function x() {
-        var k, T = this.fonts.length, b, P, V = T;
-        for (k = 0; k < T; k += 1)
-          this.fonts[k].loaded ? V -= 1 : this.fonts[k].fOrigin === "n" || this.fonts[k].origin === 0 ? this.fonts[k].loaded = !0 : (b = this.fonts[k].monoCase.node, P = this.fonts[k].monoCase.w, b.offsetWidth !== P ? (V -= 1, this.fonts[k].loaded = !0) : (b = this.fonts[k].sansCase.node, P = this.fonts[k].sansCase.w, b.offsetWidth !== P && (V -= 1, this.fonts[k].loaded = !0)), this.fonts[k].loaded && (this.fonts[k].sansCase.parent.parentNode.removeChild(this.fonts[k].sansCase.parent), this.fonts[k].monoCase.parent.parentNode.removeChild(this.fonts[k].monoCase.parent)));
+        var _, T = this.fonts.length, b, P, V = T;
+        for (_ = 0; _ < T; _ += 1)
+          this.fonts[_].loaded ? V -= 1 : this.fonts[_].fOrigin === "n" || this.fonts[_].origin === 0 ? this.fonts[_].loaded = !0 : (b = this.fonts[_].monoCase.node, P = this.fonts[_].monoCase.w, b.offsetWidth !== P ? (V -= 1, this.fonts[_].loaded = !0) : (b = this.fonts[_].sansCase.node, P = this.fonts[_].sansCase.w, b.offsetWidth !== P && (V -= 1, this.fonts[_].loaded = !0)), this.fonts[_].loaded && (this.fonts[_].sansCase.parent.parentNode.removeChild(this.fonts[_].sansCase.parent), this.fonts[_].monoCase.parent.parentNode.removeChild(this.fonts[_].monoCase.parent)));
         V !== 0 && Date.now() - this.initTime < t ? setTimeout(this.checkLoadedFontsBinded, 20) : setTimeout(this.setIsLoadedBinded, 10);
       }
-      function m(k, T) {
-        var b = document.body && T ? "svg" : "canvas", P, V = getFontProperties(k);
+      function m(_, T) {
+        var b = document.body && T ? "svg" : "canvas", P, V = getFontProperties(_);
         if (b === "svg") {
           var I = createNS("text");
-          I.style.fontSize = "100px", I.setAttribute("font-family", k.fFamily), I.setAttribute("font-style", V.style), I.setAttribute("font-weight", V.weight), I.textContent = "1", k.fClass ? (I.style.fontFamily = "inherit", I.setAttribute("class", k.fClass)) : I.style.fontFamily = k.fFamily, T.appendChild(I), P = I;
+          I.style.fontSize = "100px", I.setAttribute("font-family", _.fFamily), I.setAttribute("font-style", V.style), I.setAttribute("font-weight", V.weight), I.textContent = "1", _.fClass ? (I.style.fontFamily = "inherit", I.setAttribute("class", _.fClass)) : I.style.fontFamily = _.fFamily, T.appendChild(I), P = I;
         } else {
           var G = new OffscreenCanvas(500, 500).getContext("2d");
-          G.font = V.style + " " + V.weight + " 100px " + k.fFamily, P = G;
+          G.font = V.style + " " + V.weight + " 100px " + _.fFamily, P = G;
         }
-        function $(q) {
-          return b === "svg" ? (P.textContent = q, P.getComputedTextLength()) : P.measureText(q).width;
+        function q($) {
+          return b === "svg" ? (P.textContent = $, P.getComputedTextLength()) : P.measureText($).width;
         }
         return {
-          measureText: $
+          measureText: q
         };
       }
-      function _(k, T) {
-        if (!k) {
+      function A(_, T) {
+        if (!_) {
           this.isLoaded = !0;
           return;
         }
         if (this.chars) {
-          this.isLoaded = !0, this.fonts = k.list;
+          this.isLoaded = !0, this.fonts = _.list;
           return;
         }
         if (!document.body) {
-          this.isLoaded = !0, k.list.forEach(function(U) {
+          this.isLoaded = !0, _.list.forEach(function(U) {
             U.helper = m(U), U.cache = {};
-          }), this.fonts = k.list;
+          }), this.fonts = _.list;
           return;
         }
-        var b = k.list, P, V = b.length, I = V;
+        var b = _.list, P, V = b.length, I = V;
         for (P = 0; P < V; P += 1) {
-          var G = !0, $, q;
+          var G = !0, q, $;
           if (b[P].loaded = !1, b[P].monoCase = S(b[P].fFamily, "monospace"), b[P].sansCase = S(b[P].fFamily, "sans-serif"), !b[P].fPath)
             b[P].loaded = !0, I -= 1;
           else if (b[P].fOrigin === "p" || b[P].origin === 3) {
-            if ($ = document.querySelectorAll('style[f-forigin="p"][f-family="' + b[P].fFamily + '"], style[f-origin="3"][f-family="' + b[P].fFamily + '"]'), $.length > 0 && (G = !1), G) {
-              var W = createTag("style");
-              W.setAttribute("f-forigin", b[P].fOrigin), W.setAttribute("f-origin", b[P].origin), W.setAttribute("f-family", b[P].fFamily), W.type = "text/css", W.innerText = "@font-face {font-family: " + b[P].fFamily + "; font-style: normal; src: url('" + b[P].fPath + "');}", T.appendChild(W);
+            if (q = document.querySelectorAll('style[f-forigin="p"][f-family="' + b[P].fFamily + '"], style[f-origin="3"][f-family="' + b[P].fFamily + '"]'), q.length > 0 && (G = !1), G) {
+              var j = createTag("style");
+              j.setAttribute("f-forigin", b[P].fOrigin), j.setAttribute("f-origin", b[P].origin), j.setAttribute("f-family", b[P].fFamily), j.type = "text/css", j.innerText = "@font-face {font-family: " + b[P].fFamily + "; font-style: normal; src: url('" + b[P].fPath + "');}", T.appendChild(j);
             }
           } else if (b[P].fOrigin === "g" || b[P].origin === 1) {
-            for ($ = document.querySelectorAll('link[f-forigin="g"], link[f-origin="1"]'), q = 0; q < $.length; q += 1)
-              $[q].href.indexOf(b[P].fPath) !== -1 && (G = !1);
+            for (q = document.querySelectorAll('link[f-forigin="g"], link[f-origin="1"]'), $ = 0; $ < q.length; $ += 1)
+              q[$].href.indexOf(b[P].fPath) !== -1 && (G = !1);
             if (G) {
-              var j = createTag("link");
-              j.setAttribute("f-forigin", b[P].fOrigin), j.setAttribute("f-origin", b[P].origin), j.type = "text/css", j.rel = "stylesheet", j.href = b[P].fPath, document.body.appendChild(j);
+              var W = createTag("link");
+              W.setAttribute("f-forigin", b[P].fOrigin), W.setAttribute("f-origin", b[P].origin), W.type = "text/css", W.rel = "stylesheet", W.href = b[P].fPath, document.body.appendChild(W);
             }
           } else if (b[P].fOrigin === "t" || b[P].origin === 2) {
-            for ($ = document.querySelectorAll('script[f-forigin="t"], script[f-origin="2"]'), q = 0; q < $.length; q += 1)
-              b[P].fPath === $[q].src && (G = !1);
+            for (q = document.querySelectorAll('script[f-forigin="t"], script[f-origin="2"]'), $ = 0; $ < q.length; $ += 1)
+              b[P].fPath === q[$].src && (G = !1);
             if (G) {
               var X = createTag("link");
               X.setAttribute("f-forigin", b[P].fOrigin), X.setAttribute("f-origin", b[P].origin), X.setAttribute("rel", "stylesheet"), X.setAttribute("href", b[P].fPath), T.appendChild(X);
@@ -2978,84 +2978,84 @@ var lottie$1 = { exports: {} };
         }
         I === 0 ? this.isLoaded = !0 : setTimeout(this.checkLoadedFonts.bind(this), 100);
       }
-      function u(k) {
-        if (k) {
+      function u(_) {
+        if (_) {
           this.chars || (this.chars = []);
-          var T, b = k.length, P, V = this.chars.length, I;
+          var T, b = _.length, P, V = this.chars.length, I;
           for (T = 0; T < b; T += 1) {
             for (P = 0, I = !1; P < V; )
-              this.chars[P].style === k[T].style && this.chars[P].fFamily === k[T].fFamily && this.chars[P].ch === k[T].ch && (I = !0), P += 1;
-            I || (this.chars.push(k[T]), V += 1);
+              this.chars[P].style === _[T].style && this.chars[P].fFamily === _[T].fFamily && this.chars[P].ch === _[T].ch && (I = !0), P += 1;
+            I || (this.chars.push(_[T]), V += 1);
           }
         }
       }
-      function d(k, T, b) {
+      function d(_, T, b) {
         for (var P = 0, V = this.chars.length; P < V; ) {
-          if (this.chars[P].ch === k && this.chars[P].style === T && this.chars[P].fFamily === b)
+          if (this.chars[P].ch === _ && this.chars[P].style === T && this.chars[P].fFamily === b)
             return this.chars[P];
           P += 1;
         }
-        return (typeof k == "string" && k.charCodeAt(0) !== 13 || !k) && console && console.warn && !this._warned && (this._warned = !0, console.warn("Missing character from exported characters list: ", k, T, b)), e;
+        return (typeof _ == "string" && _.charCodeAt(0) !== 13 || !_) && console && console.warn && !this._warned && (this._warned = !0, console.warn("Missing character from exported characters list: ", _, T, b)), e;
       }
-      function f(k, T, b) {
-        var P = this.getFontByName(T), V = k;
+      function f(_, T, b) {
+        var P = this.getFontByName(T), V = _;
         if (!P.cache[V]) {
           var I = P.helper;
-          if (k === " ") {
-            var G = I.measureText("|" + k + "|"), $ = I.measureText("||");
-            P.cache[V] = (G - $) / 100;
+          if (_ === " ") {
+            var G = I.measureText("|" + _ + "|"), q = I.measureText("||");
+            P.cache[V] = (G - q) / 100;
           } else
-            P.cache[V] = I.measureText(k) / 100;
+            P.cache[V] = I.measureText(_) / 100;
         }
         return P.cache[V] * b;
       }
-      function y(k) {
+      function y(_) {
         for (var T = 0, b = this.fonts.length; T < b; ) {
-          if (this.fonts[T].fName === k)
+          if (this.fonts[T].fName === _)
             return this.fonts[T];
           T += 1;
         }
         return this.fonts[0];
       }
-      function C(k) {
-        var T = 0, b = k.charCodeAt(0);
+      function C(_) {
+        var T = 0, b = _.charCodeAt(0);
         if (b >= 55296 && b <= 56319) {
-          var P = k.charCodeAt(1);
+          var P = _.charCodeAt(1);
           P >= 56320 && P <= 57343 && (T = (b - 55296) * 1024 + P - 56320 + 65536);
         }
         return T;
       }
-      function A(k, T) {
-        var b = k.toString(16) + T.toString(16);
+      function k(_, T) {
+        var b = _.toString(16) + T.toString(16);
         return E.indexOf(b) !== -1;
       }
-      function M(k) {
-        return k === o;
+      function M(_) {
+        return _ === o;
       }
-      function F(k) {
-        return k === l;
+      function F(_) {
+        return _ === l;
       }
-      function L(k) {
-        var T = C(k);
+      function L(_) {
+        var T = C(_);
         return T >= p && T <= g;
       }
-      function N(k) {
-        return L(k.substr(0, 2)) && L(k.substr(2, 2));
+      function N(_) {
+        return L(_.substr(0, 2)) && L(_.substr(2, 2));
       }
-      function D(k) {
-        return r.indexOf(k) !== -1;
+      function D(_) {
+        return r.indexOf(_) !== -1;
       }
-      function B(k, T) {
-        var b = C(k.substr(T, 2));
+      function B(_, T) {
+        var b = C(_.substr(T, 2));
         if (b !== i)
           return !1;
         var P = 0;
         for (T += 2; P < 5; ) {
-          if (b = C(k.substr(T, 2)), b < a || b > n)
+          if (b = C(_.substr(T, 2)), b < a || b > n)
             return !1;
           P += 1, T += 2;
         }
-        return C(k.substr(T, 2)) === s;
+        return C(_.substr(T, 2)) === s;
       }
       function O() {
         this.isLoaded = !0;
@@ -3063,10 +3063,10 @@ var lottie$1 = { exports: {} };
       var z = function() {
         this.fonts = [], this.chars = null, this.typekitLoaded = 0, this.isLoaded = !1, this._warned = !1, this.initTime = Date.now(), this.setIsLoadedBinded = this.setIsLoaded.bind(this), this.checkLoadedFontsBinded = this.checkLoadedFonts.bind(this);
       };
-      z.isModifier = A, z.isZeroWidthJoiner = M, z.isFlagEmoji = N, z.isRegionalCode = L, z.isCombinedCharacter = D, z.isRegionalFlag = B, z.isVariationSelector = F, z.BLACK_FLAG_CODE_POINT = i;
+      z.isModifier = k, z.isZeroWidthJoiner = M, z.isFlagEmoji = N, z.isRegionalCode = L, z.isCombinedCharacter = D, z.isRegionalFlag = B, z.isVariationSelector = F, z.BLACK_FLAG_CODE_POINT = i;
       var R = {
         addChars: u,
-        addFonts: _,
+        addFonts: A,
         getCharData: d,
         getFontByName: y,
         measureText: f,
@@ -3529,7 +3529,7 @@ var lottie$1 = { exports: {} };
       this.data = t, this.element = e, this.globalData = r, this.storedData = [], this.masksProperties = this.data.masksProperties || [], this.maskElement = null;
       var i = this.globalData.defs, s, a = this.masksProperties ? this.masksProperties.length : 0;
       this.viewData = createSizedArray(a), this.solidPath = "";
-      var n, l = this.masksProperties, o = 0, p = [], g, E, c = createElementID(), S, x, m, _, u = "clipPath", d = "clip-path";
+      var n, l = this.masksProperties, o = 0, p = [], g, E, c = createElementID(), S, x, m, A, u = "clipPath", d = "clip-path";
       for (s = 0; s < a; s += 1)
         if ((l[s].mode !== "a" && l[s].mode !== "n" || l[s].inv || l[s].o.k !== 100 || l[s].o.x) && (u = "mask", d = "mask"), (l[s].mode === "s" || l[s].mode === "i") && o === 0 ? (S = createNS("rect"), S.setAttribute("fill", "#ffffff"), S.setAttribute("width", this.element.comp.data.w || 0), S.setAttribute("height", this.element.comp.data.h || 0), p.push(S)) : S = null, n = createNS("path"), l[s].mode === "n")
           this.viewData[s] = {
@@ -3541,9 +3541,9 @@ var lottie$1 = { exports: {} };
         else {
           o += 1, n.setAttribute("fill", l[s].mode === "s" ? "#000000" : "#ffffff"), n.setAttribute("clip-rule", "nonzero");
           var f;
-          if (l[s].x.k !== 0 ? (u = "mask", d = "mask", _ = PropertyFactory.getProp(this.element, l[s].x, 0, null, this.element), f = createElementID(), x = createNS("filter"), x.setAttribute("id", f), m = createNS("feMorphology"), m.setAttribute("operator", "erode"), m.setAttribute("in", "SourceGraphic"), m.setAttribute("radius", "0"), x.appendChild(m), i.appendChild(x), n.setAttribute("stroke", l[s].mode === "s" ? "#000000" : "#ffffff")) : (m = null, _ = null), this.storedData[s] = {
+          if (l[s].x.k !== 0 ? (u = "mask", d = "mask", A = PropertyFactory.getProp(this.element, l[s].x, 0, null, this.element), f = createElementID(), x = createNS("filter"), x.setAttribute("id", f), m = createNS("feMorphology"), m.setAttribute("operator", "erode"), m.setAttribute("in", "SourceGraphic"), m.setAttribute("radius", "0"), x.appendChild(m), i.appendChild(x), n.setAttribute("stroke", l[s].mode === "s" ? "#000000" : "#ffffff")) : (m = null, A = null), this.storedData[s] = {
             elem: n,
-            x: _,
+            x: A,
             expan: m,
             lastPath: "",
             lastOperator: "",
@@ -4023,7 +4023,7 @@ var lottie$1 = { exports: {} };
       function a() {
       }
       function n(E, c, S) {
-        var x, m, _, u, d, f, y = c.styles.length, C = c.lvl, A, M, F, L;
+        var x, m, A, u, d, f, y = c.styles.length, C = c.lvl, k, M, F, L;
         for (f = 0; f < y; f += 1) {
           if (u = c.sh._mdf || S, c.styles[f].lvl < C) {
             for (M = e.reset(), F = C - c.styles[f].lvl, L = c.transformers.length - 1; !u && F > 0; )
@@ -4033,13 +4033,13 @@ var lottie$1 = { exports: {} };
                 M.multiply(c.transformers[L].mProps.v), F -= 1, L -= 1;
           } else
             M = t;
-          if (A = c.sh.paths, m = A._length, u) {
-            for (_ = "", x = 0; x < m; x += 1)
-              d = A.shapes[x], d && d._length && (_ += buildShapeString(d, d._length, d.c, M));
-            c.caches[f] = _;
+          if (k = c.sh.paths, m = k._length, u) {
+            for (A = "", x = 0; x < m; x += 1)
+              d = k.shapes[x], d && d._length && (A += buildShapeString(d, d._length, d.c, M));
+            c.caches[f] = A;
           } else
-            _ = c.caches[f];
-          c.styles[f].d += E.hd === !0 ? "" : _, c.styles[f]._mdf = u || c.styles[f]._mdf;
+            A = c.caches[f];
+          c.styles[f].d += E.hd === !0 ? "" : A, c.styles[f]._mdf = u || c.styles[f]._mdf;
         }
       }
       function l(E, c, S) {
@@ -4050,37 +4050,37 @@ var lottie$1 = { exports: {} };
         p(E, c, S), g(E, c, S);
       }
       function p(E, c, S) {
-        var x = c.gf, m = c.g._hasOpacity, _ = c.s.v, u = c.e.v;
+        var x = c.gf, m = c.g._hasOpacity, A = c.s.v, u = c.e.v;
         if (c.o._mdf || S) {
           var d = E.ty === "gf" ? "fill-opacity" : "stroke-opacity";
           c.style.pElem.setAttribute(d, c.o.v);
         }
         if (c.s._mdf || S) {
           var f = E.t === 1 ? "x1" : "cx", y = f === "x1" ? "y1" : "cy";
-          x.setAttribute(f, _[0]), x.setAttribute(y, _[1]), m && !c.g._collapsable && (c.of.setAttribute(f, _[0]), c.of.setAttribute(y, _[1]));
+          x.setAttribute(f, A[0]), x.setAttribute(y, A[1]), m && !c.g._collapsable && (c.of.setAttribute(f, A[0]), c.of.setAttribute(y, A[1]));
         }
-        var C, A, M, F;
+        var C, k, M, F;
         if (c.g._cmdf || S) {
           C = c.cst;
           var L = c.g.c;
-          for (M = C.length, A = 0; A < M; A += 1)
-            F = C[A], F.setAttribute("offset", L[A * 4] + "%"), F.setAttribute("stop-color", "rgb(" + L[A * 4 + 1] + "," + L[A * 4 + 2] + "," + L[A * 4 + 3] + ")");
+          for (M = C.length, k = 0; k < M; k += 1)
+            F = C[k], F.setAttribute("offset", L[k * 4] + "%"), F.setAttribute("stop-color", "rgb(" + L[k * 4 + 1] + "," + L[k * 4 + 2] + "," + L[k * 4 + 3] + ")");
         }
         if (m && (c.g._omdf || S)) {
           var N = c.g.o;
-          for (c.g._collapsable ? C = c.cst : C = c.ost, M = C.length, A = 0; A < M; A += 1)
-            F = C[A], c.g._collapsable || F.setAttribute("offset", N[A * 2] + "%"), F.setAttribute("stop-opacity", N[A * 2 + 1]);
+          for (c.g._collapsable ? C = c.cst : C = c.ost, M = C.length, k = 0; k < M; k += 1)
+            F = C[k], c.g._collapsable || F.setAttribute("offset", N[k * 2] + "%"), F.setAttribute("stop-opacity", N[k * 2 + 1]);
         }
         if (E.t === 1)
           (c.e._mdf || S) && (x.setAttribute("x2", u[0]), x.setAttribute("y2", u[1]), m && !c.g._collapsable && (c.of.setAttribute("x2", u[0]), c.of.setAttribute("y2", u[1])));
         else {
           var D;
-          if ((c.s._mdf || c.e._mdf || S) && (D = Math.sqrt(Math.pow(_[0] - u[0], 2) + Math.pow(_[1] - u[1], 2)), x.setAttribute("r", D), m && !c.g._collapsable && c.of.setAttribute("r", D)), c.e._mdf || c.h._mdf || c.a._mdf || S) {
-            D || (D = Math.sqrt(Math.pow(_[0] - u[0], 2) + Math.pow(_[1] - u[1], 2)));
-            var B = Math.atan2(u[1] - _[1], u[0] - _[0]), O = c.h.v;
+          if ((c.s._mdf || c.e._mdf || S) && (D = Math.sqrt(Math.pow(A[0] - u[0], 2) + Math.pow(A[1] - u[1], 2)), x.setAttribute("r", D), m && !c.g._collapsable && c.of.setAttribute("r", D)), c.e._mdf || c.h._mdf || c.a._mdf || S) {
+            D || (D = Math.sqrt(Math.pow(A[0] - u[0], 2) + Math.pow(A[1] - u[1], 2)));
+            var B = Math.atan2(u[1] - A[1], u[0] - A[0]), O = c.h.v;
             O >= 1 ? O = 0.99 : O <= -1 && (O = -0.99);
-            var z = D * O, R = Math.cos(B + c.a.v) * z + _[0], k = Math.sin(B + c.a.v) * z + _[1];
-            x.setAttribute("fx", R), x.setAttribute("fy", k), m && !c.g._collapsable && (c.of.setAttribute("fx", R), c.of.setAttribute("fy", k));
+            var z = D * O, R = Math.cos(B + c.a.v) * z + A[0], _ = Math.sin(B + c.a.v) * z + A[1];
+            x.setAttribute("fx", R), x.setAttribute("fy", _), m && !c.g._collapsable && (c.of.setAttribute("fx", R), c.of.setAttribute("fy", _));
           }
         }
       }
@@ -4155,19 +4155,19 @@ var lottie$1 = { exports: {} };
         this.dynamicProperties[t].getValue();
       this.renderModifiers();
     }, SVGShapeElement.prototype.searchShapes = function(t, e, r, i, s, a, n) {
-      var l = [].concat(a), o, p = t.length - 1, g, E, c = [], S = [], x, m, _;
+      var l = [].concat(a), o, p = t.length - 1, g, E, c = [], S = [], x, m, A;
       for (o = p; o >= 0; o -= 1) {
-        if (_ = this.searchProcessedElement(t[o]), _ ? e[o] = r[_ - 1] : t[o]._render = n, t[o].ty === "fl" || t[o].ty === "st" || t[o].ty === "gf" || t[o].ty === "gs" || t[o].ty === "no")
-          _ ? e[o].style.closed = !1 : e[o] = this.createStyleElement(t[o], s), t[o]._render && e[o].style.pElem.parentNode !== i && i.appendChild(e[o].style.pElem), c.push(e[o].style);
+        if (A = this.searchProcessedElement(t[o]), A ? e[o] = r[A - 1] : t[o]._render = n, t[o].ty === "fl" || t[o].ty === "st" || t[o].ty === "gf" || t[o].ty === "gs" || t[o].ty === "no")
+          A ? e[o].style.closed = !1 : e[o] = this.createStyleElement(t[o], s), t[o]._render && e[o].style.pElem.parentNode !== i && i.appendChild(e[o].style.pElem), c.push(e[o].style);
         else if (t[o].ty === "gr") {
-          if (!_)
+          if (!A)
             e[o] = this.createGroupElement(t[o]);
           else
             for (E = e[o].it.length, g = 0; g < E; g += 1)
               e[o].prevViewData[g] = e[o].it[g];
           this.searchShapes(t[o].it, e[o].it, e[o].prevViewData, e[o].gr, s + 1, l, n), t[o]._render && e[o].gr.parentNode !== i && i.appendChild(e[o].gr);
         } else
-          t[o].ty === "tr" ? (_ || (e[o] = this.createTransformElement(t[o], i)), x = e[o].transform, l.push(x)) : t[o].ty === "sh" || t[o].ty === "rc" || t[o].ty === "el" || t[o].ty === "sr" ? (_ || (e[o] = this.createShapeElement(t[o], l, s)), this.setElementStyles(e[o])) : t[o].ty === "tm" || t[o].ty === "rd" || t[o].ty === "ms" || t[o].ty === "pb" || t[o].ty === "zz" || t[o].ty === "op" ? (_ ? (m = e[o], m.closed = !1) : (m = ShapeModifiers.getModifier(t[o].ty), m.init(this, t[o]), e[o] = m, this.shapeModifiers.push(m)), S.push(m)) : t[o].ty === "rp" && (_ ? (m = e[o], m.closed = !0) : (m = ShapeModifiers.getModifier(t[o].ty), e[o] = m, m.init(this, t, o, e), this.shapeModifiers.push(m), n = !1), S.push(m));
+          t[o].ty === "tr" ? (A || (e[o] = this.createTransformElement(t[o], i)), x = e[o].transform, l.push(x)) : t[o].ty === "sh" || t[o].ty === "rc" || t[o].ty === "el" || t[o].ty === "sr" ? (A || (e[o] = this.createShapeElement(t[o], l, s)), this.setElementStyles(e[o])) : t[o].ty === "tm" || t[o].ty === "rd" || t[o].ty === "ms" || t[o].ty === "pb" || t[o].ty === "zz" || t[o].ty === "op" ? (A ? (m = e[o], m.closed = !1) : (m = ShapeModifiers.getModifier(t[o].ty), m.init(this, t[o]), e[o] = m, this.shapeModifiers.push(m)), S.push(m)) : t[o].ty === "rp" && (A ? (m = e[o], m.closed = !0) : (m = ShapeModifiers.getModifier(t[o].ty), e[o] = m, m.init(this, t, o, e), this.shapeModifiers.push(m), n = !1), S.push(m));
         this.addProcessedElement(t[o], o + 1);
       }
       for (p = c.length, o = 0; o < p; o += 1)
@@ -4271,21 +4271,21 @@ var lottie$1 = { exports: {} };
       return e;
     }, TextProperty.prototype.completeTextData = function(t) {
       t.__complete = !0;
-      var e = this.elem.globalData.fontManager, r = this.data, i = [], s, a, n, l = 0, o, p = r.m.g, g = 0, E = 0, c = 0, S = [], x = 0, m = 0, _, u, d = e.getFontByName(t.f), f, y = 0, C = getFontProperties(d);
+      var e = this.elem.globalData.fontManager, r = this.data, i = [], s, a, n, l = 0, o, p = r.m.g, g = 0, E = 0, c = 0, S = [], x = 0, m = 0, A, u, d = e.getFontByName(t.f), f, y = 0, C = getFontProperties(d);
       t.fWeight = C.weight, t.fStyle = C.style, t.finalSize = t.s, t.finalText = this.buildFinalText(t.t), a = t.finalText.length, t.finalLineHeight = t.lh;
-      var A = t.tr / 1e3 * t.finalSize, M;
+      var k = t.tr / 1e3 * t.finalSize, M;
       if (t.sz)
         for (var F = !0, L = t.sz[0], N = t.sz[1], D, B; F; ) {
-          B = this.buildFinalText(t.t), D = 0, x = 0, a = B.length, A = t.tr / 1e3 * t.finalSize;
+          B = this.buildFinalText(t.t), D = 0, x = 0, a = B.length, k = t.tr / 1e3 * t.finalSize;
           var O = -1;
           for (s = 0; s < a; s += 1)
-            M = B[s].charCodeAt(0), n = !1, B[s] === " " ? O = s : (M === 13 || M === 3) && (x = 0, n = !0, D += t.finalLineHeight || t.finalSize * 1.2), e.chars ? (f = e.getCharData(B[s], d.fStyle, d.fFamily), y = n ? 0 : f.w * t.finalSize / 100) : y = e.measureText(B[s], t.f, t.finalSize), x + y > L && B[s] !== " " ? (O === -1 ? a += 1 : s = O, D += t.finalLineHeight || t.finalSize * 1.2, B.splice(s, O === s ? 1 : 0, "\r"), O = -1, x = 0) : (x += y, x += A);
+            M = B[s].charCodeAt(0), n = !1, B[s] === " " ? O = s : (M === 13 || M === 3) && (x = 0, n = !0, D += t.finalLineHeight || t.finalSize * 1.2), e.chars ? (f = e.getCharData(B[s], d.fStyle, d.fFamily), y = n ? 0 : f.w * t.finalSize / 100) : y = e.measureText(B[s], t.f, t.finalSize), x + y > L && B[s] !== " " ? (O === -1 ? a += 1 : s = O, D += t.finalLineHeight || t.finalSize * 1.2, B.splice(s, O === s ? 1 : 0, "\r"), O = -1, x = 0) : (x += y, x += k);
           D += d.ascent * t.finalSize / 100, this.canResize && t.finalSize > this.minimumFontSize && N < D ? (t.finalSize -= 1, t.finalLineHeight = t.finalSize * t.lh / t.s) : (t.finalText = B, a = t.finalText.length, F = !1);
         }
-      x = -A, y = 0;
+      x = -k, y = 0;
       var z = 0, R;
       for (s = 0; s < a; s += 1)
-        if (n = !1, R = t.finalText[s], M = R.charCodeAt(0), M === 13 || M === 3 ? (z = 0, S.push(x), m = x > m ? x : m, x = -2 * A, o = "", n = !0, c += 1) : o = R, e.chars ? (f = e.getCharData(R, d.fStyle, e.getFontByName(t.f).fFamily), y = n ? 0 : f.w * t.finalSize / 100) : y = e.measureText(o, t.f, t.finalSize), R === " " ? z += y + A : (x += y + A + z, z = 0), i.push({
+        if (n = !1, R = t.finalText[s], M = R.charCodeAt(0), M === 13 || M === 3 ? (z = 0, S.push(x), m = x > m ? x : m, x = -2 * k, o = "", n = !0, c += 1) : o = R, e.chars ? (f = e.getCharData(R, d.fStyle, e.getFontByName(t.f).fFamily), y = n ? 0 : f.w * t.finalSize / 100) : y = e.measureText(o, t.f, t.finalSize), R === " " ? z += y + k : (x += y + k + z, z = 0), i.push({
           l: y,
           an: y,
           add: g,
@@ -4322,17 +4322,17 @@ var lottie$1 = { exports: {} };
             t.justifyOffset = 0;
         }
       t.lineWidths = S;
-      var k = r.a, T, b;
-      u = k.length;
+      var _ = r.a, T, b;
+      u = _.length;
       var P, V, I = [];
-      for (_ = 0; _ < u; _ += 1) {
-        for (T = k[_], T.a.sc && (t.strokeColorAnim = !0), T.a.sw && (t.strokeWidthAnim = !0), (T.a.fc || T.a.fh || T.a.fs || T.a.fb) && (t.fillColorAnim = !0), V = 0, P = T.s.b, s = 0; s < a; s += 1)
-          b = i[s], b.anIndexes[_] = V, (P == 1 && b.val !== "" || P == 2 && b.val !== "" && b.val !== " " || P == 3 && (b.n || b.val == " " || s == a - 1) || P == 4 && (b.n || s == a - 1)) && (T.s.rn === 1 && I.push(V), V += 1);
-        r.a[_].s.totalChars = V;
-        var G = -1, $;
+      for (A = 0; A < u; A += 1) {
+        for (T = _[A], T.a.sc && (t.strokeColorAnim = !0), T.a.sw && (t.strokeWidthAnim = !0), (T.a.fc || T.a.fh || T.a.fs || T.a.fb) && (t.fillColorAnim = !0), V = 0, P = T.s.b, s = 0; s < a; s += 1)
+          b = i[s], b.anIndexes[A] = V, (P == 1 && b.val !== "" || P == 2 && b.val !== "" && b.val !== " " || P == 3 && (b.n || b.val == " " || s == a - 1) || P == 4 && (b.n || s == a - 1)) && (T.s.rn === 1 && I.push(V), V += 1);
+        r.a[A].s.totalChars = V;
+        var G = -1, q;
         if (T.s.rn === 1)
           for (s = 0; s < a; s += 1)
-            b = i[s], G != b.anIndexes[_] && (G = b.anIndexes[_], $ = I.splice(Math.floor(Math.random() * I.length), 1)[0]), b.anIndexes[_] = $;
+            b = i[s], G != b.anIndexes[A] && (G = b.anIndexes[A], q = I.splice(Math.floor(Math.random() * I.length), 1)[0]), b.anIndexes[A] = q;
       }
       t.yOffset = t.finalLineHeight || t.finalSize * 1.2, t.ls = t.ls || 0, t.ascent = d.ascent * t.finalSize / 100;
     }, TextProperty.prototype.updateDocumentData = function(t, e) {
@@ -4380,9 +4380,9 @@ var lottie$1 = { exports: {} };
             if (x === S)
               c = 0;
             else {
-              var _ = x - S;
+              var A = x - S;
               n = e(t(0, n + 0.5 - S), x - S);
-              var u = -_ / 2 + n, d = _ / 2;
+              var u = -A / 2 + n, d = A / 2;
               c = Math.sqrt(1 - u * u / (d * d));
             }
             c = E(c);
@@ -4456,7 +4456,7 @@ var lottie$1 = { exports: {} };
     }, TextAnimatorProperty.prototype.getMeasures = function(t, e) {
       if (this.lettersChangedFlag = e, !(!this._mdf && !this._isFirstFrame && !e && (!this._hasMaskedPath || !this._pathData.m._mdf))) {
         this._isFirstFrame = !1;
-        var r = this._moreOptions.alignment.v, i = this._animatorsData, s = this._textData, a = this.mHelper, n = this._renderType, l = this.renderedLetters.length, o, p, g, E, c = t.l, S, x, m, _, u, d, f, y, C, A, M, F, L, N, D;
+        var r = this._moreOptions.alignment.v, i = this._animatorsData, s = this._textData, a = this.mHelper, n = this._renderType, l = this.renderedLetters.length, o, p, g, E, c = t.l, S, x, m, A, u, d, f, y, C, k, M, F, L, N, D;
         if (this._hasMaskedPath) {
           if (D = this._pathData.m, !this._pathData.n || this._pathData._mdf) {
             var B = D.v;
@@ -4469,15 +4469,15 @@ var lottie$1 = { exports: {} };
               O = bez.buildBezierData(B.v[g], B.v[g + 1], [B.o[g][0] - B.v[g][0], B.o[g][1] - B.v[g][1]], [B.i[g + 1][0] - B.v[g + 1][0], B.i[g + 1][1] - B.v[g + 1][1]]), S.tLength += O.segmentLength, S.segments.push(O), F += O.segmentLength;
             g = E, D.v.c && (O = bez.buildBezierData(B.v[g], B.v[0], [B.o[g][0] - B.v[g][0], B.o[g][1] - B.v[g][1]], [B.i[0][0] - B.v[0][0], B.i[0][1] - B.v[0][1]]), S.tLength += O.segmentLength, S.segments.push(O), F += O.segmentLength), this._pathData.pi = S;
           }
-          if (S = this._pathData.pi, x = this._pathData.f.v, f = 0, d = 1, _ = 0, u = !0, A = S.segments, x < 0 && D.v.c)
-            for (S.tLength < Math.abs(x) && (x = -Math.abs(x) % S.tLength), f = A.length - 1, C = A[f].points, d = C.length - 1; x < 0; )
-              x += C[d].partialLength, d -= 1, d < 0 && (f -= 1, C = A[f].points, d = C.length - 1);
-          C = A[f].points, y = C[d - 1], m = C[d], M = m.partialLength;
+          if (S = this._pathData.pi, x = this._pathData.f.v, f = 0, d = 1, A = 0, u = !0, k = S.segments, x < 0 && D.v.c)
+            for (S.tLength < Math.abs(x) && (x = -Math.abs(x) % S.tLength), f = k.length - 1, C = k[f].points, d = C.length - 1; x < 0; )
+              x += C[d].partialLength, d -= 1, d < 0 && (f -= 1, C = k[f].points, d = C.length - 1);
+          C = k[f].points, y = C[d - 1], m = C[d], M = m.partialLength;
         }
         E = c.length, o = 0, p = 0;
-        var z = t.finalSize * 1.2 * 0.714, R = !0, k, T, b, P, V;
+        var z = t.finalSize * 1.2 * 0.714, R = !0, _, T, b, P, V;
         P = i.length;
-        var I, G = -1, $, q, W, j = x, X = f, U = d, rt = -1, K, Z, Q, Y, H, st, ht, at, it = "", nt = this.defaultPropsArray, ot;
+        var I, G = -1, q, $, j, W = x, X = f, U = d, rt = -1, K, Z, Q, Y, H, st, ht, at, it = "", nt = this.defaultPropsArray, ot;
         if (t.j === 2 || t.j === 1) {
           var J = 0, lt = 0, ft = t.j === 2 ? -0.5 : -1, tt = 0, pt = !0;
           for (g = 0; g < E; g += 1)
@@ -4487,7 +4487,7 @@ var lottie$1 = { exports: {} };
               J = 0, pt = !0;
             } else {
               for (b = 0; b < P; b += 1)
-                k = i[b].a, k.t.propType && (pt && t.j === 2 && (lt += k.t.v * ft), T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? J += k.t.v * I[0] * ft : J += k.t.v * I * ft);
+                _ = i[b].a, _.t.propType && (pt && t.j === 2 && (lt += _.t.v * ft), T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? J += _.t.v * I[0] * ft : J += _.t.v * I * ft);
               pt = !1;
             }
           for (J && (J += lt); tt < g; )
@@ -4495,7 +4495,7 @@ var lottie$1 = { exports: {} };
         }
         for (g = 0; g < E; g += 1) {
           if (a.reset(), K = 1, c[g].n)
-            o = 0, p += t.yOffset, p += R ? 1 : 0, x = j, R = !1, this._hasMaskedPath && (f = X, d = U, C = A[f].points, y = C[d - 1], m = C[d], M = m.partialLength, _ = 0), it = "", at = "", st = "", ot = "", nt = this.defaultPropsArray;
+            o = 0, p += t.yOffset, p += R ? 1 : 0, x = W, R = !1, this._hasMaskedPath && (f = X, d = U, C = k[f].points, y = C[d - 1], m = C[d], M = m.partialLength, A = 0), it = "", at = "", st = "", ot = "", nt = this.defaultPropsArray;
           else {
             if (this._hasMaskedPath) {
               if (rt !== c[g].line) {
@@ -4512,38 +4512,38 @@ var lottie$1 = { exports: {} };
               G !== c[g].ind && (c[G] && (x += c[G].extra), x += c[g].an / 2, G = c[g].ind), x += r[0] * c[g].an * 5e-3;
               var et = 0;
               for (b = 0; b < P; b += 1)
-                k = i[b].a, k.p.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? et += k.p.v[0] * I[0] : et += k.p.v[0] * I), k.a.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? et += k.a.v[0] * I[0] : et += k.a.v[0] * I);
+                _ = i[b].a, _.p.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? et += _.p.v[0] * I[0] : et += _.p.v[0] * I), _.a.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? et += _.a.v[0] * I[0] : et += _.a.v[0] * I);
               for (u = !0, this._pathData.a.v && (x = c[0].an * 0.5 + (F - this._pathData.f.v - c[0].an * 0.5 - c[c.length - 1].an * 0.5) * G / (E - 1), x += this._pathData.f.v); u; )
-                _ + M >= x + et || !C ? (L = (x + et - _) / m.partialLength, q = y.point[0] + (m.point[0] - y.point[0]) * L, W = y.point[1] + (m.point[1] - y.point[1]) * L, a.translate(-r[0] * c[g].an * 5e-3, -(r[1] * z) * 0.01), u = !1) : C && (_ += m.partialLength, d += 1, d >= C.length && (d = 0, f += 1, A[f] ? C = A[f].points : D.v.c ? (d = 0, f = 0, C = A[f].points) : (_ -= m.partialLength, C = null)), C && (y = m, m = C[d], M = m.partialLength));
-              $ = c[g].an / 2 - c[g].add, a.translate(-$, 0, 0);
+                A + M >= x + et || !C ? (L = (x + et - A) / m.partialLength, $ = y.point[0] + (m.point[0] - y.point[0]) * L, j = y.point[1] + (m.point[1] - y.point[1]) * L, a.translate(-r[0] * c[g].an * 5e-3, -(r[1] * z) * 0.01), u = !1) : C && (A += m.partialLength, d += 1, d >= C.length && (d = 0, f += 1, k[f] ? C = k[f].points : D.v.c ? (d = 0, f = 0, C = k[f].points) : (A -= m.partialLength, C = null)), C && (y = m, m = C[d], M = m.partialLength));
+              q = c[g].an / 2 - c[g].add, a.translate(-q, 0, 0);
             } else
-              $ = c[g].an / 2 - c[g].add, a.translate(-$, 0, 0), a.translate(-r[0] * c[g].an * 5e-3, -r[1] * z * 0.01, 0);
+              q = c[g].an / 2 - c[g].add, a.translate(-q, 0, 0), a.translate(-r[0] * c[g].an * 5e-3, -r[1] * z * 0.01, 0);
             for (b = 0; b < P; b += 1)
-              k = i[b].a, k.t.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), (o !== 0 || t.j !== 0) && (this._hasMaskedPath ? I.length ? x += k.t.v * I[0] : x += k.t.v * I : I.length ? o += k.t.v * I[0] : o += k.t.v * I));
+              _ = i[b].a, _.t.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), (o !== 0 || t.j !== 0) && (this._hasMaskedPath ? I.length ? x += _.t.v * I[0] : x += _.t.v * I : I.length ? o += _.t.v * I[0] : o += _.t.v * I));
             for (t.strokeWidthAnim && (Q = t.sw || 0), t.strokeColorAnim && (t.sc ? Z = [t.sc[0], t.sc[1], t.sc[2]] : Z = [0, 0, 0]), t.fillColorAnim && t.fc && (Y = [t.fc[0], t.fc[1], t.fc[2]]), b = 0; b < P; b += 1)
-              k = i[b].a, k.a.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? a.translate(-k.a.v[0] * I[0], -k.a.v[1] * I[1], k.a.v[2] * I[2]) : a.translate(-k.a.v[0] * I, -k.a.v[1] * I, k.a.v[2] * I));
+              _ = i[b].a, _.a.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? a.translate(-_.a.v[0] * I[0], -_.a.v[1] * I[1], _.a.v[2] * I[2]) : a.translate(-_.a.v[0] * I, -_.a.v[1] * I, _.a.v[2] * I));
             for (b = 0; b < P; b += 1)
-              k = i[b].a, k.s.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? a.scale(1 + (k.s.v[0] - 1) * I[0], 1 + (k.s.v[1] - 1) * I[1], 1) : a.scale(1 + (k.s.v[0] - 1) * I, 1 + (k.s.v[1] - 1) * I, 1));
+              _ = i[b].a, _.s.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), I.length ? a.scale(1 + (_.s.v[0] - 1) * I[0], 1 + (_.s.v[1] - 1) * I[1], 1) : a.scale(1 + (_.s.v[0] - 1) * I, 1 + (_.s.v[1] - 1) * I, 1));
             for (b = 0; b < P; b += 1) {
-              if (k = i[b].a, T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), k.sk.propType && (I.length ? a.skewFromAxis(-k.sk.v * I[0], k.sa.v * I[1]) : a.skewFromAxis(-k.sk.v * I, k.sa.v * I)), k.r.propType && (I.length ? a.rotateZ(-k.r.v * I[2]) : a.rotateZ(-k.r.v * I)), k.ry.propType && (I.length ? a.rotateY(k.ry.v * I[1]) : a.rotateY(k.ry.v * I)), k.rx.propType && (I.length ? a.rotateX(k.rx.v * I[0]) : a.rotateX(k.rx.v * I)), k.o.propType && (I.length ? K += (k.o.v * I[0] - K) * I[0] : K += (k.o.v * I - K) * I), t.strokeWidthAnim && k.sw.propType && (I.length ? Q += k.sw.v * I[0] : Q += k.sw.v * I), t.strokeColorAnim && k.sc.propType)
+              if (_ = i[b].a, T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), _.sk.propType && (I.length ? a.skewFromAxis(-_.sk.v * I[0], _.sa.v * I[1]) : a.skewFromAxis(-_.sk.v * I, _.sa.v * I)), _.r.propType && (I.length ? a.rotateZ(-_.r.v * I[2]) : a.rotateZ(-_.r.v * I)), _.ry.propType && (I.length ? a.rotateY(_.ry.v * I[1]) : a.rotateY(_.ry.v * I)), _.rx.propType && (I.length ? a.rotateX(_.rx.v * I[0]) : a.rotateX(_.rx.v * I)), _.o.propType && (I.length ? K += (_.o.v * I[0] - K) * I[0] : K += (_.o.v * I - K) * I), t.strokeWidthAnim && _.sw.propType && (I.length ? Q += _.sw.v * I[0] : Q += _.sw.v * I), t.strokeColorAnim && _.sc.propType)
                 for (H = 0; H < 3; H += 1)
-                  I.length ? Z[H] += (k.sc.v[H] - Z[H]) * I[0] : Z[H] += (k.sc.v[H] - Z[H]) * I;
+                  I.length ? Z[H] += (_.sc.v[H] - Z[H]) * I[0] : Z[H] += (_.sc.v[H] - Z[H]) * I;
               if (t.fillColorAnim && t.fc) {
-                if (k.fc.propType)
+                if (_.fc.propType)
                   for (H = 0; H < 3; H += 1)
-                    I.length ? Y[H] += (k.fc.v[H] - Y[H]) * I[0] : Y[H] += (k.fc.v[H] - Y[H]) * I;
-                k.fh.propType && (I.length ? Y = addHueToRGB(Y, k.fh.v * I[0]) : Y = addHueToRGB(Y, k.fh.v * I)), k.fs.propType && (I.length ? Y = addSaturationToRGB(Y, k.fs.v * I[0]) : Y = addSaturationToRGB(Y, k.fs.v * I)), k.fb.propType && (I.length ? Y = addBrightnessToRGB(Y, k.fb.v * I[0]) : Y = addBrightnessToRGB(Y, k.fb.v * I));
+                    I.length ? Y[H] += (_.fc.v[H] - Y[H]) * I[0] : Y[H] += (_.fc.v[H] - Y[H]) * I;
+                _.fh.propType && (I.length ? Y = addHueToRGB(Y, _.fh.v * I[0]) : Y = addHueToRGB(Y, _.fh.v * I)), _.fs.propType && (I.length ? Y = addSaturationToRGB(Y, _.fs.v * I[0]) : Y = addSaturationToRGB(Y, _.fs.v * I)), _.fb.propType && (I.length ? Y = addBrightnessToRGB(Y, _.fb.v * I[0]) : Y = addBrightnessToRGB(Y, _.fb.v * I));
               }
             }
             for (b = 0; b < P; b += 1)
-              k = i[b].a, k.p.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), this._hasMaskedPath ? I.length ? a.translate(0, k.p.v[1] * I[0], -k.p.v[2] * I[1]) : a.translate(0, k.p.v[1] * I, -k.p.v[2] * I) : I.length ? a.translate(k.p.v[0] * I[0], k.p.v[1] * I[1], -k.p.v[2] * I[2]) : a.translate(k.p.v[0] * I, k.p.v[1] * I, -k.p.v[2] * I));
+              _ = i[b].a, _.p.propType && (T = i[b].s, I = T.getMult(c[g].anIndexes[b], s.a[b].s.totalChars), this._hasMaskedPath ? I.length ? a.translate(0, _.p.v[1] * I[0], -_.p.v[2] * I[1]) : a.translate(0, _.p.v[1] * I, -_.p.v[2] * I) : I.length ? a.translate(_.p.v[0] * I[0], _.p.v[1] * I[1], -_.p.v[2] * I[2]) : a.translate(_.p.v[0] * I, _.p.v[1] * I, -_.p.v[2] * I));
             if (t.strokeWidthAnim && (st = Q < 0 ? 0 : Q), t.strokeColorAnim && (ht = "rgb(" + Math.round(Z[0] * 255) + "," + Math.round(Z[1] * 255) + "," + Math.round(Z[2] * 255) + ")"), t.fillColorAnim && t.fc && (at = "rgb(" + Math.round(Y[0] * 255) + "," + Math.round(Y[1] * 255) + "," + Math.round(Y[2] * 255) + ")"), this._hasMaskedPath) {
               if (a.translate(0, -t.ls), a.translate(0, r[1] * z * 0.01 + p, 0), this._pathData.p.v) {
                 N = (m.point[1] - y.point[1]) / (m.point[0] - y.point[0]);
                 var ct = Math.atan(N) * 180 / Math.PI;
                 m.point[0] < y.point[0] && (ct += 180), a.rotate(-ct * Math.PI / 180);
               }
-              a.translate(q, W, 0), x -= r[0] * c[g].an * 5e-3, c[g + 1] && G !== c[g + 1].ind && (x += c[g].an / 2, x += t.tr * 1e-3 * t.finalSize);
+              a.translate($, j, 0), x -= r[0] * c[g].an * 5e-3, c[g + 1] && G !== c[g + 1].ind && (x += c[g].an / 2, x += t.tr * 1e-3 * t.finalSize);
             } else {
               switch (a.translate(o, p, 0), t.ps && a.translate(t.ps[0], t.ps[1] + t.ascent, 0), t.j) {
                 case 1:
@@ -4553,7 +4553,7 @@ var lottie$1 = { exports: {} };
                   a.translate(c[g].animatorJustifyOffset + t.justifyOffset + (t.boxWidth - t.lineWidths[c[g].line]) / 2, 0, 0);
                   break;
               }
-              a.translate(0, -t.ls), a.translate($, 0, 0), a.translate(r[0] * c[g].an * 5e-3, r[1] * z * 0.01, 0), o += c[g].l + t.tr * 1e-3 * t.finalSize;
+              a.translate(0, -t.ls), a.translate(q, 0, 0), a.translate(r[0] * c[g].an * 5e-3, r[1] * z * 0.01, 0), o += c[g].l + t.tr * 1e-3 * t.finalSize;
             }
             n === "html" ? it = a.toCSS() : n === "svg" ? it = a.to2dCSS() : nt = [a.props[0], a.props[1], a.props[2], a.props[3], a.props[4], a.props[5], a.props[6], a.props[7], a.props[8], a.props[9], a.props[10], a.props[11], a.props[12], a.props[13], a.props[14], a.props[15]], ot = K;
           }
@@ -4634,7 +4634,7 @@ var lottie$1 = { exports: {} };
       e = n.length;
       var o, p = this.mHelper, g = "", E = this.data.singleShape, c = 0, S = 0, x = !0, m = r.tr * 1e-3 * r.finalSize;
       if (E && !l && !r.sz) {
-        var _ = this.textContainer, u = "start";
+        var A = this.textContainer, u = "start";
         switch (r.j) {
           case 1:
             u = "end";
@@ -4646,14 +4646,14 @@ var lottie$1 = { exports: {} };
             u = "start";
             break;
         }
-        _.setAttribute("text-anchor", u), _.setAttribute("letter-spacing", m);
+        A.setAttribute("text-anchor", u), A.setAttribute("letter-spacing", m);
         var d = this.buildTextContents(r.finalText);
         for (e = d.length, S = r.ps ? r.ps[1] + r.ascent : 0, t = 0; t < e; t += 1)
-          o = this.textSpans[t].span || createNS("tspan"), o.textContent = d[t], o.setAttribute("x", 0), o.setAttribute("y", S), o.style.display = "inherit", _.appendChild(o), this.textSpans[t] || (this.textSpans[t] = {
+          o = this.textSpans[t].span || createNS("tspan"), o.textContent = d[t], o.setAttribute("x", 0), o.setAttribute("y", S), o.style.display = "inherit", A.appendChild(o), this.textSpans[t] || (this.textSpans[t] = {
             span: null,
             glyph: null
           }), this.textSpans[t].span = o, S += r.finalLineHeight;
-        this.layerElement.appendChild(_);
+        this.layerElement.appendChild(A);
       } else {
         var f = this.textSpans.length, y;
         for (t = 0; t < e; t += 1) {
@@ -4673,18 +4673,18 @@ var lottie$1 = { exports: {} };
           }
           if (p.reset(), E && (n[t].n && (c = -m, S += r.yOffset, S += x ? 1 : 0, x = !1), this.applyTextPropertiesToMatrix(r, p, n[t].line, c, S), c += n[t].l || 0, c += m), l) {
             y = this.globalData.fontManager.getCharData(r.finalText[t], i.fStyle, this.globalData.fontManager.getFontByName(r.f).fFamily);
-            var A;
+            var k;
             if (y.t === 1)
-              A = new SVGCompElement(y.data, this.globalData, this);
+              k = new SVGCompElement(y.data, this.globalData, this);
             else {
               var M = emptyShapeData;
-              y.data && y.data.shapes && (M = this.buildShapeData(y.data, r.finalSize)), A = new SVGShapeElement(M, this.globalData, this);
+              y.data && y.data.shapes && (M = this.buildShapeData(y.data, r.finalSize)), k = new SVGShapeElement(M, this.globalData, this);
             }
             if (this.textSpans[t].glyph) {
               var F = this.textSpans[t].glyph;
               this.textSpans[t].childSpan.removeChild(F.layerElement), F.destroy();
             }
-            this.textSpans[t].glyph = A, A._debug = !0, A.prepareFrame(0), A.renderFrame(), this.textSpans[t].childSpan.appendChild(A.layerElement), y.t === 1 && this.textSpans[t].childSpan.setAttribute("transform", "scale(" + r.finalSize / 100 + "," + r.finalSize / 100 + ")");
+            this.textSpans[t].glyph = k, k._debug = !0, k.prepareFrame(0), k.renderFrame(), this.textSpans[t].childSpan.appendChild(k.layerElement), y.t === 1 && this.textSpans[t].childSpan.setAttribute("transform", "scale(" + r.finalSize / 100 + "," + r.finalSize / 100 + ")");
           } else
             E && o.setAttribute("transform", "translate(" + p.props[12] + "," + p.props[13] + ")"), o.textContent = n[t].val, o.setAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:space", "preserve");
         }
@@ -5271,9 +5271,9 @@ var lottie$1 = { exports: {} };
           var E = o * g, c = Math.cos(p + e.a.v) * E + n[0], S = Math.sin(p + e.a.v) * E + n[1];
           s = a.createRadialGradient(c, S, 0, n[0], n[1], o);
         }
-        var x, m = t.g.p, _ = e.g.c, u = 1;
+        var x, m = t.g.p, A = e.g.c, u = 1;
         for (x = 0; x < m; x += 1)
-          e.g._hasOpacity && e.g._collapsable && (u = e.g.o[x * 2 + 1]), s.addColorStop(_[x * 4] / 100, "rgba(" + _[x * 4 + 1] + "," + _[x * 4 + 2] + "," + _[x * 4 + 3] + "," + u + ")");
+          e.g._hasOpacity && e.g._collapsable && (u = e.g.o[x * 2 + 1]), s.addColorStop(A[x * 4] / 100, "rgba(" + A[x * 4 + 1] + "," + A[x * 4 + 2] + "," + A[x * 4 + 3] + "," + u + ")");
         i.grd = s;
       }
       i.coOp = e.o.v * r.opacity;
@@ -5300,18 +5300,18 @@ var lottie$1 = { exports: {} };
       t.sc && (r = !0, this.values.stroke = this.buildColor(t.sc), this.values.sWidth = t.sw);
       var i = this.globalData.fontManager.getFontByName(t.f), s, a, n = t.l, l = this.mHelper;
       this.stroke = r, this.values.fValue = t.finalSize + "px " + this.globalData.fontManager.getFontByName(t.f).fFamily, a = t.finalText.length;
-      var o, p, g, E, c, S, x, m, _, u, d = this.data.singleShape, f = t.tr * 1e-3 * t.finalSize, y = 0, C = 0, A = !0, M = 0;
+      var o, p, g, E, c, S, x, m, A, u, d = this.data.singleShape, f = t.tr * 1e-3 * t.finalSize, y = 0, C = 0, k = !0, M = 0;
       for (s = 0; s < a; s += 1) {
-        o = this.globalData.fontManager.getCharData(t.finalText[s], i.fStyle, this.globalData.fontManager.getFontByName(t.f).fFamily), p = o && o.data || {}, l.reset(), d && n[s].n && (y = -f, C += t.yOffset, C += A ? 1 : 0, A = !1), c = p.shapes ? p.shapes[0].it : [], x = c.length, l.scale(t.finalSize / 100, t.finalSize / 100), d && this.applyTextPropertiesToMatrix(t, l, n[s].line, y, C), _ = createSizedArray(x - 1);
+        o = this.globalData.fontManager.getCharData(t.finalText[s], i.fStyle, this.globalData.fontManager.getFontByName(t.f).fFamily), p = o && o.data || {}, l.reset(), d && n[s].n && (y = -f, C += t.yOffset, C += k ? 1 : 0, k = !1), c = p.shapes ? p.shapes[0].it : [], x = c.length, l.scale(t.finalSize / 100, t.finalSize / 100), d && this.applyTextPropertiesToMatrix(t, l, n[s].line, y, C), A = createSizedArray(x - 1);
         var F = 0;
         for (S = 0; S < x; S += 1)
           if (c[S].ty === "sh") {
             for (E = c[S].ks.k.i.length, m = c[S].ks.k, u = [], g = 1; g < E; g += 1)
               g === 1 && u.push(l.applyToX(m.v[0][0], m.v[0][1], 0), l.applyToY(m.v[0][0], m.v[0][1], 0)), u.push(l.applyToX(m.o[g - 1][0], m.o[g - 1][1], 0), l.applyToY(m.o[g - 1][0], m.o[g - 1][1], 0), l.applyToX(m.i[g][0], m.i[g][1], 0), l.applyToY(m.i[g][0], m.i[g][1], 0), l.applyToX(m.v[g][0], m.v[g][1], 0), l.applyToY(m.v[g][0], m.v[g][1], 0));
-            u.push(l.applyToX(m.o[g - 1][0], m.o[g - 1][1], 0), l.applyToY(m.o[g - 1][0], m.o[g - 1][1], 0), l.applyToX(m.i[0][0], m.i[0][1], 0), l.applyToY(m.i[0][0], m.i[0][1], 0), l.applyToX(m.v[0][0], m.v[0][1], 0), l.applyToY(m.v[0][0], m.v[0][1], 0)), _[F] = u, F += 1;
+            u.push(l.applyToX(m.o[g - 1][0], m.o[g - 1][1], 0), l.applyToY(m.o[g - 1][0], m.o[g - 1][1], 0), l.applyToX(m.i[0][0], m.i[0][1], 0), l.applyToY(m.i[0][0], m.i[0][1], 0), l.applyToX(m.v[0][0], m.v[0][1], 0), l.applyToY(m.v[0][0], m.v[0][1], 0)), A[F] = u, F += 1;
           }
-        d && (y += n[s].l, y += f), this.textSpans[M] ? this.textSpans[M].elem = _ : this.textSpans[M] = {
-          elem: _
+        d && (y += n[s].l, y += f), this.textSpans[M] ? this.textSpans[M].elem = A : this.textSpans[M] = {
+          elem: A
         }, M += 1;
       }
     }, CVTextElement.prototype.renderInnerContent = function() {
@@ -5736,8 +5736,8 @@ var lottie$1 = { exports: {} };
       var p, g, E, c = this.mHelper, S, x = "", m = 0;
       for (n = 0; n < l; n += 1) {
         if (this.globalData.fontManager.chars ? (this.textPaths[m] ? p = this.textPaths[m] : (p = createNS("path"), p.setAttribute("stroke-linecap", lineCapEnum[1]), p.setAttribute("stroke-linejoin", lineJoinEnum[2]), p.setAttribute("stroke-miterlimit", "4")), this.isMasked || (this.textSpans[m] ? (g = this.textSpans[m], E = g.children[0]) : (g = createTag("div"), g.style.lineHeight = 0, E = createNS("svg"), E.appendChild(p), styleDiv(g)))) : this.isMasked ? p = this.textPaths[m] ? this.textPaths[m] : createNS("text") : this.textSpans[m] ? (g = this.textSpans[m], p = this.textPaths[m]) : (g = createTag("span"), styleDiv(g), p = createTag("span"), styleDiv(p), g.appendChild(p)), this.globalData.fontManager.chars) {
-          var _ = this.globalData.fontManager.getCharData(t.finalText[n], i.fStyle, this.globalData.fontManager.getFontByName(t.f).fFamily), u;
-          if (_ ? u = _.data : u = null, c.reset(), u && u.shapes && u.shapes.length && (S = u.shapes[0].it, c.scale(t.finalSize / 100, t.finalSize / 100), x = this.createPathShape(c, S), p.setAttribute("d", x)), this.isMasked)
+          var A = this.globalData.fontManager.getCharData(t.finalText[n], i.fStyle, this.globalData.fontManager.getFontByName(t.f).fFamily), u;
+          if (A ? u = A.data : u = null, c.reset(), u && u.shapes && u.shapes.length && (S = u.shapes[0].it, c.scale(t.finalSize / 100, t.finalSize / 100), x = this.createPathShape(c, S), p.setAttribute("d", x)), this.isMasked)
             this.innerElem.appendChild(p);
           else {
             if (this.innerElem.appendChild(g), u && u.shapes) {
@@ -5754,8 +5754,8 @@ var lottie$1 = { exports: {} };
           this.innerElem.appendChild(p);
         else {
           this.innerElem.appendChild(g);
-          var C = p.style, A = "translate3d(0," + -t.finalSize / 1.2 + "px,0)";
-          C.transform = A, C.webkitTransform = A;
+          var C = p.style, k = "translate3d(0," + -t.finalSize / 1.2 + "px,0)";
+          C.transform = k, C.webkitTransform = k;
         }
         this.isMasked ? this.textSpans[m] = p : this.textSpans[m] = g, this.textSpans[m].style.display = "block", this.textPaths[m] = p, m += 1;
       }
@@ -6051,11 +6051,11 @@ var lottie$1 = { exports: {} };
     function seedRandom(t, e) {
       var r = this, i = 256, s = 6, a = 52, n = "random", l = e.pow(i, s), o = e.pow(2, a), p = o * 2, g = i - 1, E;
       function c(f, y, C) {
-        var A = [];
+        var k = [];
         y = y === !0 ? {
           entropy: !0
         } : y || {};
-        var M = _(m(y.entropy ? [f, d(t)] : f === null ? u() : f, 3), A), F = new S(A), L = function() {
+        var M = A(m(y.entropy ? [f, d(t)] : f === null ? u() : f, 3), k), F = new S(k), L = function() {
           for (var D = F.g(s), B = l, O = 0; D < o; )
             D = (D + O) * i, B *= i, O = F.g(1);
           for (; D >= p; )
@@ -6066,7 +6066,7 @@ var lottie$1 = { exports: {} };
           return F.g(4) | 0;
         }, L.quick = function() {
           return F.g(4) / 4294967296;
-        }, L.double = L, _(d(F.S), t), (y.pass || C || function(N, D, B, O) {
+        }, L.double = L, A(d(F.S), t), (y.pass || C || function(N, D, B, O) {
           return O && (O.S && x(O, F), N.state = function() {
             return x(F, {});
           }), B ? (e[n] = N, D) : N;
@@ -6074,33 +6074,33 @@ var lottie$1 = { exports: {} };
       }
       e["seed" + n] = c;
       function S(f) {
-        var y, C = f.length, A = this, M = 0, F = A.i = A.j = 0, L = A.S = [];
+        var y, C = f.length, k = this, M = 0, F = k.i = k.j = 0, L = k.S = [];
         for (C || (f = [C++]); M < i; )
           L[M] = M++;
         for (M = 0; M < i; M++)
           L[M] = L[F = g & F + f[M % C] + (y = L[M])], L[F] = y;
-        A.g = function(N) {
-          for (var D, B = 0, O = A.i, z = A.j, R = A.S; N--; )
+        k.g = function(N) {
+          for (var D, B = 0, O = k.i, z = k.j, R = k.S; N--; )
             D = R[O = g & O + 1], B = B * i + R[g & (R[O] = R[z = g & z + D]) + (R[z] = D)];
-          return A.i = O, A.j = z, B;
+          return k.i = O, k.j = z, B;
         };
       }
       function x(f, y) {
         return y.i = f.i, y.j = f.j, y.S = f.S.slice(), y;
       }
       function m(f, y) {
-        var C = [], A = _typeof$2(f), M;
-        if (y && A == "object")
+        var C = [], k = _typeof$2(f), M;
+        if (y && k == "object")
           for (M in f)
             try {
               C.push(m(f[M], y - 1));
             } catch {
             }
-        return C.length ? C : A == "string" ? f : f + "\0";
+        return C.length ? C : k == "string" ? f : f + "\0";
       }
-      function _(f, y) {
-        for (var C = f + "", A, M = 0; M < C.length; )
-          y[g & M] = g & (A ^= y[g & M] * 19) + C.charCodeAt(M++);
+      function A(f, y) {
+        for (var C = f + "", k, M = 0; M < C.length; )
+          y[g & M] = g & (k ^= y[g & M] * 19) + C.charCodeAt(M++);
         return d(y);
       }
       function u() {
@@ -6115,7 +6115,7 @@ var lottie$1 = { exports: {} };
       function d(f) {
         return String.fromCharCode.apply(0, f);
       }
-      _(e.random(), t);
+      A(e.random(), t);
     }
     function initialize$2(t) {
       seedRandom([], t);
@@ -6785,7 +6785,7 @@ var lottie$1 = { exports: {} };
       }
       function r(s, a, n, l) {
         function o(S) {
-          for (var x = s.ef, m = 0, _ = x.length; m < _; ) {
+          for (var x = s.ef, m = 0, A = x.length; m < A; ) {
             if (S === x[m].nm || S === x[m].mn || S === x[m].ix)
               return x[m].ty === 5 ? g[m] : g[m]();
             m += 1;
@@ -6857,26 +6857,26 @@ var lottie$1 = { exports: {} };
         }), a;
       };
     }(), ShapeExpressionInterface = function() {
-      function t(x, m, _) {
+      function t(x, m, A) {
         var u = [], d, f = x ? x.length : 0;
         for (d = 0; d < f; d += 1)
-          x[d].ty === "gr" ? u.push(r(x[d], m[d], _)) : x[d].ty === "fl" ? u.push(i(x[d], m[d], _)) : x[d].ty === "st" ? u.push(n(x[d], m[d], _)) : x[d].ty === "tm" ? u.push(l(x[d], m[d], _)) : x[d].ty === "tr" || (x[d].ty === "el" ? u.push(p(x[d], m[d], _)) : x[d].ty === "sr" ? u.push(g(x[d], m[d], _)) : x[d].ty === "sh" ? u.push(ShapePathInterface(x[d], m[d], _)) : x[d].ty === "rc" ? u.push(E(x[d], m[d], _)) : x[d].ty === "rd" ? u.push(c(x[d], m[d], _)) : x[d].ty === "rp" ? u.push(S(x[d], m[d], _)) : x[d].ty === "gf" ? u.push(s(x[d], m[d], _)) : u.push(a(x[d], m[d])));
+          x[d].ty === "gr" ? u.push(r(x[d], m[d], A)) : x[d].ty === "fl" ? u.push(i(x[d], m[d], A)) : x[d].ty === "st" ? u.push(n(x[d], m[d], A)) : x[d].ty === "tm" ? u.push(l(x[d], m[d], A)) : x[d].ty === "tr" || (x[d].ty === "el" ? u.push(p(x[d], m[d], A)) : x[d].ty === "sr" ? u.push(g(x[d], m[d], A)) : x[d].ty === "sh" ? u.push(ShapePathInterface(x[d], m[d], A)) : x[d].ty === "rc" ? u.push(E(x[d], m[d], A)) : x[d].ty === "rd" ? u.push(c(x[d], m[d], A)) : x[d].ty === "rp" ? u.push(S(x[d], m[d], A)) : x[d].ty === "gf" ? u.push(s(x[d], m[d], A)) : u.push(a(x[d], m[d])));
         return u;
       }
-      function e(x, m, _) {
+      function e(x, m, A) {
         var u, d = function(C) {
-          for (var A = 0, M = u.length; A < M; ) {
-            if (u[A]._name === C || u[A].mn === C || u[A].propertyIndex === C || u[A].ix === C || u[A].ind === C)
-              return u[A];
-            A += 1;
+          for (var k = 0, M = u.length; k < M; ) {
+            if (u[k]._name === C || u[k].mn === C || u[k].propertyIndex === C || u[k].ix === C || u[k].ind === C)
+              return u[k];
+            k += 1;
           }
           return typeof C == "number" ? u[C - 1] : null;
         };
-        d.propertyGroup = propertyGroupFactory(d, _), u = t(x.it, m.it, d.propertyGroup), d.numProperties = u.length;
+        d.propertyGroup = propertyGroupFactory(d, A), u = t(x.it, m.it, d.propertyGroup), d.numProperties = u.length;
         var f = o(x.it[x.it.length - 1], m.it[m.it.length - 1], d.propertyGroup);
         return d.transform = f, d.propertyIndex = x.cix, d._name = x.nm, d;
       }
-      function r(x, m, _) {
+      function r(x, m, A) {
         var u = function(C) {
           switch (C) {
             case "ADBE Vectors Group":
@@ -6887,7 +6887,7 @@ var lottie$1 = { exports: {} };
               return u.transform;
           }
         };
-        u.propertyGroup = propertyGroupFactory(u, _);
+        u.propertyGroup = propertyGroupFactory(u, A);
         var d = e(x, m, u.propertyGroup), f = o(x.it[x.it.length - 1], m.it[m.it.length - 1], u.propertyGroup);
         return u.content = d, u.transform = f, Object.defineProperty(u, "_name", {
           get: function() {
@@ -6895,7 +6895,7 @@ var lottie$1 = { exports: {} };
           }
         }), u.numProperties = x.np, u.propertyIndex = x.ix, u.nm = x.nm, u.mn = x.mn, u;
       }
-      function i(x, m, _) {
+      function i(x, m, A) {
         function u(d) {
           return d === "Color" || d === "color" ? u.color : d === "Opacity" || d === "opacity" ? u.opacity : null;
         }
@@ -6912,9 +6912,9 @@ var lottie$1 = { exports: {} };
           mn: {
             value: x.mn
           }
-        }), m.c.setGroupProperty(PropertyInterface("Color", _)), m.o.setGroupProperty(PropertyInterface("Opacity", _)), u;
+        }), m.c.setGroupProperty(PropertyInterface("Color", A)), m.o.setGroupProperty(PropertyInterface("Opacity", A)), u;
       }
-      function s(x, m, _) {
+      function s(x, m, A) {
         function u(d) {
           return d === "Start Point" || d === "start point" ? u.startPoint : d === "End Point" || d === "end point" ? u.endPoint : d === "Opacity" || d === "opacity" ? u.opacity : null;
         }
@@ -6939,7 +6939,7 @@ var lottie$1 = { exports: {} };
           mn: {
             value: x.mn
           }
-        }), m.s.setGroupProperty(PropertyInterface("Start Point", _)), m.e.setGroupProperty(PropertyInterface("End Point", _)), m.o.setGroupProperty(PropertyInterface("Opacity", _)), u;
+        }), m.s.setGroupProperty(PropertyInterface("Start Point", A)), m.e.setGroupProperty(PropertyInterface("End Point", A)), m.o.setGroupProperty(PropertyInterface("Opacity", A)), u;
       }
       function a() {
         function x() {
@@ -6947,14 +6947,14 @@ var lottie$1 = { exports: {} };
         }
         return x;
       }
-      function n(x, m, _) {
-        var u = propertyGroupFactory(M, _), d = propertyGroupFactory(A, u);
+      function n(x, m, A) {
+        var u = propertyGroupFactory(M, A), d = propertyGroupFactory(k, u);
         function f(F) {
-          Object.defineProperty(A, x.d[F].nm, {
+          Object.defineProperty(k, x.d[F].nm, {
             get: ExpressionPropertyInterface(m.d.dataProps[F].p)
           });
         }
-        var y, C = x.d ? x.d.length : 0, A = {};
+        var y, C = x.d ? x.d.length : 0, k = {};
         for (y = 0; y < C; y += 1)
           f(y), m.d.dataProps[y].p.setGroupProperty(d);
         function M(F) {
@@ -6972,7 +6972,7 @@ var lottie$1 = { exports: {} };
           },
           dash: {
             get: function() {
-              return A;
+              return k;
             }
           },
           _name: {
@@ -6983,12 +6983,12 @@ var lottie$1 = { exports: {} };
           }
         }), m.c.setGroupProperty(PropertyInterface("Color", u)), m.o.setGroupProperty(PropertyInterface("Opacity", u)), m.w.setGroupProperty(PropertyInterface("Stroke Width", u)), M;
       }
-      function l(x, m, _) {
+      function l(x, m, A) {
         function u(f) {
           return f === x.e.ix || f === "End" || f === "end" ? u.end : f === x.s.ix ? u.start : f === x.o.ix ? u.offset : null;
         }
-        var d = propertyGroupFactory(u, _);
-        return u.propertyIndex = x.ix, m.s.setGroupProperty(PropertyInterface("Start", d)), m.e.setGroupProperty(PropertyInterface("End", d)), m.o.setGroupProperty(PropertyInterface("Offset", d)), u.propertyIndex = x.ix, u.propertyGroup = _, Object.defineProperties(u, {
+        var d = propertyGroupFactory(u, A);
+        return u.propertyIndex = x.ix, m.s.setGroupProperty(PropertyInterface("Start", d)), m.e.setGroupProperty(PropertyInterface("End", d)), m.o.setGroupProperty(PropertyInterface("Offset", d)), u.propertyIndex = x.ix, u.propertyGroup = A, Object.defineProperties(u, {
           start: {
             get: ExpressionPropertyInterface(m.s)
           },
@@ -7003,11 +7003,11 @@ var lottie$1 = { exports: {} };
           }
         }), u.mn = x.mn, u;
       }
-      function o(x, m, _) {
+      function o(x, m, A) {
         function u(f) {
           return x.a.ix === f || f === "Anchor Point" ? u.anchorPoint : x.o.ix === f || f === "Opacity" ? u.opacity : x.p.ix === f || f === "Position" ? u.position : x.r.ix === f || f === "Rotation" || f === "ADBE Vector Rotation" ? u.rotation : x.s.ix === f || f === "Scale" ? u.scale : x.sk && x.sk.ix === f || f === "Skew" ? u.skew : x.sa && x.sa.ix === f || f === "Skew Axis" ? u.skewAxis : null;
         }
-        var d = propertyGroupFactory(u, _);
+        var d = propertyGroupFactory(u, A);
         return m.transform.mProps.o.setGroupProperty(PropertyInterface("Opacity", d)), m.transform.mProps.p.setGroupProperty(PropertyInterface("Position", d)), m.transform.mProps.a.setGroupProperty(PropertyInterface("Anchor Point", d)), m.transform.mProps.s.setGroupProperty(PropertyInterface("Scale", d)), m.transform.mProps.r.setGroupProperty(PropertyInterface("Rotation", d)), m.transform.mProps.sk && (m.transform.mProps.sk.setGroupProperty(PropertyInterface("Skew", d)), m.transform.mProps.sa.setGroupProperty(PropertyInterface("Skew Angle", d))), m.transform.op.setGroupProperty(PropertyInterface("Opacity", d)), Object.defineProperties(u, {
           opacity: {
             get: ExpressionPropertyInterface(m.transform.mProps.o)
@@ -7033,13 +7033,13 @@ var lottie$1 = { exports: {} };
           _name: {
             value: x.nm
           }
-        }), u.ty = "tr", u.mn = x.mn, u.propertyGroup = _, u;
+        }), u.ty = "tr", u.mn = x.mn, u.propertyGroup = A, u;
       }
-      function p(x, m, _) {
+      function p(x, m, A) {
         function u(y) {
           return x.p.ix === y ? u.position : x.s.ix === y ? u.size : null;
         }
-        var d = propertyGroupFactory(u, _);
+        var d = propertyGroupFactory(u, A);
         u.propertyIndex = x.ix;
         var f = m.sh.ty === "tm" ? m.sh.prop : m.sh;
         return f.s.setGroupProperty(PropertyInterface("Size", d)), f.p.setGroupProperty(PropertyInterface("Position", d)), Object.defineProperties(u, {
@@ -7054,11 +7054,11 @@ var lottie$1 = { exports: {} };
           }
         }), u.mn = x.mn, u;
       }
-      function g(x, m, _) {
+      function g(x, m, A) {
         function u(y) {
           return x.p.ix === y ? u.position : x.r.ix === y ? u.rotation : x.pt.ix === y ? u.points : x.or.ix === y || y === "ADBE Vector Star Outer Radius" ? u.outerRadius : x.os.ix === y ? u.outerRoundness : x.ir && (x.ir.ix === y || y === "ADBE Vector Star Inner Radius") ? u.innerRadius : x.is && x.is.ix === y ? u.innerRoundness : null;
         }
-        var d = propertyGroupFactory(u, _), f = m.sh.ty === "tm" ? m.sh.prop : m.sh;
+        var d = propertyGroupFactory(u, A), f = m.sh.ty === "tm" ? m.sh.prop : m.sh;
         return u.propertyIndex = x.ix, f.or.setGroupProperty(PropertyInterface("Outer Radius", d)), f.os.setGroupProperty(PropertyInterface("Outer Roundness", d)), f.pt.setGroupProperty(PropertyInterface("Points", d)), f.p.setGroupProperty(PropertyInterface("Position", d)), f.r.setGroupProperty(PropertyInterface("Rotation", d)), x.ir && (f.ir.setGroupProperty(PropertyInterface("Inner Radius", d)), f.is.setGroupProperty(PropertyInterface("Inner Roundness", d))), Object.defineProperties(u, {
           position: {
             get: ExpressionPropertyInterface(f.p)
@@ -7086,11 +7086,11 @@ var lottie$1 = { exports: {} };
           }
         }), u.mn = x.mn, u;
       }
-      function E(x, m, _) {
+      function E(x, m, A) {
         function u(y) {
           return x.p.ix === y ? u.position : x.r.ix === y ? u.roundness : x.s.ix === y || y === "Size" || y === "ADBE Vector Rect Size" ? u.size : null;
         }
-        var d = propertyGroupFactory(u, _), f = m.sh.ty === "tm" ? m.sh.prop : m.sh;
+        var d = propertyGroupFactory(u, A), f = m.sh.ty === "tm" ? m.sh.prop : m.sh;
         return u.propertyIndex = x.ix, f.p.setGroupProperty(PropertyInterface("Position", d)), f.s.setGroupProperty(PropertyInterface("Size", d)), f.r.setGroupProperty(PropertyInterface("Rotation", d)), Object.defineProperties(u, {
           position: {
             get: ExpressionPropertyInterface(f.p)
@@ -7106,11 +7106,11 @@ var lottie$1 = { exports: {} };
           }
         }), u.mn = x.mn, u;
       }
-      function c(x, m, _) {
+      function c(x, m, A) {
         function u(y) {
           return x.r.ix === y || y === "Round Corners 1" ? u.radius : null;
         }
-        var d = propertyGroupFactory(u, _), f = m;
+        var d = propertyGroupFactory(u, A), f = m;
         return u.propertyIndex = x.ix, f.rd.setGroupProperty(PropertyInterface("Radius", d)), Object.defineProperties(u, {
           radius: {
             get: ExpressionPropertyInterface(f.rd)
@@ -7120,11 +7120,11 @@ var lottie$1 = { exports: {} };
           }
         }), u.mn = x.mn, u;
       }
-      function S(x, m, _) {
+      function S(x, m, A) {
         function u(y) {
           return x.c.ix === y || y === "Copies" ? u.copies : x.o.ix === y || y === "Offset" ? u.offset : null;
         }
-        var d = propertyGroupFactory(u, _), f = m;
+        var d = propertyGroupFactory(u, A), f = m;
         return u.propertyIndex = x.ix, f.c.setGroupProperty(PropertyInterface("Copies", d)), f.o.setGroupProperty(PropertyInterface("Offset", d)), Object.defineProperties(u, {
           copies: {
             get: ExpressionPropertyInterface(f.c)
@@ -7137,12 +7137,12 @@ var lottie$1 = { exports: {} };
           }
         }), u.mn = x.mn, u;
       }
-      return function(x, m, _) {
+      return function(x, m, A) {
         var u;
         function d(y) {
           if (typeof y == "number")
-            return y = y === void 0 ? 1 : y, y === 0 ? _ : u[y - 1];
-          for (var C = 0, A = u.length; C < A; ) {
+            return y = y === void 0 ? 1 : y, y === 0 ? A : u[y - 1];
+          for (var C = 0, k = u.length; C < k; ) {
             if (u[C]._name === y)
               return u[C];
             C += 1;
@@ -7150,7 +7150,7 @@ var lottie$1 = { exports: {} };
           return null;
         }
         function f() {
-          return _;
+          return A;
         }
         return d.propertyGroup = propertyGroupFactory(d, f), u = t(x, m, d.propertyGroup), d.numProperties = u.length, d._name = "Contents", d;
       };
@@ -7279,12 +7279,12 @@ var lottie$1 = { exports: {} };
         if (!this.k || !this.keyframes)
           return this.pv;
         c = c ? c.toLowerCase() : "";
-        var m = this.comp.renderedFrame, _ = this.keyframes, u = _[_.length - 1].t;
+        var m = this.comp.renderedFrame, A = this.keyframes, u = A[A.length - 1].t;
         if (m <= u)
           return this.pv;
         var d, f;
-        x ? (S ? d = Math.abs(u - this.elem.comp.globalData.frameRate * S) : d = Math.max(0, u - this.elem.data.ip), f = u - d) : ((!S || S > _.length - 1) && (S = _.length - 1), f = _[_.length - 1 - S].t, d = u - f);
-        var y, C, A;
+        x ? (S ? d = Math.abs(u - this.elem.comp.globalData.frameRate * S) : d = Math.max(0, u - this.elem.data.ip), f = u - d) : ((!S || S > A.length - 1) && (S = A.length - 1), f = A[A.length - 1 - S].t, d = u - f);
+        var y, C, k;
         if (c === "pingpong") {
           var M = Math.floor((m - f) / d);
           if (M % 2 !== 0)
@@ -7292,17 +7292,17 @@ var lottie$1 = { exports: {} };
         } else if (c === "offset") {
           var F = this.getValueAtTime(f / this.comp.globalData.frameRate, 0), L = this.getValueAtTime(u / this.comp.globalData.frameRate, 0), N = this.getValueAtTime(((m - f) % d + f) / this.comp.globalData.frameRate, 0), D = Math.floor((m - f) / d);
           if (this.pv.length) {
-            for (A = new Array(F.length), C = A.length, y = 0; y < C; y += 1)
-              A[y] = (L[y] - F[y]) * D + N[y];
-            return A;
+            for (k = new Array(F.length), C = k.length, y = 0; y < C; y += 1)
+              k[y] = (L[y] - F[y]) * D + N[y];
+            return k;
           }
           return (L - F) * D + N;
         } else if (c === "continue") {
           var B = this.getValueAtTime(u / this.comp.globalData.frameRate, 0), O = this.getValueAtTime((u - 1e-3) / this.comp.globalData.frameRate, 0);
           if (this.pv.length) {
-            for (A = new Array(B.length), C = A.length, y = 0; y < C; y += 1)
-              A[y] = B[y] + (B[y] - O[y]) * ((m - u) / this.comp.globalData.frameRate) / 5e-4;
-            return A;
+            for (k = new Array(B.length), C = k.length, y = 0; y < C; y += 1)
+              k[y] = B[y] + (B[y] - O[y]) * ((m - u) / this.comp.globalData.frameRate) / 5e-4;
+            return k;
           }
           return B + (B - O) * ((m - u) / 1e-3);
         }
@@ -7312,12 +7312,12 @@ var lottie$1 = { exports: {} };
         if (!this.k)
           return this.pv;
         c = c ? c.toLowerCase() : "";
-        var m = this.comp.renderedFrame, _ = this.keyframes, u = _[0].t;
+        var m = this.comp.renderedFrame, A = this.keyframes, u = A[0].t;
         if (m >= u)
           return this.pv;
         var d, f;
-        x ? (S ? d = Math.abs(this.elem.comp.globalData.frameRate * S) : d = Math.max(0, this.elem.data.op - u), f = u + d) : ((!S || S > _.length - 1) && (S = _.length - 1), f = _[S].t, d = f - u);
-        var y, C, A;
+        x ? (S ? d = Math.abs(this.elem.comp.globalData.frameRate * S) : d = Math.max(0, this.elem.data.op - u), f = u + d) : ((!S || S > A.length - 1) && (S = A.length - 1), f = A[S].t, d = f - u);
+        var y, C, k;
         if (c === "pingpong") {
           var M = Math.floor((u - m) / d);
           if (M % 2 === 0)
@@ -7325,17 +7325,17 @@ var lottie$1 = { exports: {} };
         } else if (c === "offset") {
           var F = this.getValueAtTime(u / this.comp.globalData.frameRate, 0), L = this.getValueAtTime(f / this.comp.globalData.frameRate, 0), N = this.getValueAtTime((d - (u - m) % d + u) / this.comp.globalData.frameRate, 0), D = Math.floor((u - m) / d) + 1;
           if (this.pv.length) {
-            for (A = new Array(F.length), C = A.length, y = 0; y < C; y += 1)
-              A[y] = N[y] - (L[y] - F[y]) * D;
-            return A;
+            for (k = new Array(F.length), C = k.length, y = 0; y < C; y += 1)
+              k[y] = N[y] - (L[y] - F[y]) * D;
+            return k;
           }
           return N - (L - F) * D;
         } else if (c === "continue") {
           var B = this.getValueAtTime(u / this.comp.globalData.frameRate, 0), O = this.getValueAtTime((u + 1e-3) / this.comp.globalData.frameRate, 0);
           if (this.pv.length) {
-            for (A = new Array(B.length), C = A.length, y = 0; y < C; y += 1)
-              A[y] = B[y] + (B[y] - O[y]) * (u - m) / 1e-3;
-            return A;
+            for (k = new Array(B.length), C = k.length, y = 0; y < C; y += 1)
+              k[y] = B[y] + (B[y] - O[y]) * (u - m) / 1e-3;
+            return k;
           }
           return B + (B - O) * (u - m) / 1e-3;
         }
@@ -7346,7 +7346,7 @@ var lottie$1 = { exports: {} };
           return this.pv;
         if (c = (c || 0.4) * 0.5, S = Math.floor(S || 5), S <= 1)
           return this.pv;
-        var x = this.comp.renderedFrame / this.comp.globalData.frameRate, m = x - c, _ = x + c, u = S > 1 ? (_ - m) / (S - 1) : 1, d = 0, f = 0, y;
+        var x = this.comp.renderedFrame / this.comp.globalData.frameRate, m = x - c, A = x + c, u = S > 1 ? (A - m) / (S - 1) : 1, d = 0, f = 0, y;
         this.pv.length ? y = createTypedArray("float32", this.pv.length) : y = 0;
         for (var C; d < S; ) {
           if (C = this.getValueAtTime(m + d * u), this.pv.length)
@@ -7377,15 +7377,15 @@ var lottie$1 = { exports: {} };
           S.scale(m[0] * this.s.mult, m[1] * this.s.mult, m[2] * this.s.mult);
         }
         if (this.sk && this.appliedTransformations < 3) {
-          var _ = this.sk.getValueAtTime(c), u = this.sa.getValueAtTime(c);
-          S.skewFromAxis(-_ * this.sk.mult, u * this.sa.mult);
+          var A = this.sk.getValueAtTime(c), u = this.sa.getValueAtTime(c);
+          S.skewFromAxis(-A * this.sk.mult, u * this.sa.mult);
         }
         if (this.r && this.appliedTransformations < 4) {
           var d = this.r.getValueAtTime(c);
           S.rotate(-d * this.r.mult);
         } else if (!this.r && this.appliedTransformations < 4) {
-          var f = this.rz.getValueAtTime(c), y = this.ry.getValueAtTime(c), C = this.rx.getValueAtTime(c), A = this.or.getValueAtTime(c);
-          S.rotateZ(-f * this.rz.mult).rotateY(y * this.ry.mult).rotateX(C * this.rx.mult).rotateZ(-A[2] * this.or.mult).rotateY(A[1] * this.or.mult).rotateX(A[0] * this.or.mult);
+          var f = this.rz.getValueAtTime(c), y = this.ry.getValueAtTime(c), C = this.rx.getValueAtTime(c), k = this.or.getValueAtTime(c);
+          S.rotateZ(-f * this.rz.mult).rotateY(y * this.ry.mult).rotateX(C * this.rx.mult).rotateZ(-k[2] * this.or.mult).rotateY(k[1] * this.or.mult).rotateX(k[0] * this.or.mult);
         }
         if (this.data.p && this.data.p.s) {
           var M = this.px.getValueAtTime(c), F = this.py.getValueAtTime(c);
@@ -7409,15 +7409,15 @@ var lottie$1 = { exports: {} };
         return m.dynamicProperties.length ? m.getValueAtTime = i.bind(m) : m.getValueAtTime = s.bind(m), m.setGroupProperty = expressionHelpers.setGroupProperty, m;
       };
       var n = PropertyFactory.getProp;
-      PropertyFactory.getProp = function(c, S, x, m, _) {
-        var u = n(c, S, x, m, _);
+      PropertyFactory.getProp = function(c, S, x, m, A) {
+        var u = n(c, S, x, m, A);
         u.kf ? u.getValueAtTime = expressionHelpers.getValueAtTime.bind(u) : u.getValueAtTime = expressionHelpers.getStaticValueAtTime.bind(u), u.setGroupProperty = expressionHelpers.setGroupProperty, u.loopOut = t, u.loopIn = e, u.smooth = r, u.getVelocityAtTime = expressionHelpers.getVelocityAtTime.bind(u), u.getSpeedAtTime = expressionHelpers.getSpeedAtTime.bind(u), u.numKeys = S.a === 1 ? S.k.length : 0, u.propertyIndex = S.ix;
         var d = 0;
         return x !== 0 && (d = createTypedArray("float32", S.a === 1 ? S.k[0].s.length : S.k.length)), u._cachingAtTime = {
           lastFrame: initialDefaultFrame,
           lastIndex: 0,
           value: d
-        }, expressionHelpers.searchExpressions(c, S, u), u.k && _.addDynamicProperty(u), u;
+        }, expressionHelpers.searchExpressions(c, S, u), u.k && A.addDynamicProperty(u), u;
       };
       function l(c) {
         return this._cachingAtTime || (this._cachingAtTime = {
@@ -7434,9 +7434,9 @@ var lottie$1 = { exports: {} };
           this.k && this.getValue();
           var m = this.v;
           x !== void 0 && (m = this.getValueAtTime(x, 0));
-          var _, u = m._length, d = m[S], f = m.v, y = createSizedArray(u);
-          for (_ = 0; _ < u; _ += 1)
-            S === "i" || S === "o" ? y[_] = [d[_][0] - f[_][0], d[_][1] - f[_][1]] : y[_] = [d[_][0], d[_][1]];
+          var A, u = m._length, d = m[S], f = m.v, y = createSizedArray(u);
+          for (A = 0; A < u; A += 1)
+            S === "i" || S === "o" ? y[A] = [d[A][0] - f[A][0], d[A][1] - f[A][1]] : y[A] = [d[A][0], d[A][1]];
           return y;
         },
         points: function(S) {
@@ -7454,20 +7454,20 @@ var lottie$1 = { exports: {} };
         pointOnPath: function(S, x) {
           var m = this.v;
           x !== void 0 && (m = this.getValueAtTime(x, 0)), this._segmentsLength || (this._segmentsLength = bez.getSegmentsLength(m));
-          for (var _ = this._segmentsLength, u = _.lengths, d = _.totalLength * S, f = 0, y = u.length, C = 0, A; f < y; ) {
+          for (var A = this._segmentsLength, u = A.lengths, d = A.totalLength * S, f = 0, y = u.length, C = 0, k; f < y; ) {
             if (C + u[f].addedLength > d) {
               var M = f, F = m.c && f === y - 1 ? 0 : f + 1, L = (d - C) / u[f].addedLength;
-              A = bez.getPointInSegment(m.v[M], m.v[F], m.o[M], m.i[F], L, u[f]);
+              k = bez.getPointInSegment(m.v[M], m.v[F], m.o[M], m.i[F], L, u[f]);
               break;
             } else
               C += u[f].addedLength;
             f += 1;
           }
-          return A || (A = m.c ? [m.v[0][0], m.v[0][1]] : [m.v[m._length - 1][0], m.v[m._length - 1][1]]), A;
+          return k || (k = m.c ? [m.v[0][0], m.v[0][1]] : [m.v[m._length - 1][0], m.v[m._length - 1][1]]), k;
         },
         vectorOnPath: function(S, x, m) {
           S == 1 ? S = this.v.c : S == 0 && (S = 0.999);
-          var _ = this.pointOnPath(S, x), u = this.pointOnPath(S + 1e-3, x), d = u[0] - _[0], f = u[1] - _[1], y = Math.sqrt(Math.pow(d, 2) + Math.pow(f, 2));
+          var A = this.pointOnPath(S, x), u = this.pointOnPath(S + 1e-3, x), d = u[0] - A[0], f = u[1] - A[1], y = Math.sqrt(Math.pow(d, 2) + Math.pow(f, 2));
           if (y === 0)
             return [0, 0];
           var C = m === "tangent" ? [d / y, f / y] : [-f / y, d / y];
@@ -7483,8 +7483,8 @@ var lottie$1 = { exports: {} };
         getValueAtTime: expressionHelpers.getStaticValueAtTime
       }, extendPrototype([g], o), extendPrototype([g], p), p.prototype.getValueAtTime = l, p.prototype.initiateExpression = ExpressionManager.initiateExpression;
       var E = ShapePropertyFactory.getShapeProp;
-      ShapePropertyFactory.getShapeProp = function(c, S, x, m, _) {
-        var u = E(c, S, x, m, _);
+      ShapePropertyFactory.getShapeProp = function(c, S, x, m, A) {
+        var u = E(c, S, x, m, A);
         return u.propertyIndex = S.ix, u.lock = !1, x === 3 ? expressionHelpers.searchExpressions(c, S.pt, u) : x === 4 && expressionHelpers.searchExpressions(c, S.ks, u), u.k && c.addDynamicProperty(u), u;
       };
     }
@@ -7732,6432 +7732,5177 @@ var lottie$1 = { exports: {} };
   });
 })(lottie$1, lottie$1.exports);
 var lottieExports = lottie$1.exports;
-const lottie = /* @__PURE__ */ getDefaultExportFromCjs(lottieExports), nm = "Frame 983", v = "5.9.6", fr = 60, ip = 0, op = 503, w = 48, h = 48, ddd = 0, markers = [], assets = [
+const lottie = /* @__PURE__ */ getDefaultExportFromCjs(lottieExports), v = "4.8.0", meta = {
+  g: "LottieFiles AE 3.5.1",
+  a: "",
+  k: "",
+  d: "",
+  tc: ""
+}, fr = 60, ip = 0, op = 504, w = 48, h = 48, nm = "animation", ddd = 0, assets = [], layers = [
   {
-    nm: "Component 2",
-    fr: 60,
-    id: "147:317",
-    layers: [
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 5,
-        hd: !1,
-        nm: "Component 2 - Null",
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 4,
-        ddd: 0,
-        ind: 6,
-        hd: !1,
-        nm: "Component 2 - Shape Mask",
-        parent: 5,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1,
-        shapes: [
-          {
-            ty: "gr",
-            nm: "Group",
-            hd: !1,
-            np: 3,
-            it: [
-              {
-                ty: "sh",
-                nm: "Path",
-                hd: !1,
-                ks: {
-                  a: 0,
-                  k: {
-                    c: !0,
-                    v: [
-                      [
-                        20,
-                        0
-                      ],
-                      [
-                        38,
-                        0
-                      ],
-                      [
-                        48,
-                        10
-                      ],
-                      [
-                        48,
-                        28
-                      ],
-                      [
-                        28,
-                        48
-                      ],
-                      [
-                        20,
-                        48
-                      ],
-                      [
-                        0,
-                        28
-                      ],
-                      [
-                        0,
-                        20
-                      ],
-                      [
-                        20,
-                        0
-                      ],
-                      [
-                        20,
-                        0
-                      ]
-                    ],
-                    i: [
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        -5.5228
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        11.0457,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        11.0457
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        -11.0457,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ]
-                    ],
-                    o: [
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        5.522849999999998,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        11.04569
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        -11.04569,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        -11.04569
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ]
-                    ]
-                  }
-                }
-              },
-              {
-                ty: "fl",
-                o: {
-                  a: 0,
-                  k: 100
-                },
-                c: {
-                  a: 0,
-                  k: [
-                    0,
-                    1,
-                    0,
-                    1
-                  ]
-                },
-                nm: "Fill",
-                hd: !1,
-                r: 1
-              },
-              {
-                ty: "tr",
-                a: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                p: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                s: {
-                  a: 0,
-                  k: [
-                    100,
-                    100
-                  ]
-                },
-                sk: {
-                  a: 0,
-                  k: 0
-                },
-                sa: {
-                  a: 0,
-                  k: 0
-                },
-                r: {
-                  a: 0,
-                  k: 0
-                },
-                o: {
-                  a: 0,
-                  k: 100
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    nm: "[FRAME] Component 2 - Null / Animated face - Null / Rectangle 2 - Null / Rectangle 2 / Rectangle 1 - Null / Rectangle 1 / Ellipse 46 - Null / Ellipse 46",
-    fr: 60,
-    id: "ln324ahm22vinakxno4",
-    layers: [
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 11,
-        hd: !1,
-        nm: "Component 2 - Null",
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 12,
-        hd: !1,
-        nm: "Animated face - Null",
-        parent: 11,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 1,
-            k: [
-              {
-                t: 0.060000002849847064,
-                s: [
-                  12,
-                  14
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 60.06000000284982,
-                s: [
-                  12,
-                  12
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 120.06000000284982,
-                s: [
-                  12,
-                  14
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 135.17240530299026,
-                s: [
-                  17.053725,
-                  9.95702
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 143.0571385030635,
-                s: [
-                  17,
-                  10
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 203.0571385030635,
-                s: [
-                  17,
-                  12
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 218.16954380320388,
-                s: [
-                  8.91404,
-                  9.97851
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 226.05427700327712,
-                s: [
-                  9,
-                  10
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 286.05427700327715,
-                s: [
-                  9,
-                  12
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 346.05427700327715,
-                s: [
-                  9,
-                  10
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 352.59592019406927,
-                s: [
-                  10.045155,
-                  11.39354
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 359.1375633848613,
-                s: [
-                  11.212245,
-                  12.94966
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 365.6792065756535,
-                s: [
-                  11.782035,
-                  13.70938
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 372.22084976644555,
-                s: [
-                  11.97258,
-                  13.96344
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 376.8,
-                s: [
-                  12,
-                  14
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 426.6,
-                s: [
-                  12,
-                  12
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.4787
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 480,
-                s: [
-                  12,
-                  14
-                ]
-              }
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 13,
-        hd: !1,
-        nm: "Rectangle 2 - Null",
-        parent: 12,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 1,
-            k: [
-              {
-                t: 120,
-                s: [
-                  0,
-                  0
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 126.00000008940697,
-                s: [
-                  0,
-                  5
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 132.0000001788139,
-                s: [
-                  0,
-                  0
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    -0.2
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 150.00000089406967,
-                s: [
-                  0,
-                  1
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    -0.2
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 210.00000089406967,
-                s: [
-                  0,
-                  0
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.15
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 480.59999999999997,
-                s: [
-                  0,
-                  0
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 491.99999999999994,
-                s: [
-                  0,
-                  5
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.15
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 504,
-                s: [
-                  0,
-                  0
-                ]
-              }
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 4,
-        ddd: 0,
-        ind: 14,
-        hd: !1,
-        nm: "Rectangle 2",
-        parent: 13,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1,
-        shapes: [
-          {
-            ty: "gr",
-            nm: "Group",
-            hd: !1,
-            np: 3,
-            it: [
-              {
-                ty: "sh",
-                nm: "Path",
-                hd: !1,
-                ks: {
-                  a: 1,
-                  k: [
-                    {
-                      t: 120,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 126.00000008940697,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              6.5,
-                              3
-                            ],
-                            [
-                              1.5,
-                              3
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 132.0000001788139,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.42
-                        ],
-                        y: [
-                          -0.2
-                        ]
-                      },
-                      i: {
-                        x: [
-                          1
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 150.00000089406967,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              6.5
-                            ],
-                            [
-                              6.5,
-                              8
-                            ],
-                            [
-                              1.5,
-                              8
-                            ],
-                            [
-                              0,
-                              6.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.42
-                        ],
-                        y: [
-                          -0.2
-                        ]
-                      },
-                      i: {
-                        x: [
-                          1
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 210.00000089406967,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 480.59999999999997,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 491.99999999999994,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              6.5,
-                              3
-                            ],
-                            [
-                              1.5,
-                              3
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 504,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                ty: "fl",
-                o: {
-                  a: 0,
-                  k: 100
-                },
-                c: {
-                  a: 0,
-                  k: [
-                    0.2627450980392157,
-                    0.12941176470588237,
-                    0.2901960784313726,
-                    1
-                  ]
-                },
-                nm: "Fill",
-                hd: !1,
-                r: 1
-              },
-              {
-                ty: "tr",
-                a: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                p: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                s: {
-                  a: 0,
-                  k: [
-                    100,
-                    100
-                  ]
-                },
-                sk: {
-                  a: 0,
-                  k: 0
-                },
-                sa: {
-                  a: 0,
-                  k: 0
-                },
-                r: {
-                  a: 0,
-                  k: 0
-                },
-                o: {
-                  a: 0,
-                  k: 100
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 15,
-        hd: !1,
-        nm: "Rectangle 1 - Null",
-        parent: 12,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 1,
-            k: [
-              {
-                t: 120,
-                s: [
-                  16,
-                  0
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 126.00000008940697,
-                s: [
-                  16,
-                  5
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 132.0000001788139,
-                s: [
-                  16,
-                  0
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    -0.2
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 150.00000089406967,
-                s: [
-                  16,
-                  1
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    -0.2
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 210.00000089406967,
-                s: [
-                  16,
-                  0
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.15
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 480.59999999999997,
-                s: [
-                  16,
-                  0
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 491.99999999999994,
-                s: [
-                  16,
-                  5
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.15
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 504,
-                s: [
-                  16,
-                  0
-                ]
-              }
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 4,
-        ddd: 0,
-        ind: 16,
-        hd: !1,
-        nm: "Rectangle 1",
-        parent: 15,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1,
-        shapes: [
-          {
-            ty: "gr",
-            nm: "Group",
-            hd: !1,
-            np: 3,
-            it: [
-              {
-                ty: "sh",
-                nm: "Path",
-                hd: !1,
-                ks: {
-                  a: 1,
-                  k: [
-                    {
-                      t: 120,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 126.00000008940697,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              6.5,
-                              3
-                            ],
-                            [
-                              1.5,
-                              3
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 132.0000001788139,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.42
-                        ],
-                        y: [
-                          -0.2
-                        ]
-                      },
-                      i: {
-                        x: [
-                          1
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 150.00000089406967,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              6.5
-                            ],
-                            [
-                              6.5,
-                              8
-                            ],
-                            [
-                              1.5,
-                              8
-                            ],
-                            [
-                              0,
-                              6.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.42
-                        ],
-                        y: [
-                          -0.2
-                        ]
-                      },
-                      i: {
-                        x: [
-                          1
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 210.00000089406967,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 480.59999999999997,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 491.99999999999994,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              6.5,
-                              3
-                            ],
-                            [
-                              1.5,
-                              3
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 504,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              6.5,
-                              0
-                            ],
-                            [
-                              8,
-                              1.5
-                            ],
-                            [
-                              8,
-                              8.5
-                            ],
-                            [
-                              6.5,
-                              10
-                            ],
-                            [
-                              1.5,
-                              10
-                            ],
-                            [
-                              0,
-                              8.5
-                            ],
-                            [
-                              0,
-                              1.5
-                            ],
-                            [
-                              1.5,
-                              0
-                            ],
-                            [
-                              1.5,
-                              0
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0.8284300000000009
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              -0.82843
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                ty: "fl",
-                o: {
-                  a: 0,
-                  k: 100
-                },
-                c: {
-                  a: 0,
-                  k: [
-                    0.2627450980392157,
-                    0.12941176470588237,
-                    0.2901960784313726,
-                    1
-                  ]
-                },
-                nm: "Fill",
-                hd: !1,
-                r: 1
-              },
-              {
-                ty: "tr",
-                a: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                p: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                s: {
-                  a: 0,
-                  k: [
-                    100,
-                    100
-                  ]
-                },
-                sk: {
-                  a: 0,
-                  k: 0
-                },
-                sa: {
-                  a: 0,
-                  k: 0
-                },
-                r: {
-                  a: 0,
-                  k: 0
-                },
-                o: {
-                  a: 0,
-                  k: 100
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 17,
-        hd: !1,
-        nm: "Ellipse 46 - Null",
-        parent: 12,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 1,
-            k: [
-              {
-                t: 120,
-                s: [
-                  5.1312,
-                  15
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 126.00000008940697,
-                s: [
-                  3.85,
-                  15
-                ],
-                o: {
-                  x: [
-                    0
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 132.0000001788139,
-                s: [
-                  3.8484,
-                  15
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    -0.2
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 150.00000089406967,
-                s: [
-                  5.1312,
-                  15
-                ],
-                o: {
-                  x: [
-                    0.42
-                  ],
-                  y: [
-                    -0.2
-                  ]
-                },
-                i: {
-                  x: [
-                    1
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 210.00000089406967,
-                s: [
-                  7.1723,
-                  16
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 383.9571431764534,
-                s: [
-                  5.0918373865,
-                  14.980715
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.67
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 480.59999999999997,
-                s: [
-                  5.1312,
-                  15
-                ],
-                o: {
-                  x: [
-                    0.33
-                  ],
-                  y: [
-                    0
-                  ]
-                },
-                i: {
-                  x: [
-                    0.58
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 491.99999999999994,
-                s: [
-                  3.8484,
-                  15
-                ],
-                o: {
-                  x: [
-                    0.5
-                  ],
-                  y: [
-                    0.35
-                  ]
-                },
-                i: {
-                  x: [
-                    0.15
-                  ],
-                  y: [
-                    1
-                  ]
-                },
-                ti: [
-                  0,
-                  0
-                ],
-                to: [
-                  0,
-                  0
-                ]
-              },
-              {
-                t: 504,
-                s: [
-                  5.13,
-                  15
-                ]
-              }
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 4,
-        ddd: 0,
-        ind: 18,
-        hd: !1,
-        nm: "Ellipse 46",
-        parent: 17,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1,
-        shapes: [
-          {
-            ty: "gr",
-            nm: "Group",
-            hd: !1,
-            np: 3,
-            it: [
-              {
-                ty: "sh",
-                nm: "Path",
-                hd: !1,
-                ks: {
-                  a: 1,
-                  k: [
-                    {
-                      t: 120,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              13.7101,
-                              1.4891
-                            ],
-                            [
-                              12.3688,
-                              0
-                            ],
-                            [
-                              1.3688,
-                              0
-                            ],
-                            [
-                              0.0275,
-                              1.4891
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.6826,
-                              3.1506
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.1754,
-                              -0.8096
-                            ],
-                            [
-                              -3.355,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.354990000000001,
-                              0
-                            ],
-                            [
-                              0.1754099999999994,
-                              -0.80964
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0.68257,
-                              3.1506399999999997
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 126.00000008940697,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              8.1517,
-                              9
-                            ],
-                            [
-                              16.2707,
-                              1.9146
-                            ],
-                            [
-                              14.6789,
-                              1e-4
-                            ],
-                            [
-                              1.6245,
-                              1e-4
-                            ],
-                            [
-                              0.0327,
-                              1.9147
-                            ],
-                            [
-                              8.1517,
-                              9.0002
-                            ],
-                            [
-                              8.1517,
-                              9
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8101,
-                              4.0508
-                            ],
-                            [
-                              0.9832,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.2082,
-                              -1.041
-                            ],
-                            [
-                              -3.9816,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.9815900000000006,
-                              0
-                            ],
-                            [
-                              0.20816999999999908,
-                              -1.04097
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.98315,
-                              0
-                            ],
-                            [
-                              0.81005,
-                              4.05083
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 132.0000001788139,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              8.1517,
-                              9
-                            ],
-                            [
-                              16.2707,
-                              1.9146
-                            ],
-                            [
-                              14.6789,
-                              1e-4
-                            ],
-                            [
-                              1.6245,
-                              1e-4
-                            ],
-                            [
-                              0.0327,
-                              1.9147
-                            ],
-                            [
-                              8.1517,
-                              9.0002
-                            ],
-                            [
-                              8.1517,
-                              9
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8101,
-                              4.0508
-                            ],
-                            [
-                              0.9832,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.2082,
-                              -1.041
-                            ],
-                            [
-                              -3.9816,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.9815900000000006,
-                              0
-                            ],
-                            [
-                              0.20816999999999908,
-                              -1.04097
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.98315,
-                              0
-                            ],
-                            [
-                              0.81005,
-                              4.05083
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.42
-                        ],
-                        y: [
-                          -0.2
-                        ]
-                      },
-                      i: {
-                        x: [
-                          1
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 150.00000089406967,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              13.7101,
-                              1.4891
-                            ],
-                            [
-                              12.3688,
-                              0
-                            ],
-                            [
-                              1.3688,
-                              0
-                            ],
-                            [
-                              0.0275,
-                              1.4891
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.6826,
-                              3.1506
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.1754,
-                              -0.8096
-                            ],
-                            [
-                              -3.355,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.354990000000001,
-                              0
-                            ],
-                            [
-                              0.1754099999999994,
-                              -0.80964
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0.68257,
-                              3.1506399999999997
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.42
-                        ],
-                        y: [
-                          -0.2
-                        ]
-                      },
-                      i: {
-                        x: [
-                          1
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 210.00000089406967,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              4.8277,
-                              5
-                            ],
-                            [
-                              9.6361,
-                              1.0636
-                            ],
-                            [
-                              8.6934,
-                              0
-                            ],
-                            [
-                              0.9621,
-                              0
-                            ],
-                            [
-                              0.0194,
-                              1.0636
-                            ],
-                            [
-                              4.8278,
-                              5
-                            ],
-                            [
-                              4.8277,
-                              5
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.4797,
-                              2.2505
-                            ],
-                            [
-                              0.5823,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.1233,
-                              -0.5783
-                            ],
-                            [
-                              -2.358,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              2.35804,
-                              0
-                            ],
-                            [
-                              0.12327999999999939,
-                              -0.57832
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.58226,
-                              0
-                            ],
-                            [
-                              0.47974000000000006,
-                              2.25046
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.67
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 383.9571431764534,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              6.9082,
-                              7.0386
-                            ],
-                            [
-                              13.7887,
-                              1.4973
-                            ],
-                            [
-                              12.4397,
-                              0
-                            ],
-                            [
-                              1.3767,
-                              0
-                            ],
-                            [
-                              0.0277,
-                              1.4973
-                            ],
-                            [
-                              6.9082,
-                              7.0386
-                            ],
-                            [
-                              6.9082,
-                              7.0386
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.6865,
-                              3.168
-                            ],
-                            [
-                              0.8332,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.1764,
-                              -0.8141
-                            ],
-                            [
-                              -3.3742,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.3742100000000006,
-                              0
-                            ],
-                            [
-                              0.17641000000000062,
-                              -0.81411
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.83317,
-                              0
-                            ],
-                            [
-                              0.68648,
-                              3.1680199999999994
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.33
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.67
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 480.59999999999997,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              13.7101,
-                              1.4891
-                            ],
-                            [
-                              12.3688,
-                              0
-                            ],
-                            [
-                              1.3688,
-                              0
-                            ],
-                            [
-                              0.0275,
-                              1.4891
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.6826,
-                              3.1506
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.1754,
-                              -0.8096
-                            ],
-                            [
-                              -3.355,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.354990000000001,
-                              0
-                            ],
-                            [
-                              0.1754099999999994,
-                              -0.80964
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0.68257,
-                              3.1506399999999997
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.33
-                        ],
-                        y: [
-                          0
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.58
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 491.99999999999994,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              8.1517,
-                              9
-                            ],
-                            [
-                              16.2707,
-                              1.9146
-                            ],
-                            [
-                              14.6789,
-                              1e-4
-                            ],
-                            [
-                              1.6245,
-                              1e-4
-                            ],
-                            [
-                              0.0327,
-                              1.9147
-                            ],
-                            [
-                              8.1517,
-                              9.0002
-                            ],
-                            [
-                              8.1517,
-                              9
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.8101,
-                              4.0508
-                            ],
-                            [
-                              0.9832,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.2082,
-                              -1.041
-                            ],
-                            [
-                              -3.9816,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.9815900000000006,
-                              0
-                            ],
-                            [
-                              0.20816999999999908,
-                              -1.04097
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.98315,
-                              0
-                            ],
-                            [
-                              0.81005,
-                              4.05083
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 504,
-                      s: [
-                        {
-                          c: !0,
-                          v: [
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              13.7101,
-                              1.4891
-                            ],
-                            [
-                              12.3688,
-                              0
-                            ],
-                            [
-                              1.3688,
-                              0
-                            ],
-                            [
-                              0.0275,
-                              1.4891
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ],
-                            [
-                              6.8688,
-                              7
-                            ]
-                          ],
-                          i: [
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.6826,
-                              3.1506
-                            ],
-                            [
-                              0.8284,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.1754,
-                              -0.8096
-                            ],
-                            [
-                              -3.355,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ],
-                          o: [
-                            [
-                              3.354990000000001,
-                              0
-                            ],
-                            [
-                              0.1754099999999994,
-                              -0.80964
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              -0.82843,
-                              0
-                            ],
-                            [
-                              0.68257,
-                              3.1506399999999997
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              },
-              {
-                ty: "fl",
-                o: {
-                  a: 0,
-                  k: 100
-                },
-                c: {
-                  a: 0,
-                  k: [
-                    0.2627450980392157,
-                    0.12941176470588237,
-                    0.2901960784313726,
-                    1
-                  ]
-                },
-                nm: "Fill",
-                hd: !1,
-                r: 1
-              },
-              {
-                ty: "tr",
-                a: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                p: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                s: {
-                  a: 0,
-                  k: [
-                    100,
-                    100
-                  ]
-                },
-                sk: {
-                  a: 0,
-                  k: 0
-                },
-                sa: {
-                  a: 0,
-                  k: 0
-                },
-                r: {
-                  a: 0,
-                  k: 0
-                },
-                o: {
-                  a: 0,
-                  k: 100
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    nm: "Component 2",
-    fr: 60,
-    id: "ln324ahlr6fl81o11xl",
-    layers: [
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 24,
-        hd: !1,
-        nm: "Component 2 - Null",
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ddd: 0,
-        ind: 20,
-        ty: 0,
-        nm: "Animated face",
-        refId: "ln324ahm22vinakxno4",
-        sr: 1,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        ao: 0,
-        w: 48,
-        h: 48,
-        ip: 0,
-        op: 504,
-        st: 0,
-        hd: !1,
-        bm: 0
-      },
-      {
-        ty: 4,
-        ddd: 0,
-        ind: 21,
-        hd: !1,
-        nm: "Component 2",
-        parent: 24,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1,
-        shapes: [
-          {
-            ty: "gr",
-            nm: "Group",
-            hd: !1,
-            np: 3,
-            it: [
-              {
-                ty: "sh",
-                nm: "Path",
-                hd: !1,
-                ks: {
-                  a: 0,
-                  k: {
-                    c: !0,
-                    v: [
-                      [
-                        20,
-                        0
-                      ],
-                      [
-                        38,
-                        0
-                      ],
-                      [
-                        48,
-                        10
-                      ],
-                      [
-                        48,
-                        28
-                      ],
-                      [
-                        28,
-                        48
-                      ],
-                      [
-                        20,
-                        48
-                      ],
-                      [
-                        0,
-                        28
-                      ],
-                      [
-                        0,
-                        20
-                      ],
-                      [
-                        20,
-                        0
-                      ],
-                      [
-                        20,
-                        0
-                      ]
-                    ],
-                    i: [
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        -5.5228
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        11.0457,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        11.0457
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        -11.0457,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ]
-                    ],
-                    o: [
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        5.522849999999998,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        11.04569
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        -11.04569,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        -11.04569
-                      ],
-                      [
-                        0,
-                        0
-                      ],
-                      [
-                        0,
-                        0
-                      ]
-                    ]
-                  }
-                }
-              },
-              {
-                ty: "fl",
-                o: {
-                  a: 1,
-                  k: [
-                    {
-                      t: 480.59999999999997,
-                      s: [
-                        100
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 491.99999999999994,
-                      s: [
-                        100
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 504,
-                      s: [
-                        100
-                      ]
-                    }
-                  ]
-                },
-                c: {
-                  a: 1,
-                  k: [
-                    {
-                      t: 480.59999999999997,
-                      s: [
-                        0.9411764705882353,
-                        0.8549019607843137,
-                        0.984313725490196,
-                        1
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 491.99999999999994,
-                      s: [
-                        0.9764705882352941,
-                        0.803921568627451,
-                        0.9764705882352941,
-                        1
-                      ],
-                      o: {
-                        x: [
-                          0.5
-                        ],
-                        y: [
-                          0.35
-                        ]
-                      },
-                      i: {
-                        x: [
-                          0.15
-                        ],
-                        y: [
-                          1
-                        ]
-                      }
-                    },
-                    {
-                      t: 504,
-                      s: [
-                        0.9411764705882353,
-                        0.8549019607843137,
-                        0.984313725490196,
-                        1
-                      ]
-                    }
-                  ]
-                },
-                nm: "Fill",
-                hd: !1,
-                r: 1
-              },
-              {
-                ty: "tr",
-                a: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                p: {
-                  a: 0,
-                  k: [
-                    0,
-                    0
-                  ]
-                },
-                s: {
-                  a: 0,
-                  k: [
-                    100,
-                    100
-                  ]
-                },
-                sk: {
-                  a: 0,
-                  k: 0
-                },
-                sa: {
-                  a: 0,
-                  k: 0
-                },
-                r: {
-                  a: 0,
-                  k: 0
-                },
-                o: {
-                  a: 0,
-                  k: 100
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    nm: "Frame 983",
-    fr: 60,
-    id: "ln324ahkxzw85apiroa",
-    layers: [
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 22,
-        hd: !1,
-        nm: "Frame 983 - Null",
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 23,
-        hd: !1,
-        nm: "Component 2 - Null",
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ty: 3,
-        ddd: 0,
-        ind: 24,
-        hd: !1,
-        nm: "Component 2 - Null",
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          o: {
-            a: 0,
-            k: 100
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          }
-        },
-        st: 0,
-        ip: 0,
-        op: 504,
-        bm: 0,
-        sr: 1
-      },
-      {
-        ddd: 0,
-        ind: 25,
-        ty: 0,
-        nm: "Component 2",
-        td: 1,
-        refId: "147:317",
-        sr: 1,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        ao: 0,
-        w: 48,
-        h: 48,
-        ip: 0,
-        op: 504,
-        st: 0,
-        hd: !1,
-        bm: 0
-      },
-      {
-        ddd: 0,
-        ind: 26,
-        ty: 0,
-        nm: "Component 2",
-        refId: "ln324ahlr6fl81o11xl",
-        sr: 1,
-        ks: {
-          a: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          p: {
-            a: 0,
-            k: [
-              0,
-              0
-            ]
-          },
-          s: {
-            a: 0,
-            k: [
-              100,
-              100
-            ]
-          },
-          sk: {
-            a: 0,
-            k: 0
-          },
-          sa: {
-            a: 0,
-            k: 0
-          },
-          r: {
-            a: 0,
-            k: 0
-          },
-          o: {
-            a: 0,
-            k: 100
-          }
-        },
-        ao: 0,
-        w: 48,
-        h: 48,
-        ip: 0,
-        op: 504,
-        st: 0,
-        hd: !1,
-        bm: 0,
-        tt: 1
-      }
-    ]
-  }
-], layers = [
-  {
-    ty: 3,
     ddd: 0,
-    ind: 22,
-    hd: !1,
-    nm: "Frame 983 - Null",
+    ind: 1,
+    ty: 3,
+    nm: "Animated face - Null",
+    sr: 1,
     ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 1,
+        k: [
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 0.061,
+            s: [
+              12,
+              14,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 60.061,
+            s: [
+              12,
+              12,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.5,
+              y: 0.273
+            },
+            t: 120.061,
+            s: [
+              12,
+              14,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 135.172,
+            s: [
+              17.054,
+              9.957,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 143.057,
+            s: [
+              17,
+              10,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.5,
+              y: 0
+            },
+            t: 203.057,
+            s: [
+              17,
+              12,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 218.17,
+            s: [
+              8.914,
+              9.979,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 226.055,
+            s: [
+              9,
+              10,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 286.055,
+            s: [
+              9,
+              12,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.5,
+              y: 0.21
+            },
+            t: 346.055,
+            s: [
+              9,
+              10,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 352.596,
+            s: [
+              10.045,
+              11.394,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 359.137,
+            s: [
+              11.212,
+              12.95,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 365.68,
+            s: [
+              11.782,
+              13.709,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 372.221,
+            s: [
+              11.973,
+              13.963,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 376.801,
+            s: [
+              12,
+              14,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.479,
+              y: 1
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 426.6,
+            s: [
+              12,
+              12,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            t: 480,
+            s: [
+              12,
+              14,
+              0
+            ]
+          }
+        ],
+        ix: 2
+      },
       a: {
         a: 0,
         k: [
           0,
-          0
-        ]
-      },
-      o: {
-        a: 0,
-        k: 100
-      },
-      p: {
-        a: 0,
-        k: [
           0,
           0
-        ]
-      },
-      r: {
-        a: 0,
-        k: 0
+        ],
+        ix: 1
       },
       s: {
         a: 0,
         k: [
           100,
+          100,
           100
-        ]
-      },
-      sk: {
-        a: 0,
-        k: 0
-      },
-      sa: {
-        a: 0,
-        k: 0
+        ],
+        ix: 6
       }
     },
-    st: 0,
+    ao: 0,
     ip: 0,
     op: 504,
-    bm: 0,
-    sr: 1
+    st: 0,
+    bm: 0
   },
   {
     ddd: 0,
     ind: 2,
-    ty: 0,
-    nm: "Frame 983",
-    refId: "ln324ahkxzw85apiroa",
+    ty: 3,
+    nm: "left-eye-controller",
+    parent: 1,
     sr: 1,
     ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 1,
+        k: [
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 120,
+            s: [
+              0,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 126,
+            s: [
+              0,
+              5,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 132,
+            s: [
+              0,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 150,
+            s: [
+              0,
+              1,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 210,
+            s: [
+              0,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 480.6,
+            s: [
+              0,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.15,
+              y: 1
+            },
+            o: {
+              x: 0.5,
+              y: 0
+            },
+            t: 492,
+            s: [
+              0,
+              5,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            t: 504,
+            s: [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        ix: 2
+      },
       a: {
         a: 0,
         k: [
           0,
-          0
-        ]
-      },
-      p: {
-        a: 0,
-        k: [
           0,
           0
-        ]
+        ],
+        ix: 1
       },
       s: {
         a: 0,
         k: [
           100,
+          100,
           100
-        ]
-      },
-      sk: {
-        a: 0,
-        k: 0
-      },
-      sa: {
-        a: 0,
-        k: 0
-      },
-      r: {
-        a: 0,
-        k: 0
-      },
-      o: {
-        a: 0,
-        k: 100
+        ],
+        ix: 6
       }
     },
     ao: 0,
-    w: 48,
-    h: 48,
     ip: 0,
     op: 504,
     st: 0,
-    hd: !1,
+    bm: 0
+  },
+  {
+    ddd: 0,
+    ind: 3,
+    ty: 4,
+    nm: "left-eye",
+    cl: "tc-logo-left-eye",
+    parent: 2,
+    sr: 1,
+    ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 2
+      },
+      a: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 1
+      },
+      s: {
+        a: 0,
+        k: [
+          100,
+          100,
+          100
+        ],
+        ix: 6
+      }
+    },
+    ao: 0,
+    shapes: [
+      {
+        ty: "gr",
+        it: [
+          {
+            ind: 0,
+            ty: "sh",
+            ix: 1,
+            ks: {
+              a: 1,
+              k: [
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 120,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.58,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 126,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          6.5,
+                          3
+                        ],
+                        [
+                          1.5,
+                          3
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.42,
+                    y: 0
+                  },
+                  t: 132,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 150,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          6.5
+                        ],
+                        [
+                          6.5,
+                          8
+                        ],
+                        [
+                          1.5,
+                          8
+                        ],
+                        [
+                          0,
+                          6.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 210,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.58,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 480.6,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.15,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.5,
+                    y: 0
+                  },
+                  t: 492,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          6.5,
+                          3
+                        ],
+                        [
+                          1.5,
+                          3
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  t: 504,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                }
+              ],
+              ix: 2
+            },
+            nm: "Path 1",
+            mn: "ADBE Vector Shape - Group",
+            hd: !1
+          },
+          {
+            ty: "fl",
+            c: {
+              a: 0,
+              k: [
+                0.262745112181,
+                0.129411771894,
+                0.290196090937,
+                1
+              ],
+              ix: 4
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 5
+            },
+            r: 1,
+            bm: 0,
+            nm: "Fill",
+            mn: "ADBE Vector Graphic - Fill",
+            hd: !1
+          },
+          {
+            ty: "tr",
+            p: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 2
+            },
+            a: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 1
+            },
+            s: {
+              a: 0,
+              k: [
+                100,
+                100
+              ],
+              ix: 3
+            },
+            r: {
+              a: 0,
+              k: 0,
+              ix: 6
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 7
+            },
+            sk: {
+              a: 0,
+              k: 0,
+              ix: 4
+            },
+            sa: {
+              a: 0,
+              k: 0,
+              ix: 5
+            },
+            nm: "Transform"
+          }
+        ],
+        nm: "Group",
+        np: 2,
+        cix: 2,
+        bm: 0,
+        ix: 1,
+        mn: "ADBE Vector Group",
+        hd: !1
+      }
+    ],
+    ip: 0,
+    op: 504,
+    st: 0,
+    bm: 0
+  },
+  {
+    ddd: 0,
+    ind: 4,
+    ty: 3,
+    nm: "right-eye-controller",
+    parent: 1,
+    sr: 1,
+    ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 1,
+        k: [
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 120,
+            s: [
+              16,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 126,
+            s: [
+              16,
+              5,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 132,
+            s: [
+              16,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 150,
+            s: [
+              16,
+              1,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 210,
+            s: [
+              16,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 480.6,
+            s: [
+              16,
+              0,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.15,
+              y: 1
+            },
+            o: {
+              x: 0.5,
+              y: 0
+            },
+            t: 492,
+            s: [
+              16,
+              5,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            t: 504,
+            s: [
+              16,
+              0,
+              0
+            ]
+          }
+        ],
+        ix: 2
+      },
+      a: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 1
+      },
+      s: {
+        a: 0,
+        k: [
+          100,
+          100,
+          100
+        ],
+        ix: 6
+      }
+    },
+    ao: 0,
+    ip: 0,
+    op: 504,
+    st: 0,
+    bm: 0
+  },
+  {
+    ddd: 0,
+    ind: 5,
+    ty: 4,
+    nm: "right-eye",
+    cl: "tc-logo-right-eye",
+    parent: 4,
+    sr: 1,
+    ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 2
+      },
+      a: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 1
+      },
+      s: {
+        a: 0,
+        k: [
+          100,
+          100,
+          100
+        ],
+        ix: 6
+      }
+    },
+    ao: 0,
+    shapes: [
+      {
+        ty: "gr",
+        it: [
+          {
+            ind: 0,
+            ty: "sh",
+            ix: 1,
+            ks: {
+              a: 1,
+              k: [
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 120,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.58,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 126,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          6.5,
+                          3
+                        ],
+                        [
+                          1.5,
+                          3
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.42,
+                    y: 0
+                  },
+                  t: 132,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 150,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          6.5
+                        ],
+                        [
+                          6.5,
+                          8
+                        ],
+                        [
+                          1.5,
+                          8
+                        ],
+                        [
+                          0,
+                          6.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 210,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.58,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 480.6,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.15,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.5,
+                    y: 0
+                  },
+                  t: 492,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          6.5,
+                          3
+                        ],
+                        [
+                          1.5,
+                          3
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  t: 504,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          -0.828
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          6.5,
+                          0
+                        ],
+                        [
+                          8,
+                          1.5
+                        ],
+                        [
+                          8,
+                          8.5
+                        ],
+                        [
+                          6.5,
+                          10
+                        ],
+                        [
+                          1.5,
+                          10
+                        ],
+                        [
+                          0,
+                          8.5
+                        ],
+                        [
+                          0,
+                          1.5
+                        ],
+                        [
+                          1.5,
+                          0
+                        ],
+                        [
+                          1.5,
+                          0
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                }
+              ],
+              ix: 2
+            },
+            nm: "Path 1",
+            mn: "ADBE Vector Shape - Group",
+            hd: !1
+          },
+          {
+            ty: "fl",
+            c: {
+              a: 0,
+              k: [
+                0.262745112181,
+                0.129411771894,
+                0.290196090937,
+                1
+              ],
+              ix: 4
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 5
+            },
+            r: 1,
+            bm: 0,
+            nm: "Fill",
+            mn: "ADBE Vector Graphic - Fill",
+            hd: !1
+          },
+          {
+            ty: "tr",
+            p: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 2
+            },
+            a: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 1
+            },
+            s: {
+              a: 0,
+              k: [
+                100,
+                100
+              ],
+              ix: 3
+            },
+            r: {
+              a: 0,
+              k: 0,
+              ix: 6
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 7
+            },
+            sk: {
+              a: 0,
+              k: 0,
+              ix: 4
+            },
+            sa: {
+              a: 0,
+              k: 0,
+              ix: 5
+            },
+            nm: "Transform"
+          }
+        ],
+        nm: "Group",
+        np: 2,
+        cix: 2,
+        bm: 0,
+        ix: 1,
+        mn: "ADBE Vector Group",
+        hd: !1
+      }
+    ],
+    ip: 0,
+    op: 504,
+    st: 0,
+    bm: 0
+  },
+  {
+    ddd: 0,
+    ind: 6,
+    ty: 3,
+    nm: "mouth-controller",
+    parent: 1,
+    sr: 1,
+    ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 1,
+        k: [
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 120,
+            s: [
+              5.131,
+              15,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 126,
+            s: [
+              3.85,
+              15,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.42,
+              y: 0
+            },
+            t: 132,
+            s: [
+              3.848,
+              15,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.833,
+              y: 0.833
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 150,
+            s: [
+              5.131,
+              15,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.167,
+              y: 0.167
+            },
+            t: 210,
+            s: [
+              7.172,
+              16,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.67,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 383.957,
+            s: [
+              5.092,
+              14.981,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.58,
+              y: 1
+            },
+            o: {
+              x: 0.33,
+              y: 0
+            },
+            t: 480.6,
+            s: [
+              5.131,
+              15,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            i: {
+              x: 0.15,
+              y: 1
+            },
+            o: {
+              x: 0.5,
+              y: 0.35
+            },
+            t: 492,
+            s: [
+              3.848,
+              15,
+              0
+            ],
+            to: [
+              0,
+              0,
+              0
+            ],
+            ti: [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            t: 504,
+            s: [
+              5.13,
+              15,
+              0
+            ]
+          }
+        ],
+        ix: 2
+      },
+      a: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 1
+      },
+      s: {
+        a: 0,
+        k: [
+          100,
+          100,
+          100
+        ],
+        ix: 6
+      }
+    },
+    ao: 0,
+    ip: 0,
+    op: 504,
+    st: 0,
+    bm: 0
+  },
+  {
+    ddd: 0,
+    ind: 7,
+    ty: 4,
+    nm: "mouth",
+    cl: "tc-logo-mouth",
+    parent: 6,
+    sr: 1,
+    ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 2
+      },
+      a: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 1
+      },
+      s: {
+        a: 0,
+        k: [
+          100,
+          100,
+          100
+        ],
+        ix: 6
+      }
+    },
+    ao: 0,
+    shapes: [
+      {
+        ty: "gr",
+        it: [
+          {
+            ind: 0,
+            ty: "sh",
+            ix: 1,
+            ks: {
+              a: 1,
+              k: [
+                {
+                  i: {
+                    x: 0.58,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 120,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.683,
+                          3.151
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.175,
+                          -0.81
+                        ],
+                        [
+                          -3.355,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.355,
+                          0
+                        ],
+                        [
+                          0.175,
+                          -0.81
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0.683,
+                          3.151
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          13.71,
+                          1.489
+                        ],
+                        [
+                          12.369,
+                          0
+                        ],
+                        [
+                          1.369,
+                          0
+                        ],
+                        [
+                          0.027,
+                          1.489
+                        ],
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          6.869,
+                          7
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.15,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.5,
+                    y: 0
+                  },
+                  t: 126,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.81,
+                          4.051
+                        ],
+                        [
+                          0.983,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.208,
+                          -1.041
+                        ],
+                        [
+                          -3.982,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.982,
+                          0
+                        ],
+                        [
+                          0.208,
+                          -1.041
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.983,
+                          0
+                        ],
+                        [
+                          0.81,
+                          4.051
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          8.152,
+                          9
+                        ],
+                        [
+                          16.271,
+                          1.915
+                        ],
+                        [
+                          14.679,
+                          0
+                        ],
+                        [
+                          1.624,
+                          0
+                        ],
+                        [
+                          0.033,
+                          1.915
+                        ],
+                        [
+                          8.152,
+                          9
+                        ],
+                        [
+                          8.152,
+                          9
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.42,
+                    y: 0
+                  },
+                  t: 132,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.81,
+                          4.051
+                        ],
+                        [
+                          0.983,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.208,
+                          -1.041
+                        ],
+                        [
+                          -3.982,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.982,
+                          0
+                        ],
+                        [
+                          0.208,
+                          -1.041
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.983,
+                          0
+                        ],
+                        [
+                          0.81,
+                          4.051
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          8.152,
+                          9
+                        ],
+                        [
+                          16.271,
+                          1.915
+                        ],
+                        [
+                          14.679,
+                          0
+                        ],
+                        [
+                          1.624,
+                          0
+                        ],
+                        [
+                          0.033,
+                          1.915
+                        ],
+                        [
+                          8.152,
+                          9
+                        ],
+                        [
+                          8.152,
+                          9
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.833,
+                    y: 0.833
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 150,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.683,
+                          3.151
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.175,
+                          -0.81
+                        ],
+                        [
+                          -3.355,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.355,
+                          0
+                        ],
+                        [
+                          0.175,
+                          -0.81
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0.683,
+                          3.151
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          13.71,
+                          1.489
+                        ],
+                        [
+                          12.369,
+                          0
+                        ],
+                        [
+                          1.369,
+                          0
+                        ],
+                        [
+                          0.027,
+                          1.489
+                        ],
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          6.869,
+                          7
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.67,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.167,
+                    y: 0.167
+                  },
+                  t: 210,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.48,
+                          2.251
+                        ],
+                        [
+                          0.582,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.123,
+                          -0.578
+                        ],
+                        [
+                          -2.358,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          2.358,
+                          0
+                        ],
+                        [
+                          0.123,
+                          -0.578
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.582,
+                          0
+                        ],
+                        [
+                          0.48,
+                          2.25
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          4.828,
+                          5
+                        ],
+                        [
+                          9.636,
+                          1.064
+                        ],
+                        [
+                          8.693,
+                          0
+                        ],
+                        [
+                          0.962,
+                          0
+                        ],
+                        [
+                          0.019,
+                          1.064
+                        ],
+                        [
+                          4.828,
+                          5
+                        ],
+                        [
+                          4.828,
+                          5
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.67,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.33,
+                    y: 0
+                  },
+                  t: 383.957,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.686,
+                          3.168
+                        ],
+                        [
+                          0.833,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.176,
+                          -0.814
+                        ],
+                        [
+                          -3.374,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.374,
+                          0
+                        ],
+                        [
+                          0.176,
+                          -0.814
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.833,
+                          0
+                        ],
+                        [
+                          0.686,
+                          3.168
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          6.908,
+                          7.039
+                        ],
+                        [
+                          13.789,
+                          1.497
+                        ],
+                        [
+                          12.44,
+                          0
+                        ],
+                        [
+                          1.377,
+                          0
+                        ],
+                        [
+                          0.028,
+                          1.497
+                        ],
+                        [
+                          6.908,
+                          7.039
+                        ],
+                        [
+                          6.908,
+                          7.039
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.58,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.33,
+                    y: 0
+                  },
+                  t: 480.6,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.683,
+                          3.151
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.175,
+                          -0.81
+                        ],
+                        [
+                          -3.355,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.355,
+                          0
+                        ],
+                        [
+                          0.175,
+                          -0.81
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0.683,
+                          3.151
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          13.71,
+                          1.489
+                        ],
+                        [
+                          12.369,
+                          0
+                        ],
+                        [
+                          1.369,
+                          0
+                        ],
+                        [
+                          0.027,
+                          1.489
+                        ],
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          6.869,
+                          7
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  i: {
+                    x: 0.15,
+                    y: 1
+                  },
+                  o: {
+                    x: 0.5,
+                    y: 0
+                  },
+                  t: 492,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.81,
+                          4.051
+                        ],
+                        [
+                          0.983,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.208,
+                          -1.041
+                        ],
+                        [
+                          -3.982,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.982,
+                          0
+                        ],
+                        [
+                          0.208,
+                          -1.041
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.983,
+                          0
+                        ],
+                        [
+                          0.81,
+                          4.051
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          8.152,
+                          9
+                        ],
+                        [
+                          16.271,
+                          1.915
+                        ],
+                        [
+                          14.679,
+                          0
+                        ],
+                        [
+                          1.624,
+                          0
+                        ],
+                        [
+                          0.033,
+                          1.915
+                        ],
+                        [
+                          8.152,
+                          9
+                        ],
+                        [
+                          8.152,
+                          9
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                },
+                {
+                  t: 504,
+                  s: [
+                    {
+                      i: [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.683,
+                          3.151
+                        ],
+                        [
+                          0.828,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.175,
+                          -0.81
+                        ],
+                        [
+                          -3.355,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      o: [
+                        [
+                          3.355,
+                          0
+                        ],
+                        [
+                          0.175,
+                          -0.81
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          -0.828,
+                          0
+                        ],
+                        [
+                          0.683,
+                          3.151
+                        ],
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ],
+                      v: [
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          13.71,
+                          1.489
+                        ],
+                        [
+                          12.369,
+                          0
+                        ],
+                        [
+                          1.369,
+                          0
+                        ],
+                        [
+                          0.027,
+                          1.489
+                        ],
+                        [
+                          6.869,
+                          7
+                        ],
+                        [
+                          6.869,
+                          7
+                        ]
+                      ],
+                      c: !0
+                    }
+                  ]
+                }
+              ],
+              ix: 2
+            },
+            nm: "Path 1",
+            mn: "ADBE Vector Shape - Group",
+            hd: !1
+          },
+          {
+            ty: "fl",
+            c: {
+              a: 0,
+              k: [
+                0.262745112181,
+                0.129411771894,
+                0.290196090937,
+                1
+              ],
+              ix: 4
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 5
+            },
+            r: 1,
+            bm: 0,
+            nm: "Fill",
+            mn: "ADBE Vector Graphic - Fill",
+            hd: !1
+          },
+          {
+            ty: "tr",
+            p: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 2
+            },
+            a: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 1
+            },
+            s: {
+              a: 0,
+              k: [
+                100,
+                100
+              ],
+              ix: 3
+            },
+            r: {
+              a: 0,
+              k: 0,
+              ix: 6
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 7
+            },
+            sk: {
+              a: 0,
+              k: 0,
+              ix: 4
+            },
+            sa: {
+              a: 0,
+              k: 0,
+              ix: 5
+            },
+            nm: "Transform"
+          }
+        ],
+        nm: "Group",
+        np: 2,
+        cix: 2,
+        bm: 0,
+        ix: 1,
+        mn: "ADBE Vector Group",
+        hd: !1
+      }
+    ],
+    ip: 0,
+    op: 504,
+    st: 0,
+    bm: 0
+  },
+  {
+    ddd: 0,
+    ind: 8,
+    ty: 4,
+    nm: "face",
+    cl: "tc-logo-face",
+    sr: 1,
+    ks: {
+      o: {
+        a: 0,
+        k: 100,
+        ix: 11
+      },
+      r: {
+        a: 0,
+        k: 0,
+        ix: 10
+      },
+      p: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 2
+      },
+      a: {
+        a: 0,
+        k: [
+          0,
+          0,
+          0
+        ],
+        ix: 1
+      },
+      s: {
+        a: 0,
+        k: [
+          100,
+          100,
+          100
+        ],
+        ix: 6
+      }
+    },
+    ao: 0,
+    shapes: [
+      {
+        ty: "gr",
+        it: [
+          {
+            ind: 0,
+            ty: "sh",
+            ix: 1,
+            ks: {
+              a: 0,
+              k: {
+                i: [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    -5.523
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    11.046,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    11.046
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    -11.046,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                o: [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    5.523,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    11.046
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    -11.046,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    -11.046
+                  ],
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                v: [
+                  [
+                    20,
+                    0
+                  ],
+                  [
+                    38,
+                    0
+                  ],
+                  [
+                    48,
+                    10
+                  ],
+                  [
+                    48,
+                    28
+                  ],
+                  [
+                    28,
+                    48
+                  ],
+                  [
+                    20,
+                    48
+                  ],
+                  [
+                    0,
+                    28
+                  ],
+                  [
+                    0,
+                    20
+                  ],
+                  [
+                    20,
+                    0
+                  ],
+                  [
+                    20,
+                    0
+                  ]
+                ],
+                c: !0
+              },
+              ix: 2
+            },
+            nm: "Path 1",
+            mn: "ADBE Vector Shape - Group",
+            hd: !1
+          },
+          {
+            ty: "fl",
+            c: {
+              a: 0,
+              k: [
+                0.941176474094,
+                0.854901969433,
+                0.984313726425,
+                1
+              ],
+              ix: 4
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 5
+            },
+            r: 1,
+            bm: 0,
+            nm: "Fill",
+            mn: "ADBE Vector Graphic - Fill",
+            hd: !1
+          },
+          {
+            ty: "tr",
+            p: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 2
+            },
+            a: {
+              a: 0,
+              k: [
+                0,
+                0
+              ],
+              ix: 1
+            },
+            s: {
+              a: 0,
+              k: [
+                100,
+                100
+              ],
+              ix: 3
+            },
+            r: {
+              a: 0,
+              k: 0,
+              ix: 6
+            },
+            o: {
+              a: 0,
+              k: 100,
+              ix: 7
+            },
+            sk: {
+              a: 0,
+              k: 0,
+              ix: 4
+            },
+            sa: {
+              a: 0,
+              k: 0,
+              ix: 5
+            },
+            nm: "Transform"
+          }
+        ],
+        nm: "Group",
+        np: 2,
+        cix: 2,
+        bm: 0,
+        ix: 1,
+        mn: "ADBE Vector Group",
+        hd: !1
+      }
+    ],
+    ip: 0,
+    op: 504,
+    st: 0,
     bm: 0
   }
-], meta = {
-  a: "",
-  d: "",
-  tc: "",
-  g: "Aninix"
-}, animationData = {
-  nm,
+], markers = [], animationData = {
   v,
+  meta,
   fr,
   ip,
   op,
   w,
   h,
+  nm,
   ddd,
-  markers,
   assets,
   layers,
-  meta
+  markers
 };
 function bound01(t, e) {
   isOnePointZero(t) && (t = "100%");
@@ -14835,16 +13580,13 @@ class TinyColor {
   }
 }
 function loadLottie(t) {
-  const e = lottie.loadAnimation({
+  return lottie.loadAnimation({
     container: t,
     renderer: "svg",
     loop: !0,
     autoplay: !0,
     animationData
   });
-  return t.addEventListener("mouseenter", () => {
-  }), t.addEventListener("mouseleave", () => {
-  }), e;
 }
 const main = {
   selectorId: "",
@@ -14854,7 +13596,7 @@ const main = {
   colors: {},
   opened: !1,
   init: function(t = {}) {
-    this.selectorId = t.selectorId, this.title = t.title, this.botName = t.botName, this.greeting = t.greeting, this.setCssVars(t.themeColor), this.render(t.submitHandler);
+    this.selectorId = t.selectorId, this.title = t.title, this.botName = t.botName, this.greeting = t.greeting, this.setCssVars(t.themeColor), this.render(t.submitHandler), t.preChatRenderer && this.renderPreChat(t.preChatRenderer);
   },
   render: function(t) {
     const e = document.getElementById(this.selectorId), r = (s) => {
@@ -14923,6 +13665,15 @@ const main = {
       "--gradient-gradient-fade",
       `linear-gradient(-0deg, hsla(${r.primaryOffset}, 80%, 99%, 0) 0%, hsla(${r.primaryOffset}, 80%, 99%, 1) 50%)`
     );
+  },
+  renderPreChat: function(t) {
+    const e = document.querySelector("#tarka-chat > .t-container > .body"), r = document.querySelector("#tarka-chat > .t-container > .scroll-fade"), i = document.querySelector("#tarka-chat > .t-container > .body > .message-container"), s = document.querySelector("#tarka-chat > .t-container > .footer");
+    r.style.display = "none", i.style.display = "none", s.style.display = "none";
+    const n = t(() => {
+      var l;
+      (l = e.querySelector(".tc-injected-prechat")) == null || l.remove(), r.style.display = "block", i.style.display = "flex", s.style.display = "flex";
+    });
+    n.className += " tc-injected-prechat", e.appendChild(n);
   }
 };
 export {

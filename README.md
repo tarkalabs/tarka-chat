@@ -17,8 +17,16 @@ TarkaChat.init({
         greeting: "Welcome. How can I assist you today?",
         themeColor: "#F0DAFB",
         selectorId: "chatbot",
+        preChatRenderer: function (onClose) {
+          // Return a DOM Node that can be attached to the chatbot UI
+          // Use the onClose callback to close the pre-chat screen
+          const button = document.createElement("button");
+          button.innerText = "Close pre-chat";
+          button.addEventListener("click", onClose);
+          return button;
+        },
         submitHandler: async function (message) {
-          //Do API calls
+          // Do API calls
           // after getting response return the response string
           return Promise.resolve("Recieved response");
         },

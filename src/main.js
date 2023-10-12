@@ -4,6 +4,7 @@ import lottie from "lottie-web";
 import animationData from "./logo.json";
 import { TinyColor } from "@ctrl/tinycolor";
 
+
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
@@ -11,12 +12,6 @@ function loadLottie(element) {
     loop: true,
     autoplay: true,
     animationData: animationData,
-  });
-  element.addEventListener("mouseenter", () => {
-    // animation.play();
-  });
-  element.addEventListener("mouseleave", () => {
-    // animation.stop();
   });
 
   return animation;

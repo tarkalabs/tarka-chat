@@ -36,6 +36,26 @@ export default {
     if (config.preChatRenderer) {
       this.renderPreChat(config.preChatRenderer)
     }
+
+    return { toggle: this.toggle };
+  },
+
+  toggle: function (forceOpenState = undefined) {
+    const chatContainer = document.querySelector("#tarka-chat .t-container");
+    const launcherClosed = document.querySelector("#tarka-chat .closed");
+    const launcherOpened = document.querySelector("#tarka-chat .opened");
+    if (
+      forceOpenState === true || 
+      (forceOpenState === undefined && chatContainer.style.display !== "flex")
+    ) {
+      chatContainer.style.display = "flex";
+      launcherOpened.style.display = "block";
+      launcherClosed.style.display = "none";
+    } else {
+      chatContainer.style.display = "none";
+      launcherOpened.style.display = "none";
+      launcherClosed.style.display = "block";
+    }
   },
 
   render: function (submitHandler) {
@@ -84,21 +104,9 @@ export default {
 
   setupLaucher: function () {
     const launcher = document.querySelector("#tarka-chat .launcher");
+    launcher.addEventListener("click", this.toggle);
     const launcherClosed = document.querySelector("#tarka-chat .closed");
-    const launcherOpened = document.querySelector("#tarka-chat .opened");
     loadLottie(launcherClosed);
-    launcher.addEventListener("click", () => {
-      const chatContainer = document.querySelector("#tarka-chat .t-container");
-      if (chatContainer.style.display !== "flex") {
-        chatContainer.style.display = "flex";
-        launcherOpened.style.display = "block";
-        launcherClosed.style.display = "none";
-      } else {
-        chatContainer.style.display = "none";
-        launcherOpened.style.display = "none";
-        launcherClosed.style.display = "block";
-      }
-    });
   },
 
   insertMessage(content = "", incoming = false) {

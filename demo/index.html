@@ -32,7 +32,7 @@
 
     <!-- Initialise the tarka chat component -->
     <script>
-      TarkaChat.init({
+      const chat = TarkaChat.init({
         title: "Personal Assistant",
         botName: "superbot",
         greeting: "Welcome. How can I assist you today?",
@@ -45,6 +45,8 @@
           return Promise.resolve("Recieved: " + message);
         },
       });
+      
+      // chat.toggle(), chat.isOpen();
     </script>
   </body>
 </html>

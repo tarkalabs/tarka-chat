@@ -22,8 +22,6 @@ export default {
   title: "",
   botName: "",
   greeting: "",
-  colors: {},
-  opened: false,
 
   init: function (config = {}) {
     this.selectorId = config.selectorId;

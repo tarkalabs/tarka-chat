@@ -37,7 +37,12 @@ export default {
       this.renderPreChat(config.preChatRenderer)
     }
 
-    return { toggle: this.toggle };
+    return { toggle: this.toggle, isOpen: this.isOpen };
+  },
+
+  isOpen: function () {
+    const chatContainer = document.querySelector("#tarka-chat .t-container");
+    return chatContainer.style.display === "flex";
   },
 
   toggle: function (forceOpenState = undefined) {
@@ -46,7 +51,7 @@ export default {
     const launcherOpened = document.querySelector("#tarka-chat .opened");
     if (
       forceOpenState === true || 
-      (forceOpenState === undefined && chatContainer.style.display !== "flex")
+      (forceOpenState === undefined && !this.isOpen())
     ) {
       chatContainer.style.display = "flex";
       launcherOpened.style.display = "block";

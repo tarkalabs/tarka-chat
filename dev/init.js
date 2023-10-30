@@ -23,7 +23,7 @@ async function sendMessage(message) {
   return Promise.resolve("Recieved: " + message);
 }
 
-TarkaChat.init({
+const chat = TarkaChat.init({
   title: "Stocks Advisor",
   botName: "Stad",
   greeting: "Hello. How can I assist you today?",
@@ -32,3 +32,5 @@ TarkaChat.init({
   preChatRenderer: getPreChatScreen,
   submitHandler: sendMessage,
 });
+
+// chat.toggle(), chat.isOpen()

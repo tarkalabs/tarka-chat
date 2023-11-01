@@ -107,7 +107,7 @@ export default {
 
   setupLaucher: function () {
     const launcher = document.querySelector("#tarka-chat .launcher");
-    launcher.addEventListener("click", this.toggle);
+    launcher.addEventListener("click", () => this.toggle());
     const launcherClosed = document.querySelector("#tarka-chat .closed");
     loadLottie(launcherClosed);
   },

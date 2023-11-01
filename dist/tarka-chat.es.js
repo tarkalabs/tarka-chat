@@ -13625,7 +13625,7 @@ const main = {
       console.error(`Element with ID "${this.selectorId}" not found.`);
   },
   setupLaucher: function() {
-    document.querySelector("#tarka-chat .launcher").addEventListener("click", this.toggle);
+    document.querySelector("#tarka-chat .launcher").addEventListener("click", () => this.toggle());
     const e = document.querySelector("#tarka-chat .closed");
     loadLottie(e);
   },

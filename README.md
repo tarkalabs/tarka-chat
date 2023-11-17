@@ -17,6 +17,7 @@ TarkaChat.init({
         greeting: "Welcome. How can I assist you today?",
         themeColor: "#F0DAFB",
         selectorId: "chatbot",
+        expand: true,
         preChatRenderer: function (onClose) {
           // Return a DOM Node that can be attached to the chatbot UI
           // Use the onClose callback to close the pre-chat screen
@@ -37,6 +38,7 @@ where,
 
 - [Optional] **title** is the title of the chatbot window
 - [Optional] **botName** will be displayed below each bot message
+- [Optional] **expand** opens the chat window in expanded mode on init when set to true, otherwise opens in collapse mode. Defaults to true.
 - **greeting** will be the first message displayed on the chatbot when opened for the first time
 - **themeColor** will set the color scheme of the chat window
 - **selectorId** the DOM element selector (id) inside which the bot will be rendered

@@ -34,7 +34,7 @@ export default {
     if (config.preChatRenderer) {
       this.renderPreChat(config.preChatRenderer)
     }
-
+    this.toggle(config.expand);
     return { toggle: this.toggle, isOpen: this.isOpen };
   },
 

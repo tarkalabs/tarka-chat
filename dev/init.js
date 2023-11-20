@@ -31,6 +31,7 @@ const chat = TarkaChat.init({
   selectorId: "tarkachatbot",
   preChatRenderer: getPreChatScreen,
   submitHandler: sendMessage,
+  expand: true,
 });
 
 // chat.toggle(), chat.isOpen()

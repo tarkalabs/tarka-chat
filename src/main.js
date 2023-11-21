@@ -66,13 +66,11 @@ export default {
 
     const setProcessing = (processing) => {
       this.isProcessing = processing;
-      const container = document.querySelector("#tarka-chat #input-container");
-      container.style.display = processing ? "none" : "flex";
+      const inputContainer = document.querySelector("#tarka-chat .input-container");
+      inputContainer.style.display = processing ? "none" : "flex";
 
-      const loader = document.querySelector("#tarka-chat #loader");
-      loader.style.display = processing ? "flex" : "none";
-
-
+      const loader = document.querySelector("#tarka-chat .lds-dual-ring");
+      loader.style.display = processing ? "block" : "none";
     };
 
     const msgHandler = async () => {

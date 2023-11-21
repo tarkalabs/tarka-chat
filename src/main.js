@@ -69,7 +69,7 @@ export default {
       const inputContainer = document.querySelector("#tarka-chat .input-container");
       inputContainer.style.display = processing ? "none" : "flex";
 
-      const loader = document.querySelector("#tarka-chat .lds-dual-ring");
+      const loader = document.querySelector("#tarka-chat .chat-loader");
       loader.style.display = processing ? "block" : "none";
     };
 

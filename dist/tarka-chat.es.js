@@ -13582,6 +13582,7 @@ class TinyColor {
     return this.toRgbString() === new TinyColor(e).toRgbString();
   }
 }
+const INITIAL_STATE = !1;
 function loadLottie(t) {
   return lottie.loadAnimation({
     container: t,
@@ -13597,7 +13598,7 @@ const main = {
   botName: "",
   greeting: "",
   init: function(t = {}) {
-    return this.selectorId = t.selectorId, this.title = t.title, this.botName = t.botName, this.greeting = t.greeting, this.setCssVars(t.themeColor), this.render(t.submitHandler), t.preChatRenderer && this.renderPreChat(t.preChatRenderer), this.toggle(t.expand), { toggle: this.toggle, isOpen: this.isOpen };
+    return this.selectorId = t.selectorId, this.title = t.title, this.botName = t.botName, this.greeting = t.greeting, this.setCssVars(t.themeColor), this.render(t.submitHandler), t.preChatRenderer && this.renderPreChat(t.preChatRenderer), this.toggle(t.expand || INITIAL_STATE), { toggle: this.toggle, isOpen: this.isOpen };
   },
   isOpen: function() {
     return document.querySelector("#tarka-chat .t-container").style.display === "flex";

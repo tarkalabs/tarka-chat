@@ -4,6 +4,7 @@ import lottie from "lottie-web";
 import animationData from "./logo.json";
 import { TinyColor } from "@ctrl/tinycolor";
 
+const INITIAL_STATE = false;
 
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
@@ -34,7 +35,7 @@ export default {
     if (config.preChatRenderer) {
       this.renderPreChat(config.preChatRenderer)
     }
-    this.toggle(config.expand);
+    this.toggle(config.expand || INITIAL_STATE);
     return { toggle: this.toggle, isOpen: this.isOpen };
   },
 

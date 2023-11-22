@@ -65,9 +65,12 @@ export default {
     const targetElement = document.getElementById(this.selectorId);
 
     const setProcessing = (processing) => {
-      const sendBtn = document.querySelector("#tarka-chat .send-btn");
       this.isProcessing = processing;
-      sendBtn.style.visibility = processing ? "hidden" : "visible";
+      const inputContainer = document.querySelector("#tarka-chat .input-container");
+      inputContainer.style.display = processing ? "none" : "flex";
+
+      const loader = document.querySelector("#tarka-chat .chat-loader");
+      loader.style.display = processing ? "block" : "none";
     };
 
     const msgHandler = async () => {
@@ -81,6 +84,7 @@ export default {
         const response = await submitHandler(text);
         this.insertMessage(response, true);
         setProcessing(false);
+        msgInput.focus()
       }
     };
 

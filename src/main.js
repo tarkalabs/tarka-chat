@@ -3,6 +3,8 @@ import layout from "./layout.html?raw";
 import lottie from "lottie-web";
 import animationData from "./logo.json";
 import { TinyColor } from "@ctrl/tinycolor";
+import attachment from "./images/attachment.png";
+import downloadImg from "./images/download.png";
 
 const INITIAL_STATE = false;
 
@@ -33,7 +35,7 @@ export default {
     this.render(config.submitHandler);
 
     if (config.preChatRenderer) {
-      this.renderPreChat(config.preChatRenderer)
+      this.renderPreChat(config.preChatRenderer);
     }
     this.toggle(config.expand || INITIAL_STATE);
     return { toggle: this.toggle, isOpen: this.isOpen };
@@ -49,7 +51,7 @@ export default {
     const launcherClosed = document.querySelector("#tarka-chat .closed");
     const launcherOpened = document.querySelector("#tarka-chat .opened");
     if (
-      forceOpenState === true || 
+      forceOpenState === true ||
       (forceOpenState === undefined && !this.isOpen())
     ) {
       chatContainer.style.display = "flex";
@@ -85,7 +87,7 @@ export default {
         const response = await submitHandler(text);
         this.insertMessage(response, true);
         setProcessing(false);
-        msgInput.focus()
+        msgInput.focus();
       }
     };
 
@@ -117,15 +119,66 @@ export default {
     loadLottie(launcherClosed);
   },
 
-  insertMessage(content = "", incoming = false) {
+  createNode(className, content) {
+    const node = document.createElement("div");
+    node.className = className;
+    node.innerHTML = content;
+    return node;
+  },
+
+  createNodeByType(data) {
+    switch (data.type) {
+      case "text":
+        return this.createNode("message-content", data.message);
+
+      case "file":
+        const nodeContent = `
+          <div class="attachment-info">
+            <img src="${attachment}" alt="File Icon" width="38" height="38">
+            <div class="attachment-file-name">
+              ${data.name || "File"}
+            </div>
+            <a href="${data.link}" class="attachment-download-btn">
+              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
+            </a>
+          </div>`;
+        return this.createNode("attachment", nodeContent);
+
+      default:
+        throw new Error(`Invalid type: ${type}`);
+    }
+  },
+
+  insertMessage(data = "", incoming = false) {
     const messageContainer = document.querySelector(
       "#tarka-chat .message-container",
     );
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "wrapper";
+
+    if (typeof data === "string") {
+      wrapper.appendChild(
+        this.createNodeByType({ type: "text", message: data })
+      );
+    }
+    if (Array.isArray(data)) {
+      data.forEach((content) => {
+        wrapper.appendChild(this.createNodeByType(content));
+      });
+    }
+    if (typeof data === "object" && !Array.isArray(data)) {
+      wrapper.appendChild(this.createNodeByType(data));
+    }
+
+    wrapper.appendChild(
+      this.createNode("message-meta", incoming ? this.botName : "You")
+    );
+
     const msg = document.createElement("div");
-    msg.className = "message " + (incoming ? "incoming" : "outgoing");
-    msg.innerHTML = `<div class="wrapper"><div class="message-content">${content}</div> 
-      <div class="message-meta">${incoming ? this.botName : "You"}</div></div>
-    `;
+    msg.className = `message ${incoming ? "incoming" : "outgoing"}`;
+    msg.appendChild(wrapper);
+
     messageContainer.appendChild(msg);
     messageContainer.lastElementChild.scrollIntoView();
   },

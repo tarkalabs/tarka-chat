@@ -73,7 +73,12 @@
           max-width: 90%;
 
           .wrapper {
-            padding-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            padding: 8px;
+            border-radius: 8px;
+            margin-bottom: 24px;
           }
 
           .message-content {
@@ -84,6 +89,40 @@
             overflow-wrap: break-word;
           }
 
+          .attachment {
+            display: flex;
+            align-items: center;
+            margin: 8px 0; /* Adjust as needed */
+
+            .attachment-info {
+              display: flex;
+              border: 1px solid var(--primary-primary-subtle, #f0dafb); /* Set border color as needed */
+              border-radius: 4px;
+              padding: 8px;
+              border-radius: 8px;
+
+              .attachment-file-name {
+                font-size: 14px;
+                font-weight: 700;
+                padding: 0 15px 0 5px;
+                align-self: center;
+                color: #333; /* Set text color as needed */
+              }
+
+              .attachment-download-btn {
+                border: 1px solid var(--primary-primary-subtle, #f0dafb); /* Set border color as needed */
+                border-radius: 4px;
+                padding: 8px 12px;
+                background: var(--primary-primary-subtle, #f0dafb);
+                cursor: pointer;
+
+                img {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+            }
+          }
           .message-meta {
             color: var(--primary-primary-alt);
             font-size: 12px;

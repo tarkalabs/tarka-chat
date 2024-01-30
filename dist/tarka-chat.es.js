@@ -1,4 +1,4 @@
-(function(){"use strict";try{if(typeof document<"u"){var t=document.createElement("style");t.appendChild(document.createTextNode('@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";#tarka-chat{position:fixed;bottom:2rem;right:3rem;display:flex;flex-direction:column;align-items:flex-end;max-height:700px;z-index:1000}#tarka-chat .t-container{font-family:Inter;width:400px;border:1.5px solid var(--primary-primary-alt-subtle);border-radius:32px 32px 8px;box-shadow:-28px 48px 42px #00000008;flex-direction:column;overflow:hidden;display:none;position:relative;background:#ffffff}#tarka-chat .t-container .scroll-fade{position:absolute;width:100%;height:140px;background:var(--gradient-gradient-fade)}#tarka-chat .t-container .header{display:flex;padding:24px;justify-content:space-between;align-items:center}#tarka-chat .t-container .header .title{overflow:hidden;color:var(--primary-primary-alt);text-overflow:ellipsis;opacity:.6;font-size:18px;font-style:normal;font-weight:600;line-height:24px;letter-spacing:-.18px}#tarka-chat .t-container .header .logo{width:32px;height:32px}#tarka-chat .t-container .body{background:var(--gradient-background);padding:0 24px;min-height:200px;overflow-y:auto}#tarka-chat .t-container .body .message-container{min-height:100%;display:flex;flex-direction:column;justify-content:flex-end}#tarka-chat .t-container .body .message-container .message:first-of-type{margin-top:32px}#tarka-chat .t-container .body .message-container .message{max-width:90%}#tarka-chat .t-container .body .message-container .message .wrapper{display:flex;flex-direction:column;flex-grow:1;padding:8px;border-radius:8px;margin-bottom:24px}#tarka-chat .t-container .body .message-container .message .message-content{font-size:16px;font-weight:500;line-height:24px;letter-spacing:-.18px;overflow-wrap:break-word}#tarka-chat .t-container .body .message-container .message .attachment{display:flex;align-items:center;margin:8px 0}#tarka-chat .t-container .body .message-container .message .attachment-info{display:flex;border:1px solid var(--primary-primary-subtle, #f0dafb);padding:8px;border-radius:8px}#tarka-chat .t-container .body .message-container .message .attachment-file-name{font-size:14px;font-weight:700;padding:0 15px 0 5px;align-self:center;color:#333}#tarka-chat .t-container .body .message-container .message .attachment-download-btn{border:1px solid var(--primary-primary-subtle, #f0dafb);border-radius:4px;padding:8px 12px;background:var(--primary-primary-subtle, #f0dafb);cursor:pointer}#tarka-chat .t-container .body .message-container .message .attachment-download-btn img{width:16px;height:16px}#tarka-chat .t-container .body .message-container .message .message-meta{color:var(--primary-primary-alt);font-size:12px;font-weight:400;line-height:14px;letter-spacing:.12px}#tarka-chat .t-container .body .message-container .incoming{color:var(--primary-primary-alt)}#tarka-chat .t-container .body .message-container .outgoing{margin-left:auto;color:var(--primary-primary)}#tarka-chat .t-container .footer{display:flex;justify-content:center}#tarka-chat .t-container .footer .input-container{display:flex;padding:8px 8px 8px 24px;align-items:center;width:100%}#tarka-chat .t-container .footer .input-container .chat-input{color:var(--primary-primary-alt);opacity:.7;font-size:16px;font-weight:500;line-height:20px;flex:1;border:none}#tarka-chat .t-container .footer .input-container .chat-input:focus{outline:none}#tarka-chat .t-container .footer .input-container .send-btn{width:48px;height:48px;border:none;background:transparent;display:flex;align-items:center;justify-content:center}#tarka-chat .t-container .footer .input-container .send-btn path{fill:var(--primary-primary, #9500b3)}#tarka-chat .t-container .footer .chat-loader{display:none;padding:8px}#tarka-chat .t-container .footer .chat-loader:after{content:" ";display:block;width:24px;height:24px;margin:8px;border-radius:50%;border:4px solid #9500b3;border-color:#9500b3 transparent #9500b3 transparent;animation:chat-loader 1.2s linear infinite}@keyframes chat-loader{0%{transform:rotate(0)}to{transform:rotate(360deg)}}#tarka-chat .launcher{flex:none;display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:none;border-radius:20px 10px 20px 20px;background:var(--primary-primary-subtle, #f0dafb);margin-top:8px}#tarka-chat .launcher .opened{display:none}#tarka-chat .tc-logo-face path{fill:var(--primary-primary-subtle, #f0dafb)}@media only screen and (max-width: 700px){#tarka-chat{bottom:10px;right:10px}#tarka-chat .t-container{width:calc(100vw - 20px)}}')),document.head.appendChild(t)}}catch(a){console.error("vite-plugin-css-injected-by-js",a)}})();
+(function(){"use strict";try{if(typeof document<"u"){var a=document.createElement("style");a.appendChild(document.createTextNode('@import"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";#tarka-chat{position:fixed;bottom:2rem;right:3rem;display:flex;flex-direction:column;align-items:flex-end;max-height:700px;z-index:1000}#tarka-chat .t-container{font-family:Inter;width:400px;border:1.5px solid var(--primary-primary-alt-subtle);border-radius:32px 32px 8px;box-shadow:-28px 48px 42px #00000008;flex-direction:column;overflow:hidden;display:none;position:relative;background:#ffffff}#tarka-chat .t-container .scroll-fade{position:absolute;width:100%;height:140px;background:var(--gradient-gradient-fade)}#tarka-chat .t-container .header{display:flex;padding:24px;justify-content:space-between;align-items:center}#tarka-chat .t-container .header .title{overflow:hidden;color:var(--primary-primary-alt);text-overflow:ellipsis;opacity:.6;font-size:18px;font-style:normal;font-weight:600;line-height:24px;letter-spacing:-.18px}#tarka-chat .t-container .header .logo{width:32px;height:32px}#tarka-chat .t-container .body{background:var(--gradient-background);padding:0 24px;min-height:200px;overflow-y:auto}#tarka-chat .t-container .body .message-container{min-height:100%;display:flex;flex-direction:column;justify-content:flex-end}#tarka-chat .t-container .body .message-container .message:first-of-type{margin-top:32px}#tarka-chat .t-container .body .message-container .message{max-width:90%}#tarka-chat .t-container .body .message-container .message .wrapper{display:flex;flex-direction:column;flex-grow:1;padding:8px;border-radius:8px}#tarka-chat .t-container .body .message-container .message .message-content{font-size:16px;font-weight:500;line-height:24px;letter-spacing:-.18px;overflow-wrap:break-word;margin:4px 0}#tarka-chat .t-container .body .message-container .message .attachment{display:flex;align-items:center;margin:4px 0}#tarka-chat .t-container .body .message-container .message .attachment .attachment-info{display:flex;border:1px solid var(--primary-primary-subtle, #f0dafb);padding:8px;border-radius:8px}#tarka-chat .t-container .body .message-container .message .attachment .attachment-info .attachment-file-name{font-size:14px;font-weight:700;padding:0 15px 0 5px;align-self:center;color:#333}#tarka-chat .t-container .body .message-container .message .attachment .attachment-info .attachment-download-btn{border:1px solid var(--primary-primary-subtle, #f0dafb);border-radius:4px;padding:8px 12px;background:var(--primary-primary-subtle, #f0dafb);cursor:pointer}#tarka-chat .t-container .body .message-container .message .attachment .attachment-info .attachment-download-btn img{width:16px;height:16px}#tarka-chat .t-container .body .message-container .message .image-container{position:relative;width:300px;height:300px;border:1px solid var(--primary-primary-subtle, #f0dafb);border-radius:15px;margin:4px 0}#tarka-chat .t-container .body .message-container .message .image-container img{width:100%;height:auto;display:block}#tarka-chat .t-container .body .message-container .message .overlay{position:absolute;top:0;right:0;display:flex;align-items:center;margin:10px;border:1px solid var(--primary-primary-subtle, #f0dafb);border-radius:4px;padding:8px 12px;background:var(--primary-primary-subtle, #f0dafb);cursor:pointer;opacity:.6}#tarka-chat .t-container .body .message-container .message .overlay img{width:16px;height:16px}#tarka-chat .t-container .body .message-container .message .overlay:hover{opacity:1}#tarka-chat .t-container .body .message-container .message .message-meta{margin:4px 0;color:var(--primary-primary-alt);font-size:12px;font-weight:400;line-height:14px;letter-spacing:.12px}#tarka-chat .t-container .body .message-container .incoming{color:var(--primary-primary-alt)}#tarka-chat .t-container .body .message-container .outgoing{margin-left:auto;color:var(--primary-primary)}#tarka-chat .t-container .footer{display:flex;justify-content:center}#tarka-chat .t-container .footer .input-container{display:flex;padding:8px 8px 8px 24px;align-items:center;width:100%}#tarka-chat .t-container .footer .input-container .chat-input{color:var(--primary-primary-alt);opacity:.7;font-size:16px;font-weight:500;line-height:20px;flex:1;border:none}#tarka-chat .t-container .footer .input-container .chat-input:focus{outline:none}#tarka-chat .t-container .footer .input-container .send-btn{width:48px;height:48px;border:none;background:transparent;display:flex;align-items:center;justify-content:center}#tarka-chat .t-container .footer .input-container .send-btn path{fill:var(--primary-primary, #9500b3)}#tarka-chat .t-container .footer .chat-loader{display:none;padding:8px}#tarka-chat .t-container .footer .chat-loader:after{content:" ";display:block;width:24px;height:24px;margin:8px;border-radius:50%;border:4px solid #9500b3;border-color:#9500b3 transparent #9500b3 transparent;animation:chat-loader 1.2s linear infinite}@keyframes chat-loader{0%{transform:rotate(0)}to{transform:rotate(360deg)}}#tarka-chat .launcher{flex:none;display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:none;border-radius:20px 10px 20px 20px;background:var(--primary-primary-subtle, #f0dafb);margin-top:8px}#tarka-chat .launcher .opened{display:none}#tarka-chat .tc-logo-face path{fill:var(--primary-primary-subtle, #f0dafb)}@media only screen and (max-width: 700px){#tarka-chat{bottom:10px;right:10px}#tarka-chat .t-container{width:calc(100vw - 20px)}}')),document.head.appendChild(a)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
 const style = "", layout = `<div id="tarka-chat">
   <div class="t-container">
     <div class="scroll-fade"></div>
@@ -1961,18 +1961,18 @@ var lottie$1 = { exports: {} };
       function c(A, C, V) {
         return !V && V !== 0 && (V = 1), A === 1 && C === 1 && V === 1 ? this : this._t(A, 0, 0, 0, 0, C, 0, 0, 0, 0, V, 0, 0, 0, 0, 1);
       }
-      function x(A, C, V, I, O, q, j, W, Q, Y, $, rt, Z, J, U, X) {
-        return this.props[0] = A, this.props[1] = C, this.props[2] = V, this.props[3] = I, this.props[4] = O, this.props[5] = q, this.props[6] = j, this.props[7] = W, this.props[8] = Q, this.props[9] = Y, this.props[10] = $, this.props[11] = rt, this.props[12] = Z, this.props[13] = J, this.props[14] = U, this.props[15] = X, this;
+      function x(A, C, V, I, O, q, j, W, Q, X, $, rt, Z, J, U, Y) {
+        return this.props[0] = A, this.props[1] = C, this.props[2] = V, this.props[3] = I, this.props[4] = O, this.props[5] = q, this.props[6] = j, this.props[7] = W, this.props[8] = Q, this.props[9] = X, this.props[10] = $, this.props[11] = rt, this.props[12] = Z, this.props[13] = J, this.props[14] = U, this.props[15] = Y, this;
       }
       function b(A, C, V) {
         return V = V || 0, A !== 0 || C !== 0 || V !== 0 ? this._t(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, A, C, V, 1) : this;
       }
-      function m(A, C, V, I, O, q, j, W, Q, Y, $, rt, Z, J, U, X) {
+      function m(A, C, V, I, O, q, j, W, Q, X, $, rt, Z, J, U, Y) {
         var N = this.props;
-        if (A === 1 && C === 0 && V === 0 && I === 0 && O === 0 && q === 1 && j === 0 && W === 0 && Q === 0 && Y === 0 && $ === 1 && rt === 0)
-          return N[12] = N[12] * A + N[15] * Z, N[13] = N[13] * q + N[15] * J, N[14] = N[14] * $ + N[15] * U, N[15] *= X, this._identityCalculated = !1, this;
+        if (A === 1 && C === 0 && V === 0 && I === 0 && O === 0 && q === 1 && j === 0 && W === 0 && Q === 0 && X === 0 && $ === 1 && rt === 0)
+          return N[12] = N[12] * A + N[15] * Z, N[13] = N[13] * q + N[15] * J, N[14] = N[14] * $ + N[15] * U, N[15] *= Y, this._identityCalculated = !1, this;
         var st = N[0], ht = N[1], at = N[2], it = N[3], nt = N[4], ot = N[5], K = N[6], lt = N[7], ft = N[8], tt = N[9], pt = N[10], et = N[11], ct = N[12], ut = N[13], dt = N[14], mt = N[15];
-        return N[0] = st * A + ht * O + at * Q + it * Z, N[1] = st * C + ht * q + at * Y + it * J, N[2] = st * V + ht * j + at * $ + it * U, N[3] = st * I + ht * W + at * rt + it * X, N[4] = nt * A + ot * O + K * Q + lt * Z, N[5] = nt * C + ot * q + K * Y + lt * J, N[6] = nt * V + ot * j + K * $ + lt * U, N[7] = nt * I + ot * W + K * rt + lt * X, N[8] = ft * A + tt * O + pt * Q + et * Z, N[9] = ft * C + tt * q + pt * Y + et * J, N[10] = ft * V + tt * j + pt * $ + et * U, N[11] = ft * I + tt * W + pt * rt + et * X, N[12] = ct * A + ut * O + dt * Q + mt * Z, N[13] = ct * C + ut * q + dt * Y + mt * J, N[14] = ct * V + ut * j + dt * $ + mt * U, N[15] = ct * I + ut * W + dt * rt + mt * X, this._identityCalculated = !1, this;
+        return N[0] = st * A + ht * O + at * Q + it * Z, N[1] = st * C + ht * q + at * X + it * J, N[2] = st * V + ht * j + at * $ + it * U, N[3] = st * I + ht * W + at * rt + it * Y, N[4] = nt * A + ot * O + K * Q + lt * Z, N[5] = nt * C + ot * q + K * X + lt * J, N[6] = nt * V + ot * j + K * $ + lt * U, N[7] = nt * I + ot * W + K * rt + lt * Y, N[8] = ft * A + tt * O + pt * Q + et * Z, N[9] = ft * C + tt * q + pt * X + et * J, N[10] = ft * V + tt * j + pt * $ + et * U, N[11] = ft * I + tt * W + pt * rt + et * Y, N[12] = ct * A + ut * O + dt * Q + mt * Z, N[13] = ct * C + ut * q + dt * X + mt * J, N[14] = ct * V + ut * j + dt * $ + mt * U, N[15] = ct * I + ut * W + dt * rt + mt * Y, this._identityCalculated = !1, this;
       }
       function M(A) {
         var C = A.props;
@@ -2035,8 +2035,8 @@ var lottie$1 = { exports: {} };
         if (this.isIdentity())
           I[0] = A[0], I[1] = A[1], I[2] = C[0], I[3] = C[1], I[4] = V[0], I[5] = V[1];
         else {
-          var O = this.props[0], q = this.props[1], j = this.props[4], W = this.props[5], Q = this.props[12], Y = this.props[13];
-          I[0] = A[0] * O + A[1] * j + Q, I[1] = A[0] * q + A[1] * W + Y, I[2] = C[0] * O + C[1] * j + Q, I[3] = C[0] * q + C[1] * W + Y, I[4] = V[0] * O + V[1] * j + Q, I[5] = V[0] * q + V[1] * W + Y;
+          var O = this.props[0], q = this.props[1], j = this.props[4], W = this.props[5], Q = this.props[12], X = this.props[13];
+          I[0] = A[0] * O + A[1] * j + Q, I[1] = A[0] * q + A[1] * W + X, I[2] = C[0] * O + C[1] * j + Q, I[3] = C[0] * q + C[1] * W + X, I[4] = V[0] * O + V[1] * j + Q, I[5] = V[0] * q + V[1] * W + X;
         }
         return I;
       }
@@ -2973,8 +2973,8 @@ var lottie$1 = { exports: {} };
             for (q = document.querySelectorAll('script[f-forigin="t"], script[f-origin="2"]'), j = 0; j < q.length; j += 1)
               A[C].fPath === q[j].src && (O = !1);
             if (O) {
-              var Y = createTag("link");
-              Y.setAttribute("f-forigin", A[C].fOrigin), Y.setAttribute("f-origin", A[C].origin), Y.setAttribute("rel", "stylesheet"), Y.setAttribute("href", A[C].fPath), T.appendChild(Y);
+              var X = createTag("link");
+              X.setAttribute("f-forigin", A[C].fOrigin), X.setAttribute("f-origin", A[C].origin), X.setAttribute("rel", "stylesheet"), X.setAttribute("href", A[C].fPath), T.appendChild(X);
             }
           }
           A[C].helper = m(A[C], T), A[C].cache = {}, this.fonts.push(A[C]);
@@ -4480,7 +4480,7 @@ var lottie$1 = { exports: {} };
         P = c.length, o = 0, p = 0;
         var z = t.finalSize * 1.2 * 0.714, L = !0, E, T, A, C, V;
         C = i.length;
-        var I, O = -1, q, j, W, Q = b, Y = f, $ = d, rt = -1, Z, J, U, X, N, st, ht, at, it = "", nt = this.defaultPropsArray, ot;
+        var I, O = -1, q, j, W, Q = b, X = f, $ = d, rt = -1, Z, J, U, Y, N, st, ht, at, it = "", nt = this.defaultPropsArray, ot;
         if (t.j === 2 || t.j === 1) {
           var K = 0, lt = 0, ft = t.j === 2 ? -0.5 : -1, tt = 0, pt = !0;
           for (g = 0; g < P; g += 1)
@@ -4498,7 +4498,7 @@ var lottie$1 = { exports: {} };
         }
         for (g = 0; g < P; g += 1) {
           if (a.reset(), Z = 1, c[g].n)
-            o = 0, p += t.yOffset, p += L ? 1 : 0, b = Q, L = !1, this._hasMaskedPath && (f = Y, d = $, S = k[f].points, y = S[d - 1], m = S[d], _ = m.partialLength, M = 0), it = "", at = "", st = "", ot = "", nt = this.defaultPropsArray;
+            o = 0, p += t.yOffset, p += L ? 1 : 0, b = Q, L = !1, this._hasMaskedPath && (f = X, d = $, S = k[f].points, y = S[d - 1], m = S[d], _ = m.partialLength, M = 0), it = "", at = "", st = "", ot = "", nt = this.defaultPropsArray;
           else {
             if (this._hasMaskedPath) {
               if (rt !== c[g].line) {
@@ -4523,7 +4523,7 @@ var lottie$1 = { exports: {} };
               q = c[g].an / 2 - c[g].add, a.translate(-q, 0, 0), a.translate(-r[0] * c[g].an * 5e-3, -r[1] * z * 0.01, 0);
             for (A = 0; A < C; A += 1)
               E = i[A].a, E.t.propType && (T = i[A].s, I = T.getMult(c[g].anIndexes[A], s.a[A].s.totalChars), (o !== 0 || t.j !== 0) && (this._hasMaskedPath ? I.length ? b += E.t.v * I[0] : b += E.t.v * I : I.length ? o += E.t.v * I[0] : o += E.t.v * I));
-            for (t.strokeWidthAnim && (U = t.sw || 0), t.strokeColorAnim && (t.sc ? J = [t.sc[0], t.sc[1], t.sc[2]] : J = [0, 0, 0]), t.fillColorAnim && t.fc && (X = [t.fc[0], t.fc[1], t.fc[2]]), A = 0; A < C; A += 1)
+            for (t.strokeWidthAnim && (U = t.sw || 0), t.strokeColorAnim && (t.sc ? J = [t.sc[0], t.sc[1], t.sc[2]] : J = [0, 0, 0]), t.fillColorAnim && t.fc && (Y = [t.fc[0], t.fc[1], t.fc[2]]), A = 0; A < C; A += 1)
               E = i[A].a, E.a.propType && (T = i[A].s, I = T.getMult(c[g].anIndexes[A], s.a[A].s.totalChars), I.length ? a.translate(-E.a.v[0] * I[0], -E.a.v[1] * I[1], E.a.v[2] * I[2]) : a.translate(-E.a.v[0] * I, -E.a.v[1] * I, E.a.v[2] * I));
             for (A = 0; A < C; A += 1)
               E = i[A].a, E.s.propType && (T = i[A].s, I = T.getMult(c[g].anIndexes[A], s.a[A].s.totalChars), I.length ? a.scale(1 + (E.s.v[0] - 1) * I[0], 1 + (E.s.v[1] - 1) * I[1], 1) : a.scale(1 + (E.s.v[0] - 1) * I, 1 + (E.s.v[1] - 1) * I, 1));
@@ -4534,13 +4534,13 @@ var lottie$1 = { exports: {} };
               if (t.fillColorAnim && t.fc) {
                 if (E.fc.propType)
                   for (N = 0; N < 3; N += 1)
-                    I.length ? X[N] += (E.fc.v[N] - X[N]) * I[0] : X[N] += (E.fc.v[N] - X[N]) * I;
-                E.fh.propType && (I.length ? X = addHueToRGB(X, E.fh.v * I[0]) : X = addHueToRGB(X, E.fh.v * I)), E.fs.propType && (I.length ? X = addSaturationToRGB(X, E.fs.v * I[0]) : X = addSaturationToRGB(X, E.fs.v * I)), E.fb.propType && (I.length ? X = addBrightnessToRGB(X, E.fb.v * I[0]) : X = addBrightnessToRGB(X, E.fb.v * I));
+                    I.length ? Y[N] += (E.fc.v[N] - Y[N]) * I[0] : Y[N] += (E.fc.v[N] - Y[N]) * I;
+                E.fh.propType && (I.length ? Y = addHueToRGB(Y, E.fh.v * I[0]) : Y = addHueToRGB(Y, E.fh.v * I)), E.fs.propType && (I.length ? Y = addSaturationToRGB(Y, E.fs.v * I[0]) : Y = addSaturationToRGB(Y, E.fs.v * I)), E.fb.propType && (I.length ? Y = addBrightnessToRGB(Y, E.fb.v * I[0]) : Y = addBrightnessToRGB(Y, E.fb.v * I));
               }
             }
             for (A = 0; A < C; A += 1)
               E = i[A].a, E.p.propType && (T = i[A].s, I = T.getMult(c[g].anIndexes[A], s.a[A].s.totalChars), this._hasMaskedPath ? I.length ? a.translate(0, E.p.v[1] * I[0], -E.p.v[2] * I[1]) : a.translate(0, E.p.v[1] * I, -E.p.v[2] * I) : I.length ? a.translate(E.p.v[0] * I[0], E.p.v[1] * I[1], -E.p.v[2] * I[2]) : a.translate(E.p.v[0] * I, E.p.v[1] * I, -E.p.v[2] * I));
-            if (t.strokeWidthAnim && (st = U < 0 ? 0 : U), t.strokeColorAnim && (ht = "rgb(" + Math.round(J[0] * 255) + "," + Math.round(J[1] * 255) + "," + Math.round(J[2] * 255) + ")"), t.fillColorAnim && t.fc && (at = "rgb(" + Math.round(X[0] * 255) + "," + Math.round(X[1] * 255) + "," + Math.round(X[2] * 255) + ")"), this._hasMaskedPath) {
+            if (t.strokeWidthAnim && (st = U < 0 ? 0 : U), t.strokeColorAnim && (ht = "rgb(" + Math.round(J[0] * 255) + "," + Math.round(J[1] * 255) + "," + Math.round(J[2] * 255) + ")"), t.fillColorAnim && t.fc && (at = "rgb(" + Math.round(Y[0] * 255) + "," + Math.round(Y[1] * 255) + "," + Math.round(Y[2] * 255) + ")"), this._hasMaskedPath) {
               if (a.translate(0, -t.ls), a.translate(0, r[1] * z * 0.01 + p, 0), this._pathData.p.v) {
                 H = (m.point[1] - y.point[1]) / (m.point[0] - y.point[0]);
                 var ct = Math.atan(H) * 180 / Math.PI;
@@ -13647,9 +13647,7 @@ const main = {
       case "file":
         const e = `
           <div class="attachment-info">
-            <div class="attachment-icon">
-              <img src="${attachment}" alt="File Icon" width="32" height="32">
-            </div>
+            <img src="${attachment}" alt="File Icon" width="38" height="38">
             <div class="attachment-file-name">
               ${t.name || "File"}
             </div>
@@ -13658,6 +13656,14 @@ const main = {
             </a>
           </div>`;
         return this.createNode("attachment", e);
+      case "image":
+        const r = `
+        <img src="${t.link}" alt="Your Image">
+        <a href="${t.link}" class="overlay">
+              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
+        </a>
+        `;
+        return this.createNode("image-container", r);
       default:
         throw new Error(`Invalid type: ${type}`);
     }

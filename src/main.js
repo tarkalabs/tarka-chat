@@ -144,6 +144,15 @@ export default {
           </div>`;
         return this.createNode("attachment", nodeContent);
 
+      case "image":
+        const imageContent = `
+        <img src="${data.link}" alt="Your Image">
+        <a href="${data.link}" class="overlay">
+              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
+        </a>
+        `;
+        return this.createNode("image-container", imageContent);
+
       default:
         throw new Error(`Invalid type: ${type}`);
     }

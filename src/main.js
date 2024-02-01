@@ -119,19 +119,31 @@ export default {
     loadLottie(launcherClosed);
   },
 
-  createNode(className, content) {
+  createNode(className, content = null) {
     const node = document.createElement("div");
     node.className = className;
-    node.innerHTML = content;
+    if (content !== null) {
+      node.innerHTML = content;
+    }
     return node;
   },
 
+  validateFieldPresent(field, parent) {
+    if (!(field in parent)) {
+      throw new Error(`'${field}' is mandatory in ${JSON.stringify(parent)}`);
+    }
+  },
+
   createNodeByType(data) {
+    this.validateFieldPresent('type', data);
+
     switch (data.type) {
       case "text":
         return this.createNode("message-content", data.message);
 
       case "file":
+        this.validateFieldPresent('link', data);
+        this.validateFieldPresent('name', data);
         const nodeContent = `
           <div class="attachment-info">
             <img src="${attachment}" alt="File Icon" width="38" height="38">
@@ -145,6 +157,7 @@ export default {
         return this.createNode("attachment", nodeContent);
 
       case "image":
+        this.validateFieldPresent('link', data);
         const imageContent = `
         <img src="${data.link}" alt="Your Image">
         <a href="${data.link}" class="overlay">
@@ -163,16 +176,20 @@ export default {
       "#tarka-chat .message-container",
     );
 
-    const wrapper = document.createElement("div");
-    wrapper.className = "wrapper";
+    const wrapper = this.createNode("wrapper");
 
     if (typeof data === "string") {
       wrapper.appendChild(
         this.createNodeByType({ type: "text", message: data })
       );
     }
+
     if (Array.isArray(data)) {
-      data.forEach((content) => {
+      data.forEach((d) => {
+        let content = d;
+        if (typeof content === "string") {
+          content = { type: "text", message: content };
+        }
         wrapper.appendChild(this.createNodeByType(content));
       });
     }
@@ -184,8 +201,7 @@ export default {
       this.createNode("message-meta", incoming ? this.botName : "You")
     );
 
-    const msg = document.createElement("div");
-    msg.className = `message ${incoming ? "incoming" : "outgoing"}`;
+    const msg = this.createNode(`message ${incoming ? "incoming" : "outgoing"}`);
     msg.appendChild(wrapper);
 
     messageContainer.appendChild(msg);

@@ -43,5 +43,55 @@ where,
 - **themeColor** will set the color scheme of the chat window
 - **selectorId** the DOM element selector (id) inside which the bot will be rendered
 - **submitHandler** this function will be called whenever a user types a message in the bot and submits
+  Returned response from submitHandler should be one the below types:
+
+  1. _String_
+  2. One of the below objects:
+
+  - _Text type:_
+
+  ```
+    {
+        "type": "text",
+        "message": "MESSAGE"
+    }
+  ```
+
+  - _File type:_
+
+  ```
+    {
+      "type": "file",
+      "link": "LINK_TO_FILE",
+      "name": "FILE_NAME",
+    }
+  ```
+
+  - _Image type:_
+
+  ```
+    {
+      "type": "image",
+      "link": "LINK_TO_IMAGE",
+      "name": "IMAGE_NAME",
+    }
+  ```
+
+  3. _Array containing one/multiple of above mentioned types:_
+     E.g.
+
+  ```
+  [
+    {
+      "type": "text",
+      "message": "MESSAGE"
+    },
+    {
+      "type": "file",
+      "link": "LINK_TO_FILE",
+      "name": "FILE_NAME",
+    }
+  ]
+  ```
 
 Demo : https://tarkalabs.github.io/tarka-chat/demo/

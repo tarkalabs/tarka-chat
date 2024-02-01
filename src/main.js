@@ -159,7 +159,7 @@ export default {
       case "image":
         this.validateFieldPresent('link', data);
         const imageContent = `
-        <img src="${data.link}" alt="Your Image">
+        <img src="${data.link}" alt="${data.name}">
         <a href="${data.link}" class="overlay">
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
         </a>

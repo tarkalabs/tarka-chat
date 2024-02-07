@@ -2,11 +2,16 @@
 
 Tarka Chat UI is a plug and play javascript library to integrate a chat assistant to your website in one line
 
-## How to use it
+## Importing
 
 Incude the following script in your html
 
-`<script src="https://tarkalabs.github.io/tarka-chat/dist/tarka-chat.umd.js"></script>`
+- V1 (Github pages): `<script src="https://tarkalabs.github.io/tarka-chat/dist/tarka-chat.umd.js"></script>`
+- V2 (CDN): `<script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.0.2.umd.js"></script>`
+
+**Note:** More V2 versions are available and can be found from the release tags list. They can be used from the CDN in the format `tarka-chat-<version>.es.js` and `tarka-chat-<version>.umd.js`
+
+## Usage
 
 Initialise the global `TarkaChat` component with options in any script tag
 
@@ -44,4 +49,8 @@ where,
 - **selectorId** the DOM element selector (id) inside which the bot will be rendered
 - **submitHandler** this function will be called whenever a user types a message in the bot and submits
 
-Demo : https://tarkalabs.github.io/tarka-chat/demo/
+
+## Demo
+
+Demo is deployed from the application code in `demo/` folder.
+Link: https://tarkalabs.github.io/tarka-chat/demo/

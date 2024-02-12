@@ -5,6 +5,7 @@ import animationData from "./logo.json";
 import { TinyColor } from "@ctrl/tinycolor";
 import attachment from "./images/attachment.png";
 import downloadImg from "./images/download.png";
+import Highcharts from 'highcharts'
 
 const INITIAL_STATE = false;
 
@@ -156,18 +157,50 @@ export default {
           </div>`;
         return this.createNode("attachment", nodeContent);
 
-      case "image":
-        this.validateFieldPresent('link', data);
-        const imageContent = `
-        <img src="${data.link}" alt="${data.name}">
-        <a href="${data.link}" class="overlay">
-              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
-        </a>
-        `;
-        return this.createNode("image-container", imageContent);
+      case "high-chart":
+        this.validateFieldPresent('high-chart-object', data);
+        let ele = this.createNode("high-chart-container");
+        // ! make id change here. id should be unique across all charts.
+        ele.setAttribute("id","high-chart-container");
 
       default:
         throw new Error(`Invalid type: ${type}`);
+    }
+  },
+
+  renderHighCharts(data){
+    if(Array.isArray(data)){
+      data.forEach((d)=>{
+        if (typeof d == "object" && !Array.isArray(d)){
+          console.log(d.type)
+          if(d.type=='high-chart'){
+            // ! change chart-name here.
+            Highcharts.chart('high-chart-container',{
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'Fruit Consumption'
+                },
+                xAxis: {
+                    categories: ['Apples', 'Bananas', 'Oranges']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Fruit eaten'
+                    }
+                },
+                series: [{
+                    name: 'Jane',
+                    data: [1, 0, 4]
+                }, {
+                    name: 'John',
+                    data: [5, 7, 3]
+                }]
+            });
+          }
+        }
+      })
     }
   },
 
@@ -206,6 +239,10 @@ export default {
 
     messageContainer.appendChild(msg);
     messageContainer.lastElementChild.scrollIntoView();
+    
+    console.log(messageContainer);
+    // if it is chart type then execute the highchart.
+    this.renderHighCharts(data);
   },
 
   setCssVars: function (themeColor = "#F0DAFB") {

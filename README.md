@@ -94,4 +94,10 @@ where,
   ]
   ```
 
+```
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+```
+include this to generate charts by highcharts and enable exporting.
+
 Demo : https://tarkalabs.github.io/tarka-chat/demo/

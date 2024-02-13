@@ -8,6 +8,29 @@ import downloadImg from "./images/download.png";
 
 const INITIAL_STATE = false;
 
+
+Highcharts.setOptions({
+  credits: {
+    enabled: false
+  },
+  title:{
+    style: {
+      fontSize: '12px',
+      fontWeight: 'normal',
+    }
+  },
+  plotOptions: {
+    series: {
+        dataLabels: {
+            style: {
+                fontSize: '10px',
+                fontWeight: 'normal'
+            }
+        }
+    }
+  },
+});  
+
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,

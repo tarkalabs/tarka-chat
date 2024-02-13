@@ -20,7 +20,8 @@ async function sendMessage(message) {
   // Do API calls
   await new Promise((resolve) => setTimeout(resolve, 3000));
   // after getting response
-  return Promise.resolve([{"type": "high-chart", "high-chart-object": "link to image"}]);
+  
+  return Promise.resolve("Recieved: " + message);
 }
 
 const chat = TarkaChat.init({

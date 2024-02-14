@@ -8,6 +8,29 @@ import downloadImg from "./images/download.png";
 
 const INITIAL_STATE = false;
 
+
+Highcharts.setOptions({
+  credits: {
+    enabled: false
+  },
+  title:{
+    style: {
+      fontSize: '12px',
+      fontWeight: 'normal',
+    }
+  },
+  plotOptions: {
+    series: {
+        dataLabels: {
+            style: {
+                fontSize: '10px',
+                fontWeight: 'normal'
+            }
+        }
+    }
+  },
+});  
+
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
@@ -155,7 +178,6 @@ export default {
             </a>
           </div>`;
         return this.createNode("attachment", nodeContent);
-
       case "image":
         this.validateFieldPresent('link', data);
         const imageContent = `
@@ -164,8 +186,12 @@ export default {
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
         </a>
         `;
-        return this.createNode("image-container", imageContent);
-
+        return this.createNode("image-container", imageContent);  
+      case "highchart-config":
+        this.validateFieldPresent('high_chart_config', data);
+        let ele = this.createNode("high-chart-container");
+        Highcharts.chart(ele,data.high_chart_config);
+        return ele;
       default:
         throw new Error(`Invalid type: ${type}`);
     }

@@ -123,6 +123,19 @@
             }
           }
 
+          .high-chart-container {
+            width: 110%;
+            height: 300px;
+            position: relative;
+            border: 1px solid var(--primary-primary-subtle, #f0dafb); /* Set border color as needed */
+            border-radius: 15px;
+            margin: 4px 0;
+
+            .highcharts-button-box {
+              fill: var(--primary-primary-subtle, #f0dafb) !important;
+            }
+          }
+
           .image-container {
             position: relative;
             border: 1px solid var(--primary-primary-subtle, #f0dafb); /* Set border color as needed */

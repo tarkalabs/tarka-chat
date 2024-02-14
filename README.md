@@ -10,6 +10,11 @@ Tarka Chat UI is a plug and play javascript library to integrate a chat assistan
  ```
  <script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.0.2.umd.js"></script>
  ```
+  Include highcharts library to generate charts by highcharts
+  ```
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  ```
 
 
 2. Initialise the global `TarkaChat` component with options in any script tag
@@ -80,7 +85,13 @@ where,
       "name": "IMAGE_NAME",
     }
   ```
-
+  - _HighCharts config type:_
+  ```
+    {
+      "type": "highchart-config", 
+      "high_chart_config": { highcharts_config_obj }
+    }
+  ```
   3. _Array containing one/multiple of above mentioned types:_
      E.g.
 
@@ -97,7 +108,6 @@ where,
     }
   ]
   ```
-
 
 ## Demo
 

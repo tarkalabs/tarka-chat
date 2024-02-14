@@ -178,7 +178,15 @@ export default {
             </a>
           </div>`;
         return this.createNode("attachment", nodeContent);
-
+      case "image":
+        this.validateFieldPresent('link', data);
+        const imageContent = `
+        <img src="${data.link}" alt="${data.name}">
+        <a href="${data.link}" class="overlay">
+              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
+        </a>
+        `;
+        return this.createNode("image-container", imageContent);  
       case "highchart-config":
         this.validateFieldPresent('high_chart_config', data);
         let ele = this.createNode("high-chart-container");

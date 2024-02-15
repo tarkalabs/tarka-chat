@@ -54,6 +54,11 @@ export default {
     this.title = config.title;
     this.botName = config.botName;
     this.greeting = config.greeting;
+
+    this.enableUpload = config.enableUpload ?? false;
+    this.uploadTypes = config.uploadTypes;
+    this.generateUploadPreview = config.generateUploadPreview;
+
     this.setCssVars(config.themeColor);
     this.render(config.submitHandler);
 
@@ -89,10 +94,48 @@ export default {
 
   render: function (submitHandler) {
     const targetElement = document.getElementById(this.selectorId);
+    if (!targetElement) {
+      console.error(`Element with ID "${this.selectorId}" not found.`);
+      return;
+    }
+
+    const createPreviewItem = async (file) => {
+      const wrapper = document.createElement("div");
+      wrapper.className = "upload-preview-item";
+      const previewImage = await this.generateUploadPreview(file);
+      wrapper.appendChild(previewImage);
+      return wrapper;
+    };
+
+    const onFileSelect = async (event) => {
+      const previewContainer = document.querySelector(
+        "#tarka-chat .upload-preview-container"
+      );
+      previewContainer.innerHTML = "";
+      const files = event.target.files;
+      const validFiles = new DataTransfer();
+      for (const file of files) {
+        if (this.uploadTypes && !this.uploadTypes.includes(file.type)) {
+          continue;
+        }
+        const previewItem = await createPreviewItem(file);
+        if (!previewItem) {
+          continue;
+        }
+        previewContainer.appendChild(previewItem);
+        validFiles.items.add(file);
+      }
+      if (validFiles.files.length > 0) {
+        previewContainer.style.display = "flex";
+      }
+      event.target.files = validFiles.files;
+    };
 
     const setProcessing = (processing) => {
       this.isProcessing = processing;
-      const inputContainer = document.querySelector("#tarka-chat .input-container");
+      const inputContainer = document.querySelector(
+        "#tarka-chat .input-container"
+      );
       inputContainer.style.display = processing ? "none" : "flex";
 
       const loader = document.querySelector("#tarka-chat .chat-loader");
@@ -114,25 +157,30 @@ export default {
       }
     };
 
-    if (targetElement) {
-      targetElement.innerHTML = layout;
-      this.setupLaucher();
-      loadLottie(document.querySelector("#tarka-chat .logo"));
-      document.querySelector("#tarka-chat .title").textContent = this.title;
-      this.insertMessage(this.greeting, true);
+    targetElement.innerHTML = layout;
+    this.setupLaucher();
+    loadLottie(document.querySelector("#tarka-chat .logo"));
+    document.querySelector("#tarka-chat .title").textContent = this.title;
+    this.insertMessage(this.greeting, true);
 
-      const sendBtn = document.querySelector("#tarka-chat .send-btn");
-      const msgInput = document.querySelector("#tarka-chat .chat-input");
-      sendBtn.addEventListener("click", msgHandler);
+    const uploadBtn = document.querySelector("#tarka-chat .upload-btn");
+    const uploadInput = document.querySelector("#tarka-chat .upload-input");
+    const sendBtn = document.querySelector("#tarka-chat .send-btn");
+    const msgInput = document.querySelector("#tarka-chat .chat-input");
 
-      msgInput.addEventListener("keyup", async function (event) {
-        if (event.keyCode === 13) {
-          await msgHandler();
-        }
-      });
-    } else {
-      console.error(`Element with ID "${this.selectorId}" not found.`);
+    if (this.enableUpload) {
+      uploadBtn.style.display = "block";
+      uploadBtn.disabled = false;
+      uploadBtn.addEventListener("click", () => uploadInput?.click());
+      uploadInput.addEventListener("change", onFileSelect);
     }
+
+    sendBtn.addEventListener("click", msgHandler);
+    msgInput.addEventListener("keyup", async function (event) {
+      if (event.keyCode === 13) {
+        await msgHandler();
+      }
+    });
   },
 
   setupLaucher: function () {

@@ -275,26 +275,11 @@
 
     .upload-preview-container {
       display: none;
+      flex: 0 0 auto;
       overflow-x: auto;
       white-space: nowrap;
       gap: 10px;
       padding: 15px 10px 25px 10px;
-
-      .upload-preview-item {
-        flex: 0 0 auto;
-        width: 60px;
-        height: 80px;
-        position: relative;
-        border: 1px solid #444444;
-        border-radius: 5px;
-
-        img {
-          display: block;
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-      }
     }
   }
 
@@ -322,6 +307,23 @@
 
   // Other available selectors are:
   // .tc-logo-left-eye, .tc-logo-right-eye, .tc-logo-mouth
+
+  .upload-preview-item {
+    flex: 0 0 auto;
+    width: 60px;
+    height: 80px;
+    position: relative;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    overflow: hidden;
+
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }
 
 @media only screen and (max-width: 700px) {

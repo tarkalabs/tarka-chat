@@ -100,8 +100,7 @@ export default {
     }
 
     const createPreviewItem = async (file) => {
-      const wrapper = document.createElement("div");
-      wrapper.className = "upload-preview-item";
+      const wrapper = this.createNode("upload-preview-item");
       const previewImage = await this.generateUploadPreview(file);
       wrapper.appendChild(previewImage);
       return wrapper;
@@ -109,7 +108,7 @@ export default {
 
     const onFileSelect = async (event) => {
       const previewContainer = document.querySelector(
-        "#tarka-chat .upload-preview-container"
+        "#tarka-chat .t-container > .upload-preview-container"
       );
       previewContainer.innerHTML = "";
       const files = event.target.files;
@@ -127,6 +126,8 @@ export default {
       }
       if (validFiles.files.length > 0) {
         previewContainer.style.display = "flex";
+      } else {
+        previewContainer.style.display = "none";
       }
       event.target.files = validFiles.files;
     };
@@ -138,6 +139,13 @@ export default {
       );
       inputContainer.style.display = processing ? "none" : "flex";
 
+      const previewsContainer = document.querySelector(
+        "#tarka-chat .t-container > .upload-preview-container"
+      );
+      if (processing) {
+        previewsContainer.style.display = "none";
+      }
+
       const loader = document.querySelector("#tarka-chat .chat-loader");
       loader.style.display = processing ? "block" : "none";
     };
@@ -145,16 +153,37 @@ export default {
     const msgHandler = async () => {
       const msgInput = document.querySelector("#tarka-chat .chat-input");
       const text = msgInput.value;
-
-      if (!this.isProcessing && text.length > 0) {
-        setProcessing(true);
-        msgInput.value = "";
-        this.insertMessage(text, false);
-        const response = await submitHandler(text);
-        this.insertMessage(response, true);
-        setProcessing(false);
-        msgInput.focus();
+      if (this.isProcessing || text.length === 0) {
+        return;
       }
+
+      setProcessing(true);
+      const uploadInput = document.querySelector("#tarka-chat .upload-input");
+      const optionalFiles = [];
+
+      if (this.enableUpload && uploadInput.files.length > 0) {
+        const thumbnailsObj = { type: "thumbnails", nodes: [] };
+        for (const file of uploadInput.files) {
+          optionalFiles.push(file);
+          const thumbnail = await this.generateUploadPreview(file);
+          thumbnailsObj.nodes.push(thumbnail);
+        }
+        this.insertMessage([text, thumbnailsObj], false);
+      } else {
+        this.insertMessage(text, false);
+      }
+      const response = await submitHandler(text, optionalFiles);
+      this.insertMessage(response, true);
+      setProcessing(false);
+
+      const previewsContainer = document.querySelector(
+        "#tarka-chat .t-container > .upload-preview-container"
+      );
+      if (previewsContainer) previewsContainer.style.display = "none";
+
+      msgInput.value = "";
+      uploadInput.value = "";
+      msgInput.focus();
     };
 
     targetElement.innerHTML = layout;
@@ -206,15 +235,15 @@ export default {
   },
 
   createNodeByType(data) {
-    this.validateFieldPresent('type', data);
+    this.validateFieldPresent("type", data);
 
     switch (data.type) {
       case "text":
         return this.createNode("message-content", data.message);
 
       case "file":
-        this.validateFieldPresent('link', data);
-        this.validateFieldPresent('name', data);
+        this.validateFieldPresent("link", data);
+        this.validateFieldPresent("name", data);
         const nodeContent = `
           <div class="attachment-info">
             <img src="${attachment}" alt="File Icon" width="38" height="38">
@@ -227,19 +256,29 @@ export default {
           </div>`;
         return this.createNode("attachment", nodeContent);
       case "image":
-        this.validateFieldPresent('link', data);
+        this.validateFieldPresent("link", data);
         const imageContent = `
         <img src="${data.link}" alt="${data.name}">
         <a href="${data.link}" class="overlay">
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
         </a>
         `;
-        return this.createNode("image-container", imageContent);  
+        return this.createNode("image-container", imageContent);
       case "highchart-config":
-        this.validateFieldPresent('high_chart_config', data);
+        this.validateFieldPresent("high_chart_config", data);
         let ele = this.createNode("high-chart-container");
-        Highcharts.chart(ele,data.high_chart_config);
+        Highcharts.chart(ele, data.high_chart_config);
         return ele;
+      case "thumbnails":
+        this.validateFieldPresent("nodes", data);
+        const container = this.createNode("upload-preview-container");
+        container.style.display = "flex";
+        data.nodes.forEach((node) => {
+          const wrapper = this.createNode("upload-preview-item");
+          wrapper.appendChild(node);
+          container.appendChild(wrapper);
+        });
+        return container;
       default:
         throw new Error(`Invalid type: ${type}`);
     }
@@ -247,7 +286,7 @@ export default {
 
   insertMessage(data = "", incoming = false) {
     const messageContainer = document.querySelector(
-      "#tarka-chat .message-container",
+      "#tarka-chat .message-container"
     );
 
     const wrapper = this.createNode("wrapper");
@@ -275,7 +314,9 @@ export default {
       this.createNode("message-meta", incoming ? this.botName : "You")
     );
 
-    const msg = this.createNode(`message ${incoming ? "incoming" : "outgoing"}`);
+    const msg = this.createNode(
+      `message ${incoming ? "incoming" : "outgoing"}`
+    );
     msg.appendChild(wrapper);
 
     messageContainer.appendChild(msg);
@@ -293,43 +334,49 @@ export default {
     const root = document.querySelector(":root");
     root.style.setProperty(
       "--primary-background",
-      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`,
+      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`
     );
     root.style.setProperty(
       "--primary-primary",
-      `hsla(${hue.primary}, 100%, 35%, 1)`,
+      `hsla(${hue.primary}, 100%, 35%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-subtle",
-      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`,
+      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-subtle-hover",
-      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`,
+      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-alt",
-      `hsla(${hue.primary}, 38%, 21%, 1)`,
+      `hsla(${hue.primary}, 38%, 21%, 1)`
     );
     root.style.setProperty(
       "--primary-primary-alt-subtle",
-      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`,
+      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`
     );
     root.style.setProperty(
       "--gradient-background",
-      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`,
+      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`
     );
     root.style.setProperty(
       "--gradient-gradient-fade",
-      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`,
+      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`
     );
   },
 
-  renderPreChat: function(nodeGenerator) {
+  renderPreChat: function (nodeGenerator) {
     const body = document.querySelector("#tarka-chat > .t-container > .body");
-    const scrollFade = document.querySelector("#tarka-chat > .t-container > .scroll-fade");
-    const messageContainer = document.querySelector("#tarka-chat > .t-container > .body > .message-container");
-    const footer = document.querySelector("#tarka-chat > .t-container > .footer");
+    const scrollFade = document.querySelector(
+      "#tarka-chat > .t-container > .scroll-fade"
+    );
+    const messageContainer = document.querySelector(
+      "#tarka-chat > .t-container > .body > .message-container"
+    );
+    const footer = document.querySelector(
+      "#tarka-chat > .t-container > .footer"
+    );
 
     scrollFade.style.display = "none";
     messageContainer.style.display = "none";
@@ -340,10 +387,10 @@ export default {
       scrollFade.style.display = "block";
       messageContainer.style.display = "flex";
       footer.style.display = "flex";
-    }
+    };
 
     const preChatScreen = nodeGenerator(closePreChat);
-    preChatScreen.className += " tc-injected-prechat"
+    preChatScreen.className += " tc-injected-prechat";
     body.appendChild(preChatScreen);
-  }
+  },
 };

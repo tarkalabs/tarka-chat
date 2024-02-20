@@ -173,7 +173,7 @@ export default {
             <div class="attachment-file-name">
               ${data.name || "File"}
             </div>
-            <a href="${data.link}" class="attachment-download-btn">
+            <a href="${data.link}" class="attachment-download-btn" target="_blank">
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
             </a>
           </div>`;

@@ -13677,7 +13677,7 @@ const main = {
             <div class="attachment-file-name">
               ${t.name || "File"}
             </div>
-            <a href="${t.link}" class="attachment-download-btn">
+            <a href="${t.link}" class="attachment-download-btn" target="_blank">
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
             </a>
           </div>`;

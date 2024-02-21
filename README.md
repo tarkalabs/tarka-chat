@@ -6,9 +6,14 @@ Tarka Chat UI is a plug and play javascript library to integrate a chat assistan
 
 1. Incude the following script (hosted in CDN) in your html
 
-```
-<script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.0.2.umd.js"></script>
-```
+ ```
+ <script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.2.1.umd.js"></script>
+ ```
+  Include highcharts library to generate charts by highcharts
+  ```
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  ```
 
 Include highcharts library to generate charts by highcharts
 

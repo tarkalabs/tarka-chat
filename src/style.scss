@@ -136,6 +136,30 @@
             }
           }
 
+          .table-container {
+            width: 110%;
+            position: relative;
+            border: 1px solid var(--primary-primary-subtle, #f0dafb);
+            border-radius: 15px;
+            overflow-x: auto;
+
+
+            table {
+              border-collapse: collapse;
+              border-radius: 5px;
+            }
+
+            th,td {
+              padding: 5px;
+      
+              border-right: 1px solid var(--primary-primary-subtle, #f0dafb); 
+              border-bottom: 1px solid var(--primary-primary-subtle, #f0dafb);
+            }
+            th:last-child,td:last-child {
+              border-right: 0px solid var(--primary-primary-subtle, #f0dafb); /* Left-most border for the first cell */
+            }
+          }
+
           .image-container {
             position: relative;
             border: 1px solid var(--primary-primary-subtle, #f0dafb); /* Set border color as needed */

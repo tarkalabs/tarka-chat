@@ -264,6 +264,75 @@ export default {
         </a>
         `;
         return this.createNode("image-container", imageContent);
+      case "table":
+          this.validateFieldPresent("table_data",data);
+          // ! write fxn to render table.
+          console.log(data.table_data);
+          const tableData = `
+          <div>
+          <table>
+            <tr>
+              <th>customer_id</th>
+              <th>total_quantity</th>
+              <th>percentage_of_total</th>
+            </tr>
+            <tr>
+              <td>5507</td>
+              <td>3139480.0</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>2204120</td>
+              <td>3039881.0</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>5312</td>
+              <td>2316499.0</td>
+              <td>14</td>
+            </tr>
+            <tr>
+                <td>2040</td>
+                <td>731826.0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5218057</td>
+                <td>712789.0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5235</td>
+                <td>477514.0</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>4945559</td>
+                <td>336113.0</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>58050</td>
+                <td>292037.0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4959810</td>
+                <td>223900.0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>5288</td>
+                <td>154935.0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>others</td>
+                <td>4633726.0</td>
+                <td>28</td>
+            </tr>
+          </table></div>`
+          return this.createNode("table-container",tableData);
       case "highchart-config":
         this.validateFieldPresent("high_chart_config", data);
         let ele = this.createNode("high-chart-container");

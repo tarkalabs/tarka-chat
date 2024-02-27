@@ -8,7 +8,6 @@ import downloadImg from "./images/download.png";
 
 const INITIAL_STATE = false;
 
-
 Highcharts.setOptions({
   credits: {
     enabled: false
@@ -21,16 +20,15 @@ Highcharts.setOptions({
   },
   plotOptions: {
     series: {
-        dataLabels: {
-            style: {
-                fontSize: '10px',
-                fontWeight: 'normal'
-            }
+      dataLabels: {
+        style: {
+          fontSize: '10px',
+          fontWeight: 'normal'
         }
+      }
     }
   },
-});  
-
+});
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
@@ -41,6 +39,45 @@ function loadLottie(element) {
   });
 
   return animation;
+}
+
+function csvToArr(stringVal) {
+  const arr = stringVal
+    .trim()
+    .split("\n")
+    .map((item) => item.split(","));
+  return arr;
+}
+
+function create_table(data) {
+  if (data.length > 1) {
+    const [headers, ...rows] = data;
+    const table = document.createElement("table");
+    const headerRow = document.createElement("tr");
+    headers.forEach((headerText) => {
+      const header = document.createElement("th");
+      const textNode = document.createTextNode(headerText);
+      header.appendChild(textNode);
+      headerRow.appendChild(header);
+    });
+    table.appendChild(headerRow);
+
+    rows.forEach((rowData) => {
+      const row = document.createElement("tr");
+      Object.values(rowData).forEach((text) => {
+        const cell = document.createElement("td");
+        const textNode = document.createTextNode(text);
+        cell.appendChild(textNode);
+        row.appendChild(cell);
+      });
+      table.appendChild(row);
+    });
+    return table;
+  } else {
+    const h5 = document.createElement("h5");
+    h5.innerHTML = "Table has no rows";
+    return h5;
+  }
 }
 
 export default {
@@ -265,74 +302,11 @@ export default {
         `;
         return this.createNode("image-container", imageContent);
       case "table":
-          this.validateFieldPresent("table_data",data);
-          // ! write fxn to render table.
-          console.log(data.table_data);
-          const tableData = `
-          <div>
-          <table>
-            <tr>
-              <th>customer_id</th>
-              <th>total_quantity</th>
-              <th>percentage_of_total</th>
-            </tr>
-            <tr>
-              <td>5507</td>
-              <td>3139480.0</td>
-              <td>19</td>
-            </tr>
-            <tr>
-              <td>2204120</td>
-              <td>3039881.0</td>
-              <td>18</td>
-            </tr>
-            <tr>
-              <td>5312</td>
-              <td>2316499.0</td>
-              <td>14</td>
-            </tr>
-            <tr>
-                <td>2040</td>
-                <td>731826.0</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>5218057</td>
-                <td>712789.0</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>5235</td>
-                <td>477514.0</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>4945559</td>
-                <td>336113.0</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>58050</td>
-                <td>292037.0</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>4959810</td>
-                <td>223900.0</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>5288</td>
-                <td>154935.0</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>others</td>
-                <td>4633726.0</td>
-                <td>28</td>
-            </tr>
-          </table></div>`
-          return this.createNode("table-container",tableData);
+        this.validateFieldPresent("table_data", data);
+        const dataArr = csvToArr(data.table_data);
+        let node = this.createNode("table-container");
+        node.appendChild(create_table(dataArr));
+        return node;
       case "highchart-config":
         this.validateFieldPresent("high_chart_config", data);
         let ele = this.createNode("high-chart-container");

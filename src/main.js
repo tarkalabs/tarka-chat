@@ -43,7 +43,7 @@ function loadLottie(element) {
 
 function create_table(header, rows) {
   if (rows.length > 1) {
-    if (!header || header.length == 0) {
+    if (!header || !Array.isArray(header)  || header.length == 0) {
       header = Object.keys(rows[0]);
     }
     const table = document.createElement("table");

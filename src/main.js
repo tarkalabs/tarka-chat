@@ -10,23 +10,23 @@ const INITIAL_STATE = false;
 
 Highcharts.setOptions({
   credits: {
-    enabled: false
+    enabled: false,
   },
-  title:{
+  title: {
     style: {
-      fontSize: '12px',
-      fontWeight: 'normal',
-    }
+      fontSize: "12px",
+      fontWeight: "normal",
+    },
   },
   plotOptions: {
     series: {
       dataLabels: {
         style: {
-          fontSize: '10px',
-          fontWeight: 'normal'
-        }
-      }
-    }
+          fontSize: "10px",
+          fontWeight: "normal",
+        },
+      },
+    },
   },
 });
 function loadLottie(element) {
@@ -41,20 +41,14 @@ function loadLottie(element) {
   return animation;
 }
 
-function csvToArr(stringVal) {
-  const arr = stringVal
-    .trim()
-    .split("\n")
-    .map((item) => item.split(","));
-  return arr;
-}
-
-function create_table(data) {
-  if (data.length > 1) {
-    const [headers, ...rows] = data;
+function create_table(header, rows) {
+  if (rows.length > 1) {
+    if (!header || header.length == 0) {
+      header = Object.keys(rows[0]);
+    }
     const table = document.createElement("table");
     const headerRow = document.createElement("tr");
-    headers.forEach((headerText) => {
+    header.forEach((headerText) => {
       const header = document.createElement("th");
       const textNode = document.createTextNode(headerText);
       header.appendChild(textNode);
@@ -287,7 +281,9 @@ export default {
             <div class="attachment-file-name">
               ${data.name || "File"}
             </div>
-            <a href="${data.link}" class="attachment-download-btn" target="_blank">
+            <a href="${
+              data.link
+            }" class="attachment-download-btn" target="_blank">
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
             </a>
           </div>`;
@@ -303,9 +299,10 @@ export default {
         return this.createNode("image-container", imageContent);
       case "table":
         this.validateFieldPresent("table_data", data);
-        const dataArr = csvToArr(data.table_data);
         let node = this.createNode("table-container");
-        node.appendChild(create_table(dataArr));
+        node.appendChild(
+          create_table(data.table_data.header, data.table_data.rows)
+        );
         return node;
       case "highchart-config":
         this.validateFieldPresent("high_chart_config", data);

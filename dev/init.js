@@ -1,5 +1,5 @@
 import TarkaChat from "../src/main.js";
-import "./style.css"
+import "./style.css";
 
 const UPLOAD_TYPES = ["image/png", "image/jpeg"];
 
@@ -36,9 +36,7 @@ async function sendMessage(message, optionalFiles) {
   // Do API calls
   await new Promise((resolve) => setTimeout(resolve, 3000));
   // after getting response
-  return Promise.resolve(
-    "Recieved: " + message + ", Images count: " + optionalFiles?.length ?? 0
-  );
+  return Promise.resolve("Recieved: " + message + ", Images count: " + optionalFiles?.length ?? 0);
 }
 
 const chat = TarkaChat.init({

@@ -8,29 +8,27 @@ import downloadImg from "./images/download.png";
 
 const INITIAL_STATE = false;
 
-
 Highcharts.setOptions({
   credits: {
-    enabled: false
+    enabled: false,
   },
-  title:{
+  title: {
     style: {
-      fontSize: '12px',
-      fontWeight: 'normal',
-    }
+      fontSize: "12px",
+      fontWeight: "normal",
+    },
   },
   plotOptions: {
     series: {
-        dataLabels: {
-            style: {
-                fontSize: '10px',
-                fontWeight: 'normal'
-            }
-        }
-    }
+      dataLabels: {
+        style: {
+          fontSize: "10px",
+          fontWeight: "normal",
+        },
+      },
+    },
   },
-});  
-
+});
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
@@ -41,6 +39,40 @@ function loadLottie(element) {
   });
 
   return animation;
+}
+
+function create_table(header, rows) {
+  if (rows.length > 1) {
+    if (!header || !Array.isArray(header) || header.length == 0) {
+      header = Object.keys(rows[0]);
+    }
+    const table = document.createElement("table");
+    const headerRow = document.createElement("tr");
+    header.forEach((headerText) => {
+      const header = document.createElement("th");
+      const textNode = document.createTextNode(headerText);
+      header.appendChild(textNode);
+      headerRow.appendChild(header);
+    });
+    table.appendChild(headerRow);
+
+    rows.forEach((rowData) => {
+      const row = document.createElement("tr");
+      header.forEach((headerText) => {
+        let text = rowData[headerText];
+        const cell = document.createElement("td");
+        const textNode = document.createTextNode(text);
+        cell.appendChild(textNode);
+        row.appendChild(cell);
+      });
+      table.appendChild(row);
+    });
+    return table;
+  } else {
+    const h5 = document.createElement("h5");
+    h5.innerHTML = "Table has no rows";
+    return h5;
+  }
 }
 
 export default {
@@ -250,7 +282,9 @@ export default {
             <div class="attachment-file-name">
               ${data.name || "File"}
             </div>
-            <a href="${data.link}" class="attachment-download-btn" target="_blank">
+            <a href="${
+              data.link
+            }" class="attachment-download-btn" target="_blank">
               <img src="${downloadImg}" alt="Download Button" width="24" height="24">
             </a>
           </div>`;
@@ -264,6 +298,13 @@ export default {
         </a>
         `;
         return this.createNode("image-container", imageContent);
+      case "table":
+        this.validateFieldPresent("table_data", data);
+        let node = this.createNode("table-container");
+        node.appendChild(
+          create_table(data.table_data.header, data.table_data.rows)
+        );
+        return node;
       case "highchart-config":
         this.validateFieldPresent("high_chart_config", data);
         let ele = this.createNode("high-chart-container");

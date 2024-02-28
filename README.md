@@ -92,6 +92,13 @@ where,
       "high_chart_config": { highcharts_config_obj }
     }
   ```
+  - _Table type:_
+  ```
+    {
+      "type": "table", 
+      "table-data": { "header":[],"rows":[{}] }
+    }
+  ```
   3. _Array containing one/multiple of above mentioned types:_
      E.g.
 

@@ -43,7 +43,7 @@ function loadLottie(element) {
 
 function create_table(header, rows) {
   if (rows.length > 1) {
-    if (!header || !Array.isArray(header)  || header.length == 0) {
+    if (!header || !Array.isArray(header) || header.length == 0) {
       header = Object.keys(rows[0]);
     }
     const table = document.createElement("table");
@@ -58,7 +58,8 @@ function create_table(header, rows) {
 
     rows.forEach((rowData) => {
       const row = document.createElement("tr");
-      Object.values(rowData).forEach((text) => {
+      header.forEach((headerText) => {
+        let text = rowData[headerText];
         const cell = document.createElement("td");
         const textNode = document.createTextNode(text);
         cell.appendChild(textNode);

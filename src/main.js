@@ -2,33 +2,20 @@ import "./style.scss";
 import layout from "./layout.html?raw";
 import lottie from "lottie-web";
 import animationData from "./logo.json";
-import { TinyColor } from "@ctrl/tinycolor";
-import attachment from "./images/attachment.png";
-import downloadImg from "./images/download.png";
+import { renderPreChat } from "./prechat";
+import { configHighcharts, createHighchartsNode } from "./highcharts";
+import {
+  createFileAttachmentNode,
+  createImageNode,
+  createTableNode,
+  createTextNode,
+  setThemeColors,
+} from "./utils";
 
 const INITIAL_STATE = false;
 
-Highcharts.setOptions({
-  credits: {
-    enabled: false,
-  },
-  title: {
-    style: {
-      fontSize: "12px",
-      fontWeight: "normal",
-    },
-  },
-  plotOptions: {
-    series: {
-      dataLabels: {
-        style: {
-          fontSize: "10px",
-          fontWeight: "normal",
-        },
-      },
-    },
-  },
-});
+configHighcharts();
+
 function loadLottie(element) {
   const animation = lottie.loadAnimation({
     container: element,
@@ -39,40 +26,6 @@ function loadLottie(element) {
   });
 
   return animation;
-}
-
-function create_table(header, rows) {
-  if (rows.length > 1) {
-    if (!header || !Array.isArray(header) || header.length == 0) {
-      header = Object.keys(rows[0]);
-    }
-    const table = document.createElement("table");
-    const headerRow = document.createElement("tr");
-    header.forEach((headerText) => {
-      const header = document.createElement("th");
-      const textNode = document.createTextNode(headerText);
-      header.appendChild(textNode);
-      headerRow.appendChild(header);
-    });
-    table.appendChild(headerRow);
-
-    rows.forEach((rowData) => {
-      const row = document.createElement("tr");
-      header.forEach((headerText) => {
-        let text = rowData[headerText];
-        const cell = document.createElement("td");
-        const textNode = document.createTextNode(text);
-        cell.appendChild(textNode);
-        row.appendChild(cell);
-      });
-      table.appendChild(row);
-    });
-    return table;
-  } else {
-    const h5 = document.createElement("h5");
-    h5.innerHTML = "Table has no rows";
-    return h5;
-  }
 }
 
 export default {
@@ -91,11 +44,11 @@ export default {
     this.uploadTypes = config.uploadTypes;
     this.generateUploadPreview = config.generateUploadPreview;
 
-    this.setCssVars(config.themeColor);
+    setThemeColors(config.themeColor);
     this.render(config.submitHandler);
 
     if (config.preChatRenderer) {
-      this.renderPreChat(config.preChatRenderer);
+      renderPreChat(config.preChatRenderer);
     }
     this.toggle(config.expand || INITIAL_STATE);
     return { toggle: this.toggle, isOpen: this.isOpen };
@@ -140,7 +93,7 @@ export default {
 
     const onFileSelect = async (event) => {
       const previewContainer = document.querySelector(
-        "#tarka-chat .t-container > .upload-preview-container"
+        "#tarka-chat .t-container > .upload-preview-container",
       );
       previewContainer.innerHTML = "";
       const files = event.target.files;
@@ -167,12 +120,12 @@ export default {
     const setProcessing = (processing) => {
       this.isProcessing = processing;
       const inputContainer = document.querySelector(
-        "#tarka-chat .input-container"
+        "#tarka-chat .input-container",
       );
       inputContainer.style.display = processing ? "none" : "flex";
 
       const previewsContainer = document.querySelector(
-        "#tarka-chat .t-container > .upload-preview-container"
+        "#tarka-chat .t-container > .upload-preview-container",
       );
       if (processing) {
         previewsContainer.style.display = "none";
@@ -209,7 +162,7 @@ export default {
       setProcessing(false);
 
       const previewsContainer = document.querySelector(
-        "#tarka-chat .t-container > .upload-preview-container"
+        "#tarka-chat .t-container > .upload-preview-container",
       );
       if (previewsContainer) previewsContainer.style.display = "none";
 
@@ -251,6 +204,7 @@ export default {
     loadLottie(launcherClosed);
   },
 
+  // TODO Delete this
   createNode(className, content = null) {
     const node = document.createElement("div");
     node.className = className;
@@ -271,45 +225,20 @@ export default {
 
     switch (data.type) {
       case "text":
-        return this.createNode("message-content", data.message);
-
+        return createTextNode(data.message);
       case "file":
         this.validateFieldPresent("link", data);
         this.validateFieldPresent("name", data);
-        const nodeContent = `
-          <div class="attachment-info">
-            <img src="${attachment}" alt="File Icon" width="38" height="38">
-            <div class="attachment-file-name">
-              ${data.name || "File"}
-            </div>
-            <a href="${
-              data.link
-            }" class="attachment-download-btn" target="_blank">
-              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
-            </a>
-          </div>`;
-        return this.createNode("attachment", nodeContent);
+        return createFileAttachmentNode(data.name, data.link);
       case "image":
         this.validateFieldPresent("link", data);
-        const imageContent = `
-        <img src="${data.link}" alt="${data.name}">
-        <a href="${data.link}" class="overlay">
-              <img src="${downloadImg}" alt="Download Button" width="24" height="24">
-        </a>
-        `;
-        return this.createNode("image-container", imageContent);
+        return createImageNode(data.name, data.link);
       case "table":
         this.validateFieldPresent("table_data", data);
-        let node = this.createNode("table-container");
-        node.appendChild(
-          create_table(data.table_data.header, data.table_data.rows)
-        );
-        return node;
+        return createTableNode(data.table_data.header, data.table_data.rows);
       case "highchart-config":
         this.validateFieldPresent("high_chart_config", data);
-        let ele = this.createNode("high-chart-container");
-        Highcharts.chart(ele, data.high_chart_config);
-        return ele;
+        return createHighchartsNode(data.high_chart_config);
       case "thumbnails":
         this.validateFieldPresent("nodes", data);
         const container = this.createNode("upload-preview-container");
@@ -327,14 +256,14 @@ export default {
 
   insertMessage(data = "", incoming = false) {
     const messageContainer = document.querySelector(
-      "#tarka-chat .message-container"
+      "#tarka-chat .message-container",
     );
 
     const wrapper = this.createNode("wrapper");
 
     if (typeof data === "string") {
       wrapper.appendChild(
-        this.createNodeByType({ type: "text", message: data })
+        this.createNodeByType({ type: "text", message: data }),
       );
     }
 
@@ -352,86 +281,15 @@ export default {
     }
 
     wrapper.appendChild(
-      this.createNode("message-meta", incoming ? this.botName : "You")
+      this.createNode("message-meta", incoming ? this.botName : "You"),
     );
 
     const msg = this.createNode(
-      `message ${incoming ? "incoming" : "outgoing"}`
+      `message ${incoming ? "incoming" : "outgoing"}`,
     );
     msg.appendChild(wrapper);
 
     messageContainer.appendChild(msg);
     messageContainer.lastElementChild.scrollIntoView();
-  },
-
-  setCssVars: function (themeColor = "#F0DAFB") {
-    const hsl = new TinyColor(themeColor).toHsl();
-    const hue = {
-      primary: hsl.h,
-      primaryOffset: hsl.h - 10,
-      primaryOffsetHover: hsl.h + 10,
-    };
-
-    const root = document.querySelector(":root");
-    root.style.setProperty(
-      "--primary-background",
-      `hsla(${hue.primaryOffset}, 80%, 99%, 1)`
-    );
-    root.style.setProperty(
-      "--primary-primary",
-      `hsla(${hue.primary}, 100%, 35%, 1)`
-    );
-    root.style.setProperty(
-      "--primary-primary-subtle",
-      `hsla(${hue.primaryOffset}, 80%, 92%, 1)`
-    );
-    root.style.setProperty(
-      "--primary-primary-subtle-hover",
-      `hsla(${hue.primaryOffsetHover}, 80%, 89%, 1)`
-    );
-    root.style.setProperty(
-      "--primary-primary-alt",
-      `hsla(${hue.primary}, 38%, 21%, 1)`
-    );
-    root.style.setProperty(
-      "--primary-primary-alt-subtle",
-      `hsla(${hue.primaryOffset}, 23%, 91%, 1)`
-    );
-    root.style.setProperty(
-      "--gradient-background",
-      `linear-gradient(0deg, hsla(${hue.primary}, 100%, 35%, 0.05) 0%, hsla(${hue.primary}, 0%, 0%, 0) 100%)`
-    );
-    root.style.setProperty(
-      "--gradient-gradient-fade",
-      `linear-gradient(-0deg, hsla(${hue.primaryOffset}, 80%, 99%, 0) 0%, hsla(${hue.primaryOffset}, 80%, 99%, 1) 50%)`
-    );
-  },
-
-  renderPreChat: function (nodeGenerator) {
-    const body = document.querySelector("#tarka-chat > .t-container > .body");
-    const scrollFade = document.querySelector(
-      "#tarka-chat > .t-container > .scroll-fade"
-    );
-    const messageContainer = document.querySelector(
-      "#tarka-chat > .t-container > .body > .message-container"
-    );
-    const footer = document.querySelector(
-      "#tarka-chat > .t-container > .footer"
-    );
-
-    scrollFade.style.display = "none";
-    messageContainer.style.display = "none";
-    footer.style.display = "none";
-
-    const closePreChat = () => {
-      body.querySelector(".tc-injected-prechat")?.remove();
-      scrollFade.style.display = "block";
-      messageContainer.style.display = "flex";
-      footer.style.display = "flex";
-    };
-
-    const preChatScreen = nodeGenerator(closePreChat);
-    preChatScreen.className += " tc-injected-prechat";
-    body.appendChild(preChatScreen);
   },
 };

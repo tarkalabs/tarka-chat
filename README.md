@@ -98,7 +98,7 @@ where,
   ```
     {
       "type": "highchart-config",
-      "high_chart_config": { highcharts_config_obj }
+      "high_chart_config": { highcharts_config_obj  }
     }
   ```
 

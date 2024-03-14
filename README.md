@@ -2,20 +2,20 @@
 
 Tarka Chat UI is a plug and play javascript library to integrate a chat assistant to your website in one line
 
-
 ## Usage
 
 1. Incude the following script (hosted in CDN) in your html
 
- ```
- <script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.2.1.umd.js"></script>
- ```
-  Include highcharts library to generate charts by highcharts
-  ```
-  <script src="https://code.highcharts.com/highcharts.js"></script>
-  <script src="https://code.highcharts.com/modules/exporting.js"></script>
-  ```
+```
+<script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.2.1.umd.js"></script>
+```
 
+Include highcharts library to generate charts by highcharts
+
+```
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+```
 
 2. Initialise the global `TarkaChat` component with options in any script tag
 
@@ -85,20 +85,25 @@ where,
       "name": "IMAGE_NAME",
     }
   ```
+
   - _HighCharts config type:_
+
   ```
     {
-      "type": "highchart-config", 
+      "type": "highchart-config",
       "high_chart_config": { highcharts_config_obj  }
     }
   ```
+
   - _Table type:_
+
   ```
     {
-      "type": "table", 
-      "table-data": { "header":[],"rows":[{}] }
+      "type": "table",
+      "table_data": { "header":[],"rows":[{}] }
     }
   ```
+
   3. _Array containing one/multiple of above mentioned types:_
      E.g.
 
@@ -123,7 +128,7 @@ Link: https://tarkalabs.github.io/tarka-chat/demo/
 
 ## Old versions
 
-* v1.1 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
-* v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
+- v1.1 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
+- v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
 
 Check [release notes](RELEASE.md) for details

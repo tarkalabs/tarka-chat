@@ -34,9 +34,69 @@ function getPreChatScreen(onClose) {
 async function sendMessage(message, optionalFiles) {
   console.log(optionalFiles);
   // Do API calls
-  await new Promise((resolve) => setTimeout(resolve, 3000));
-  // after getting response
-  return Promise.resolve("Recieved: " + message + ", Images count: " + optionalFiles?.length ?? 0);
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+
+  // after getting response use any one of the following to simulate different types of responses
+  let textResponse = "This is a text response";
+  let textObjResponse = { type: "text", message: "hi tehreee" };
+  let fileObjResponse = {
+    type: "file",
+    name: "tarka trends",
+    link: "https://tarkalabs.com",
+  };
+  let imageObjResponse = {
+    type: "image",
+    name: "tarka logo",
+    link: "https://tarkalabs.com/assets/img/teamg2.94f91078.jpg",
+  };
+  let tableObjResponse = {
+    type: "table",
+    table_data: {
+      header: ["col1", "col2"],
+      rows: [
+        { col1: "a", col2: 1 },
+        { col1: "b", col2: 2 },
+      ],
+    },
+  };
+  let blankTableObjResponse = {
+    type: "table",
+    table_data: {
+      header: ["col1", "col2"],
+      rows: [],
+    },
+  };
+  let highchartsResponse = {
+    type: "highchart-config",
+    high_chart_config: {
+      chart: {
+        type: "pie",
+      },
+      title: {
+        text: "Browsers market share",
+      },
+      series: [
+        {
+          name: "Brands",
+          data: [
+            {
+              name: "Chrome",
+              y: 70,
+            },
+            {
+              name: "Firefox",
+              y: 20,
+            },
+            {
+              name: "Others",
+              y: 10,
+            },
+          ],
+        },
+      ],
+    },
+  };
+  return Promise.resolve(highchartsResponse);
 }
 
 const chat = TarkaChat.init({

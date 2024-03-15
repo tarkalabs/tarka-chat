@@ -125,10 +125,3 @@ where,
 
 Demo is deployed from the application code in `demo/` folder.
 Link: https://tarkalabs.github.io/tarka-chat/demo/
-
-## Old versions
-
-- v1.1 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
-- v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
-
-Check [release notes](RELEASE.md) for details

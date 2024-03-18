@@ -27,6 +27,7 @@ TarkaChat.init({
         themeColor: "#F0DAFB",
         selectorId: "chatbot",
         expand: true,
+        enableUpload: true,
         preChatRenderer: function (onClose) {
           // Return a DOM Node that can be attached to the chatbot UI
           // Use the onClose callback to close the pre-chat screen
@@ -48,6 +49,7 @@ where,
 - [Optional] **title** is the title of the chatbot window
 - [Optional] **botName** will be displayed below each bot message
 - [Optional] **expand** opens the chat window in expanded mode on init when set to true, otherwise opens in collapse mode. Defaults to false.
+- [Optional] **enableUpload** will show the option to upload a file when set to true. False by default
 - **greeting** will be the first message displayed on the chatbot when opened for the first time
 - **themeColor** will set the color scheme of the chat window
 - **selectorId** the DOM element selector (id) inside which the bot will be rendered
@@ -125,3 +127,14 @@ where,
 
 Demo is deployed from the application code in `demo/` folder.
 Link: https://tarkalabs.github.io/tarka-chat/demo/
+
+## Dev notes
+
+If you wanted to run this code in your local for development purposes, Run the following command from project root folder `yarn dev` and open `dev/index.html` in your browser to see the chat window. Your local changes will be hot reloaded
+
+## Old versions
+
+- v1.1 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
+- v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
+
+Check [release notes](RELEASE.md) for details

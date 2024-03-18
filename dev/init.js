@@ -105,7 +105,6 @@ const chat = TarkaChat.init({
   greeting: "Hello. How can I assist you today?",
   themeColor: "#F0DAFB",
   selectorId: "tarkachatbot",
-  enableUpload: true,
   uploadTypes: UPLOAD_TYPES,
   generateUploadPreview: generateImageThumbnail,
   preChatRenderer: getPreChatScreen,

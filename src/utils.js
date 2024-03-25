@@ -1,6 +1,7 @@
 import { TinyColor } from "@ctrl/tinycolor";
 import attachmentImg from "./images/attachment.png";
 import downloadImg from "./images/download.png";
+import { marked } from "marked";
 
 export function setThemeColors(themeColor = "#F0DAFB") {
   const hsl = new TinyColor(themeColor).toHsl();
@@ -55,7 +56,8 @@ export function createNode(className, content = null) {
 }
 
 export function createTextNode(text) {
-  return createNode("message-content", text);
+  let markdownText = marked.parse(text);
+  return createNode("message-content", markdownText);
 }
 
 export function createFileAttachmentNode(name, link) {

@@ -37,7 +37,7 @@ async function sendMessage(message, optionalFiles) {
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
   // after getting response use any one of the following to simulate different types of responses
-  let textResponse = "This is a text response";
+  let textResponse = "This is a **markdown** __enabled__ text response";
   let textObjResponse = { type: "text", message: "hi tehreee" };
   let fileObjResponse = {
     type: "file",
@@ -96,7 +96,7 @@ async function sendMessage(message, optionalFiles) {
       ],
     },
   };
-  return Promise.resolve(highchartsResponse);
+  return Promise.resolve(textResponse);
 }
 
 const chat = TarkaChat.init({

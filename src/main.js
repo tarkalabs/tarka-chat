@@ -221,8 +221,11 @@ export default {
   },
 
   createNodeByType(data) {
-    this.validateFieldPresent("type", data);
+    if (typeof data === "string") {
+      data = { type: "text", message: data };
+    }
 
+    this.validateFieldPresent("type", data);
     switch (data.type) {
       case "text":
         return createTextNode(data.message);
@@ -258,37 +261,23 @@ export default {
     const messageContainer = document.querySelector(
       "#tarka-chat .message-container",
     );
-
     const wrapper = this.createNode("wrapper");
-
-    if (typeof data === "string") {
-      wrapper.appendChild(
-        this.createNodeByType({ type: "text", message: data }),
-      );
-    }
 
     if (Array.isArray(data)) {
       data.forEach((d) => {
-        let content = d;
-        if (typeof content === "string") {
-          content = { type: "text", message: content };
-        }
         wrapper.appendChild(this.createNodeByType(content));
       });
-    }
-    if (typeof data === "object" && !Array.isArray(data)) {
+    } else if (typeof data === "string" || typeof data === "object") {
       wrapper.appendChild(this.createNodeByType(data));
     }
 
     wrapper.appendChild(
       this.createNode("message-meta", incoming ? this.botName : "You"),
     );
-
     const msg = this.createNode(
       `message ${incoming ? "incoming" : "outgoing"}`,
     );
     msg.appendChild(wrapper);
-
     messageContainer.appendChild(msg);
     messageContainer.lastElementChild.scrollIntoView();
   },

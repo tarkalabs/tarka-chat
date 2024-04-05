@@ -10,6 +10,11 @@
   max-height: 700px;
   z-index: 1000;
 
+  ul {
+    list-style-type: disc;
+    padding-inline-start: 1em;
+  }
+
   .t-container {
     font-family: Inter;
     width: 400px;

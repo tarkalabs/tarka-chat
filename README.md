@@ -130,14 +130,12 @@ Link: https://tarkalabs.github.io/tarka-chat/demo/
 
 ## All versions
 
-- v1.1 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
 - v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
 - v2.3 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.3.1.umd.js
 - v2.4 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.4.0.umd.js
 
---- 
+---
 
 # Dev notes
 
 If you wanted to run this code in your local for development purposes, Run the following command from project root folder `yarn dev` and open `dev/index.html` in your browser to see the chat window. Your local changes will be hot reloaded
-

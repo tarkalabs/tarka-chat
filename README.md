@@ -130,7 +130,7 @@ Link: https://tarkalabs.github.io/tarka-chat/demo/
 
 ## All versions
 
-- v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.1.umd.js
+- v1.0 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-1.0.umd.js
 - v2.3 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.3.1.umd.js
 - v2.4 : https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.4.0.umd.js
 

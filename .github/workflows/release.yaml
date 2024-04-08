@@ -1,7 +1,6 @@
-name: Generate tags and Deploy
+name: Release
 
-on: 
-  workflow_dispatch
+on: workflow_dispatch
 
 jobs:
   release-tags:
@@ -27,7 +26,7 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+
   deploy:
     name: Deploy to AWS S3
     runs-on: ubuntu-latest
@@ -45,17 +44,28 @@ jobs:
       - name: Get the latest version
         id: get_version
         run: echo "::set-output name=version::$(node -p "require('./package.json').version")"
-      
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Generate builds
+        run: yarn build
+
       - name: Rename build files
         run: |
           current_version=$(echo "${{ steps.get_version.outputs.version }}")
           mv dist/tarka-chat.es.js "dist/tarka-chat-${current_version}.es.js"
           mv dist/tarka-chat.umd.js "dist/tarka-chat-${current_version}.umd.js"
-      
+
       - name: Push the files to S3 bucket
         uses: jakejarvis/s3-sync-action@master
         env:
-          SOURCE_DIR: 'dist'
+          SOURCE_DIR: "dist"
           AWS_S3_BUCKET: ${{ env.AWS_S3_BUCKET }}
           AWS_REGION: ${{ env.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ env.AWS_ACCESS_KEY_ID }}

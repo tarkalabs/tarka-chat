@@ -4,7 +4,7 @@ Tarka Chat UI is a plug and play javascript library to integrate a chat assistan
 
 ## Usage
 
-1. Incude the following script (hosted in CDN) in your html
+1. Include the following script (hosted in CDN) in your html
 
 ```
 <script src="https://d1fmfone96g0x2.cloudfront.net/tarka-chat-2.4.0.umd.js"></script>

@@ -97,7 +97,12 @@ async function sendMessage(message, optionalFiles) {
       ],
     },
   };
-  return Promise.resolve(textResponse);
+  let arrayResponse = [
+    { type: "text", message: "Message **One**" },
+    { type: "text", message: "Message 2" },
+    { type: "text", message: "Message 3" },
+  ];
+  return Promise.resolve(arrayResponse);
 }
 
 const chat = TarkaChat.init({

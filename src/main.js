@@ -265,7 +265,7 @@ export default {
 
     if (Array.isArray(data)) {
       data.forEach((d) => {
-        wrapper.appendChild(this.createNodeByType(data));
+        wrapper.appendChild(this.createNodeByType(d));
       });
     } else if (typeof data === "string" || typeof data === "object") {
       wrapper.appendChild(this.createNodeByType(data));

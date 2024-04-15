@@ -98,11 +98,18 @@ async function sendMessage(message, optionalFiles) {
     },
   };
   let arrayResponse = [
+    { requestId: "request-id" },
     { type: "text", message: "Message **One**" },
     { type: "text", message: "Message 2" },
     { type: "text", message: "Message 3" },
   ];
   return Promise.resolve(arrayResponse);
+}
+
+async function reportMessage(messageId, payload, message) {
+  console.log("messageId " + messageId);
+  console.log("message " + message);
+  console.log("payload :>> ", JSON.parse(payload));
 }
 
 const chat = TarkaChat.init({
@@ -115,6 +122,10 @@ const chat = TarkaChat.init({
   generateUploadPreview: generateImageThumbnail,
   preChatRenderer: getPreChatScreen,
   submitHandler: sendMessage,
+  reportMessage: {
+    reportType: "ONLY_LAST_MESSAGE",
+    handle: reportMessage,
+  },
   expand: true,
 });
 

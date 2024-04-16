@@ -378,7 +378,7 @@ export default {
 
   updateReportIcon() {
     const incomingMessages = document.querySelectorAll(".message.incoming");
-    if (this.reportMessage.reportType === "ONLY_LAST_MESSAGE") {
+    if (this.reportMessage && this.reportMessage.reportType === "ONLY_LAST_MESSAGE") {
       incomingMessages.forEach((message, index) => {
         const reportIcon = message.querySelector(".report-icon");
         if (index !== incomingMessages.length - 1 && !!reportIcon) {

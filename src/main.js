@@ -1,9 +1,10 @@
-import "./style.scss";
-import layout from "./layout.html?raw";
 import lottie from "lottie-web";
+import { configHighcharts, createHighchartsNode } from "./highcharts";
+import reportIcon from "./images/report.svg";
+import layout from "./layout.html?raw";
 import animationData from "./logo.json";
 import { renderPreChat } from "./prechat";
-import { configHighcharts, createHighchartsNode } from "./highcharts";
+import "./style.scss";
 import {
   createFileAttachmentNode,
   createImageNode,
@@ -13,6 +14,15 @@ import {
 } from "./utils";
 
 const INITIAL_STATE = false;
+
+const AVAILABLE_DATA_TYPES = [
+  "text",
+  "file",
+  "image",
+  "table",
+  "highchart-config",
+  "thumbnails",
+];
 
 configHighcharts();
 
@@ -43,6 +53,7 @@ export default {
     this.enableUpload = config.enableUpload ?? false;
     this.uploadTypes = config.uploadTypes;
     this.generateUploadPreview = config.generateUploadPreview;
+    this.reportMessage = config.reportMessage || undefined;
 
     setThemeColors(config.themeColor);
     this.render(config.submitHandler);
@@ -158,7 +169,7 @@ export default {
         this.insertMessage(text, false);
       }
       const response = await submitHandler(text, optionalFiles);
-      this.insertMessage(response, true);
+      this.insertMessage(response, true, !!this.reportMessage);
       setProcessing(false);
 
       const previewsContainer = document.querySelector(
@@ -175,12 +186,50 @@ export default {
     this.setupLaucher();
     loadLottie(document.querySelector("#tarka-chat .logo"));
     document.querySelector("#tarka-chat .title").textContent = this.title;
-    this.insertMessage(this.greeting, true);
+    this.insertMessage(this.greeting, true, false);
 
     const uploadBtn = document.querySelector("#tarka-chat .upload-btn");
     const uploadInput = document.querySelector("#tarka-chat .upload-input");
     const sendBtn = document.querySelector("#tarka-chat .send-btn");
     const msgInput = document.querySelector("#tarka-chat .chat-input");
+    const cancelButton = document.querySelector(".cancel-btn");
+    const reportButton = document.querySelector(".report-btn");
+
+    cancelButton.addEventListener("click", () => {
+      const messageContainer = document.querySelector(
+        "#tarka-chat .message-container",
+      );
+      const footer = document.querySelector(".footer");
+      const reportDialog = document.querySelector(".report-dialog");
+      const reportText = document.querySelector(".report-dialog .report-text");
+      reportText.value = "";
+      reportDialog.style.display = "none";
+      messageContainer.classList.remove("blur-background");
+      footer.classList.remove("blur-background");
+    });
+
+    reportButton.addEventListener("click", () => {
+      const messageContainer = document.querySelector(
+        "#tarka-chat .message-container",
+      );
+      const footer = document.querySelector(".footer");
+      const reportDialog = document.querySelector(".report-dialog");
+      const reportMessageInput = document.querySelector(
+        ".report-dialog .report-text",
+      );
+
+      const messageId = reportButton.getAttribute("data-id");
+      const wrapper = document.querySelector(`#${messageId}`);
+
+      this.reportMessage.handle(
+        messageId,
+        JSON.parse(wrapper.getAttribute("data-payload")),
+        reportMessageInput.value,
+      );
+      reportDialog.style.display = "none";
+      messageContainer.classList.remove("blur-background");
+      footer.classList.remove("blur-background");
+    });
 
     if (this.enableUpload) {
       uploadBtn.style.display = "block";
@@ -257,28 +306,85 @@ export default {
     }
   },
 
-  insertMessage(data = "", incoming = false) {
+  handleReportMessage(messageId) {
+    const messageContainer = document.querySelector(
+      "#tarka-chat .message-container",
+    );
+    const footer = document.querySelector(".footer");
+    const reportDialog = document.querySelector(".report-dialog");
+    const reportButton = document.querySelector(".report-dialog .report-btn");
+    messageContainer.classList.add("blur-background");
+    footer.classList.add("blur-background");
+    reportButton.setAttribute("data-id", messageId);
+    reportDialog.style.display = "flex";
+  },
+
+  insertMessage(data = "", incoming = false, showReportMessage = false) {
     const messageContainer = document.querySelector(
       "#tarka-chat .message-container",
     );
     const wrapper = this.createNode("wrapper");
+    wrapper.id = `msg-${Date.now()}`;
+    wrapper.setAttribute("data-payload", JSON.stringify(data));
 
     if (Array.isArray(data)) {
-      data.forEach((d) => {
-        wrapper.appendChild(this.createNodeByType(d));
-      });
+      data
+        .filter(
+          (d) =>
+            typeof data === "string" || AVAILABLE_DATA_TYPES.includes(d.type),
+        )
+        .forEach((d) => {
+          wrapper.appendChild(this.createNodeByType(d));
+        });
     } else if (typeof data === "string" || typeof data === "object") {
       wrapper.appendChild(this.createNodeByType(data));
     }
 
-    wrapper.appendChild(
-      this.createNode("message-meta", incoming ? this.botName : "You"),
-    );
+    const messageMeta = this.createNode("message-meta");
+    if (incoming) {
+      const usernameSpan = document.createElement("span");
+      usernameSpan.className = "username";
+      usernameSpan.innerHTML = this.botName;
+      messageMeta.appendChild(usernameSpan);
+
+      if (showReportMessage) {
+        const reportSpan = document.createElement("span");
+        reportSpan.className = "report-icon";
+        reportSpan.setAttribute(
+          "data-tooltip",
+          "Report unsatisfactory response",
+        );
+        reportSpan.innerHTML = `<img class="thumbs-down-svg" src=${reportIcon} alt="Thumbs Down" width="16" height="16">`;
+        reportSpan.onclick = () => {
+          const wrapperId = reportSpan.closest(".wrapper").id;
+          this.handleReportMessage(wrapperId);
+        };
+        messageMeta.appendChild(reportSpan);
+      }
+    } else {
+      messageMeta.innerHTML = `<span class="username">You</span>`;
+    }
+    wrapper.appendChild(messageMeta);
+
     const msg = this.createNode(
       `message ${incoming ? "incoming" : "outgoing"}`,
     );
     msg.appendChild(wrapper);
     messageContainer.appendChild(msg);
+
+    this.updateReportIcon();
     messageContainer.lastElementChild.scrollIntoView();
+  },
+
+  updateReportIcon() {
+    const incomingMessages = document.querySelectorAll(".message.incoming");
+    if (this.reportMessage && this.reportMessage.reportType === "ONLY_LAST_MESSAGE") {
+      incomingMessages.forEach((message, index) => {
+        const reportIcon = message.querySelector(".report-icon");
+        if (index !== incomingMessages.length - 1 && !!reportIcon) {
+          reportIcon.style.display = "none";
+        }
+      });
+    }
   },
 };

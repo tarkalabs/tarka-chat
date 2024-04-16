@@ -109,7 +109,7 @@ async function sendMessage(message, optionalFiles) {
 async function reportMessage(messageId, payload, message) {
   console.log("messageId " + messageId);
   console.log("message " + message);
-  console.log("payload :>> ", JSON.parse(payload));
+  console.log("payload :>> ", payload);
 }
 
 const chat = TarkaChat.init({

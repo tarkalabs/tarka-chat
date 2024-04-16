@@ -194,6 +194,11 @@ export default {
     const msgInput = document.querySelector("#tarka-chat .chat-input");
     const cancelButton = document.querySelector(".cancel-btn");
     const reportButton = document.querySelector(".report-btn");
+    const reportText = document.querySelector(".report-dialog .report-text");
+
+    reportText.addEventListener("input", (e) => {
+      reportButton.disabled = reportText.value === "";
+    });
 
     cancelButton.addEventListener("click", () => {
       const messageContainer = document.querySelector(
@@ -201,8 +206,8 @@ export default {
       );
       const footer = document.querySelector(".footer");
       const reportDialog = document.querySelector(".report-dialog");
-      const reportText = document.querySelector(".report-dialog .report-text");
       reportText.value = "";
+      reportButton.disabled = true;
       reportDialog.style.display = "none";
       messageContainer.classList.remove("blur-background");
       footer.classList.remove("blur-background");
@@ -226,6 +231,8 @@ export default {
         JSON.parse(wrapper.getAttribute("data-payload")),
         reportMessageInput.value,
       );
+      reportText.value = "";
+      reportButton.disabled = true;
       reportDialog.style.display = "none";
       messageContainer.classList.remove("blur-background");
       footer.classList.remove("blur-background");

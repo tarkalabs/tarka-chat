@@ -223,7 +223,7 @@ export default {
 
       this.reportMessage.handle(
         messageId,
-        wrapper.getAttribute("data-payload"),
+        JSON.parse(wrapper.getAttribute("data-payload")),
         reportMessageInput.value,
       );
       reportDialog.style.display = "none";

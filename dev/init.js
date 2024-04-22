@@ -38,8 +38,11 @@ async function sendMessage(message, optionalFiles) {
 
   // after getting response use any one of the following to simulate different types of responses
   let textResponse =
-    "This is a **markdown** __enabled__ text response \n * First \n * Second";
-  let textObjResponse = { type: "text", message: "hi tehreee" };
+    "This is a **markdown** __enabled__ text response \n * First list item \n * Second list item";
+  let textObjResponse = {
+    type: "text",
+    message: `Received user message ${message}`,
+  };
   let fileObjResponse = {
     type: "file",
     name: "tarka trends",
@@ -99,9 +102,9 @@ async function sendMessage(message, optionalFiles) {
   };
   let arrayResponse = [
     { requestId: "request-id" },
-    { type: "text", message: "Message **One**" },
-    { type: "text", message: "Message 2" },
-    { type: "text", message: "Message 3" },
+    textObjResponse,
+    tableObjResponse,
+    textResponse,
   ];
   return Promise.resolve(arrayResponse);
 }
@@ -118,6 +121,7 @@ const chat = TarkaChat.init({
   greeting: "Hello. How can I assist you today?",
   themeColor: "#F0DAFB",
   selectorId: "tarkachatbot",
+  enableUpload: true,
   uploadTypes: UPLOAD_TYPES,
   generateUploadPreview: generateImageThumbnail,
   preChatRenderer: getPreChatScreen,
@@ -129,4 +133,6 @@ const chat = TarkaChat.init({
   expand: true,
 });
 
-// chat.toggle(), chat.isOpen()
+if (!chat.isOpen()) {
+  chat.toggle();
+}

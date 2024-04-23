@@ -15,7 +15,7 @@ import {
 
 const INITIAL_STATE = false;
 
-const AVAILABLE_DATA_TYPES = [
+const AVAILABLE_TYPES = [
   "text",
   "file",
   "image",
@@ -335,14 +335,10 @@ export default {
     wrapper.setAttribute("data-payload", JSON.stringify(data));
 
     if (Array.isArray(data)) {
-      data
-        .filter(
-          (d) =>
-            typeof data === "string" || AVAILABLE_DATA_TYPES.includes(d.type),
-        )
-        .forEach((d) => {
-          wrapper.appendChild(this.createNodeByType(d));
-        });
+      data.forEach((item) => {
+        if (typeof item === "string" || AVAILABLE_TYPES.includes(item.type))
+          wrapper.appendChild(this.createNodeByType(item));
+      });
     } else if (typeof data === "string" || typeof data === "object") {
       wrapper.appendChild(this.createNodeByType(data));
     }
@@ -385,7 +381,10 @@ export default {
 
   updateReportIcon() {
     const incomingMessages = document.querySelectorAll(".message.incoming");
-    if (this.reportMessage && this.reportMessage.reportType === "ONLY_LAST_MESSAGE") {
+    if (
+      this.reportMessage &&
+      this.reportMessage.reportType === "ONLY_LAST_MESSAGE"
+    ) {
       incomingMessages.forEach((message, index) => {
         const reportIcon = message.querySelector(".report-icon");
         if (index !== incomingMessages.length - 1 && !!reportIcon) {

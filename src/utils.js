@@ -119,3 +119,12 @@ export function createTableNode(header, rows) {
   }
   return node;
 }
+
+export function dateTimeFormatter() {
+  const time = new Date();
+  return time.toLocaleString(undefined, {
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true,
+  }).toUpperCase();
+}

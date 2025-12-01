@@ -246,11 +246,19 @@
 
         .incoming {
           color: var(--primary-primary-alt);
+
+          .message-meta .timestamp {
+            margin-right: 4px;
+          }
         }
 
         .outgoing {
           margin-left: auto;
           color: var(--primary-primary);
+
+          .message-meta .timestamp {
+            margin-left: 4px;
+          }
         }
       }
 

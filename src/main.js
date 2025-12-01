@@ -11,6 +11,7 @@ import {
   createTableNode,
   createTextNode,
   setThemeColors,
+  dateTimeFormatter,
 } from "./utils";
 
 const INITIAL_STATE = false;
@@ -54,6 +55,7 @@ export default {
     this.uploadTypes = config.uploadTypes;
     this.generateUploadPreview = config.generateUploadPreview;
     this.reportMessage = config.reportMessage || undefined;
+    this.enableTimestamp = config.enableTimestamp || false;
 
     setThemeColors(config.themeColor);
     this.render(config.submitHandler);
@@ -345,6 +347,10 @@ export default {
 
     const messageMeta = this.createNode("message-meta");
     if (incoming) {
+      if (this.enableTimestamp) {
+        messageMeta.innerHTML = `<span class="timestamp">${dateTimeFormatter()}</span>`;
+      }
+
       const usernameSpan = document.createElement("span");
       usernameSpan.className = "username";
       usernameSpan.innerHTML = this.botName;
@@ -366,6 +372,13 @@ export default {
       }
     } else {
       messageMeta.innerHTML = `<span class="username">You</span>`;
+
+      if (this.enableTimestamp) {
+        messageMeta.insertAdjacentHTML(
+          "beforeend",
+          `<span class="timestamp">${dateTimeFormatter()}</span>`,
+        );
+      }
     }
     wrapper.appendChild(messageMeta);
 

@@ -256,8 +256,12 @@
           margin-left: auto;
           color: var(--primary-primary);
 
-          .message-meta .timestamp {
-            margin-left: 4px;
+          .message-meta {
+            justify-content: flex-end;
+
+            .timestamp {
+              margin-left: 4px;
+            }
           }
         }
       }
